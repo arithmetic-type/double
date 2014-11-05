@@ -319,6 +319,66 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                   "foldPrefix": "^",
                   "name": "JavaScript"
                 },
+                "sourcePath": "/home/aureooms/dev/js/js-number/js/src/num/compare/isnegativeone.js",
+                "projectPath": "js/src/num/compare/isnegativeone.js",
+                "targetPath": "num/compare/isnegativeone",
+                "pageTitle": "num/compare/isnegativeone",
+                "title": "isnegativeone"
+              },
+              "depth": 3,
+              "outline": []
+            }, {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["//"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "JavaScript"
+                },
+                "sourcePath": "/home/aureooms/dev/js/js-number/js/src/num/compare/isone.js",
+                "projectPath": "js/src/num/compare/isone.js",
+                "targetPath": "num/compare/isone",
+                "pageTitle": "num/compare/isone",
+                "title": "isone"
+              },
+              "depth": 3,
+              "outline": []
+            }, {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["//"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "JavaScript"
+                },
+                "sourcePath": "/home/aureooms/dev/js/js-number/js/src/num/compare/iszero.js",
+                "projectPath": "js/src/num/compare/iszero.js",
+                "targetPath": "num/compare/iszero",
+                "pageTitle": "num/compare/iszero",
+                "title": "iszero"
+              },
+              "depth": 3,
+              "outline": []
+            }, {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["//"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "JavaScript"
+                },
                 "sourcePath": "/home/aureooms/dev/js/js-number/js/src/num/compare/le.js",
                 "projectPath": "js/src/num/compare/le.js",
                 "targetPath": "num/compare/le",
@@ -364,6 +424,76 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
                 "targetPath": "num/compare/ne",
                 "pageTitle": "num/compare/ne",
                 "title": "ne"
+              },
+              "depth": 3,
+              "outline": []
+            }
+          ]
+        }, {
+          "type": "folder",
+          "data": {
+            "path": "num/constants",
+            "title": "constants"
+          },
+          "depth": 2,
+          "children": [
+            {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["//"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "JavaScript"
+                },
+                "sourcePath": "/home/aureooms/dev/js/js-number/js/src/num/constants/negativeone.js",
+                "projectPath": "js/src/num/constants/negativeone.js",
+                "targetPath": "num/constants/negativeone",
+                "pageTitle": "num/constants/negativeone",
+                "title": "negativeone"
+              },
+              "depth": 3,
+              "outline": []
+            }, {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["//"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "JavaScript"
+                },
+                "sourcePath": "/home/aureooms/dev/js/js-number/js/src/num/constants/one.js",
+                "projectPath": "js/src/num/constants/one.js",
+                "targetPath": "num/constants/one",
+                "pageTitle": "num/constants/one",
+                "title": "one"
+              },
+              "depth": 3,
+              "outline": []
+            }, {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["//"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "JavaScript"
+                },
+                "sourcePath": "/home/aureooms/dev/js/js-number/js/src/num/constants/zero.js",
+                "projectPath": "js/src/num/constants/zero.js",
+                "targetPath": "num/constants/zero",
+                "pageTitle": "num/constants/zero",
+                "title": "zero"
               },
               "depth": 3,
               "outline": []
