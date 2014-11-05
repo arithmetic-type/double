@@ -116,6 +116,39 @@ var increasing = function ( a, b ) {
 
 exports.increasing = increasing;
 
+/* js/src/num/compare/isnegativeone.js */
+
+
+var isnegativeone = function ( n ) {
+
+	return n === -1;
+
+};
+
+exports.isnegativeone = isnegativeone;
+
+/* js/src/num/compare/isone.js */
+
+
+var isone = function ( n ) {
+
+	return n === 1;
+
+};
+
+exports.isone = isone;
+
+/* js/src/num/compare/iszero.js */
+
+
+var iszero = function ( n ) {
+
+	return n === 0;
+
+};
+
+exports.iszero = iszero;
+
 /* js/src/num/compare/le.js */
 
 var le = function ( a, b ) {
@@ -139,5 +172,30 @@ var ne = function ( a, b ) {
 };
 
 exports.ne = ne;
+
+/* js/src/num/constants */
+/* js/src/num/constants/negativeone.js */
+
+var negativeone = function () {
+	return -1;
+};
+
+exports.negativeone = negativeone;
+
+/* js/src/num/constants/one.js */
+
+var one = function () {
+	return 1;
+};
+
+exports.one = one;
+
+/* js/src/num/constants/zero.js */
+
+var zero = function () {
+	return 0;
+};
+
+exports.zero = zero;
 
 })(typeof exports === 'undefined' ? this['number'] = {} : exports);
