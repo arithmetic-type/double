@@ -1,0 +1,19 @@
+{
+	"homepage": "http://aureooms.github.io/js-number/",
+	"name": "aureooms-js-number",
+	"description": "primitive number type arithmetic code bricks for JavaScript",
+	"main": "js/dist/number.js",
+	"ignore": [
+		"js/index.js",
+		"js/src",
+		"test",
+		"pkg.json",
+		"package.json",
+		".groc.json",
+		".travis.yml",
+		".gitignore",
+		"README.md"
+	],
+	"version": "0.0.0",
+	"license": "AGPL-3.0"
+}
