@@ -1,5 +1,5 @@
 
-var zero = function () {
+var zero = function ( ) {
 	return 0;
 };
 

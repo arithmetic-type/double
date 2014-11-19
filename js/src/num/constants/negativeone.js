@@ -1,5 +1,5 @@
 
-var negativeone = function () {
+var negativeone = function ( ) {
 	return -1;
 };
 

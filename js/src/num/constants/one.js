@@ -1,5 +1,5 @@
 
-var one = function () {
+var one = function ( ) {
 	return 1;
 };
 
