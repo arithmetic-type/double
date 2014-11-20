@@ -327,8 +327,8 @@ exports.zero = zero;
 /* js/src/num/logarithmic */
 /* js/src/num/logarithmic/log.js */
 
-var log = function ( n ) {
-	return Math.log( n );
+var log = function ( a, b ) {
+	return Math.log( b ) / Math.log( a );
 };
 
 exports.log = log;
@@ -341,10 +341,18 @@ var log2 = function ( n ) {
 
 exports.log2 = log2;
 
+/* js/src/num/logarithmic/loge.js */
+
+var loge = function ( n ) {
+	return Math.log( n );
+};
+
+exports.loge = loge;
+
 /* js/src/num/logarithmic/loglog.js */
 
-var loglog = function ( n ) {
-	return Math.log( Math.log( n ) );
+var loglog = function ( a, b ) {
+	return Math.log( Math.log( b ) / Math.log( a ) ) / Math.log( a );
 };
 
 exports.loglog = loglog;
@@ -356,5 +364,13 @@ var loglog2 = function ( n ) {
 };
 
 exports.loglog2 = loglog2;
+
+/* js/src/num/logarithmic/logloge.js */
+
+var logloge = function ( n ) {
+	return Math.log( Math.log( n ) );
+};
+
+exports.logloge = logloge;
 
 })(typeof exports === 'undefined' ? this['number'] = {} : exports);

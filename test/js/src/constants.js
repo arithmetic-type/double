@@ -14,4 +14,6 @@ test( "constants", function () {
 	deepEqual( number.iszero( 1 ), false, "iszero 1" );
 	deepEqual( number.isone( -1 ), false, "isone -1" );
 
+	deepEqual( number.two(), 2, "two" );
+
 } );
