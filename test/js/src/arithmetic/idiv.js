@@ -2,8 +2,14 @@
 var one;
 
 one = function ( a, b ) {
-	deepEqual( number.idiv( a, b ), a /= b, a + " /= " + b );
-}
+
+	var x ;
+
+	x = a ;
+
+	deepEqual( number.idiv( x, b ), a /= b, x + " /= " + b );
+	
+} ;
 
 test( "idiv", function () {
 

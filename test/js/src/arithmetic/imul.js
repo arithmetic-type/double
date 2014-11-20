@@ -2,8 +2,14 @@
 var one;
 
 one = function ( a, b ) {
-	deepEqual( number.imul( a, b ), a *= b, a + " *= " + b );
-}
+
+	var x ;
+
+	x = a ;
+
+	deepEqual( number.imul( x, b ), a *= b, x + " *= " + b );
+	
+} ;
 
 test( "imul", function () {
 

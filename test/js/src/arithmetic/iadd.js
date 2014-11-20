@@ -2,8 +2,14 @@
 var one;
 
 one = function ( a, b ) {
-	deepEqual( number.iadd( a, b ), a += b, a + " += " + b );
-}
+
+	var x ;
+
+	x = a ;
+
+	deepEqual( number.iadd( x, b ), a += b, x + " += " + b );
+
+} ;
 
 test( "iadd", function () {
 

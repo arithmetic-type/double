@@ -2,7 +2,13 @@
 var one ;
 
 one = function ( n ) {
-	deepEqual ( number . iaddone ( n ) , n += 1 , n + " += " + 1 ) ;
+
+	var x ;
+
+	x = n ;
+
+	deepEqual ( number . iaddone ( x ) , n += 1 , x + " += " + 1 ) ;
+	
 } ;
 
 test ( "iaddone" , function ( ) {

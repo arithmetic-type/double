@@ -2,8 +2,14 @@
 var one;
 
 one = function ( a, b ) {
-	deepEqual( number.isub( a, b ), a -= b, a + " -= " + b );
-}
+
+	var x ;
+
+	x = a ;
+
+	deepEqual( number.isub( x, b ), a -= b, x + " -= " + b );
+
+} ;
 
 test( "isub", function () {
 
