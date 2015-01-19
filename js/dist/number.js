@@ -388,4 +388,13 @@ var logloge = function ( n ) {
 
 exports.logloge = logloge;
 
+/* js/src/memory */
+/* js/src/memory/copy.js */
+
+var copy = function ( a ) {
+	return a ;
+} ;
+
+exports.copy = copy ;
+
 })(typeof exports === 'undefined' ? this['number'] = {} : exports);
