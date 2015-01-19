@@ -106,6 +106,14 @@ var imul = function ( a, b ) {
 
 exports.imul = imul;
 
+/* js/src/arithmetic/imul2.js */
+
+var imul2 = function ( a ) {
+	return a *= 2 ;
+} ;
+
+exports.imul2 = imul2 ;
+
 /* js/src/arithmetic/isub.js */
 
 var isub = function ( a, b ) {
@@ -137,6 +145,14 @@ var mul = function ( a, b ) {
 };
 
 exports.mul = mul;
+
+/* js/src/arithmetic/mul2.js */
+
+var mul2 = function ( a ) {
+	return a * 2 ;
+} ;
+
+exports.mul2 = mul2 ;
 
 /* js/src/arithmetic/sub.js */
 
