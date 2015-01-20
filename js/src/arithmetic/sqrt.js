@@ -1,0 +1,2 @@
+
+exports.sqrt = Math.sqrt ;

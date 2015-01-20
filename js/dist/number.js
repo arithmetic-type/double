@@ -114,6 +114,38 @@ var imul2 = function ( a ) {
 
 exports.imul2 = imul2 ;
 
+/* js/src/arithmetic/ipow2.js */
+
+var ipow2 = function ( a ) {
+	return a *= a ;
+} ;
+
+exports.ipow2 = ipow2 ;
+
+/* js/src/arithmetic/ishl.js */
+
+var ishl = function ( a , n ) {
+	return a <<= n ;
+} ;
+
+exports.ishl = ishl ;
+
+/* js/src/arithmetic/ishr.js */
+
+var ishr = function ( a , n ) {
+	return a >>= n ;
+} ;
+
+exports.ishr = ishr ;
+
+/* js/src/arithmetic/ishu.js */
+
+var ishu = function ( a , n ) {
+	return a >>>= n ;
+} ;
+
+exports.ishu = ishu ;
+
 /* js/src/arithmetic/isub.js */
 
 var isub = function ( a, b ) {
@@ -153,6 +185,46 @@ var mul2 = function ( a ) {
 } ;
 
 exports.mul2 = mul2 ;
+
+/* js/src/arithmetic/pow.js */
+
+exports.pow = Math.pow ;
+
+/* js/src/arithmetic/pow2.js */
+
+var pow2 = function ( a ) {
+	return a * a ;
+} ;
+
+exports.pow2 = pow2 ;
+
+/* js/src/arithmetic/shl.js */
+
+var shl = function ( a , n ) {
+	return a << n ;
+} ;
+
+exports.shl = shl ;
+
+/* js/src/arithmetic/shr.js */
+
+var shr = function ( a , n ) {
+	return a >> n ;
+} ;
+
+exports.shr = shr ;
+
+/* js/src/arithmetic/shu.js */
+
+var shu = function ( a , n ) {
+	return a >>> n ;
+} ;
+
+exports.shu = shu ;
+
+/* js/src/arithmetic/sqrt.js */
+
+exports.sqrt = Math.sqrt ;
 
 /* js/src/arithmetic/sub.js */
 
