@@ -307,6 +307,14 @@ var ne = function ( a, b ) {
 exports.ne = ne;
 
 /* js/src/constants */
+/* js/src/constants/five.js */
+
+var five = function ( ) {
+	return 5 ;
+} ;
+
+exports.five = five ;
+
 /* js/src/constants/negativeone.js */
 
 var negativeone = function ( ) {

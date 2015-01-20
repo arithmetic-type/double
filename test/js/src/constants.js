@@ -15,5 +15,6 @@ test( "constants", function () {
 	deepEqual( number.isone( -1 ), false, "isone -1" );
 
 	deepEqual( number.two(), 2, "two" );
+	deepEqual( number.five(), 5, "five" );
 
 } );
