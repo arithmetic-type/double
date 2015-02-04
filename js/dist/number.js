@@ -114,6 +114,14 @@ var imul2 = function ( a ) {
 
 exports.imul2 = imul2 ;
 
+/* js/src/arithmetic/imul5.js */
+
+var imul5 = function ( a ) {
+	return a *= 5 ;
+} ;
+
+exports.imul5 = imul5 ;
+
 /* js/src/arithmetic/ipow2.js */
 
 var ipow2 = function ( a ) {
@@ -185,6 +193,14 @@ var mul2 = function ( a ) {
 } ;
 
 exports.mul2 = mul2 ;
+
+/* js/src/arithmetic/mul5.js */
+
+var mul5 = function ( a ) {
+	return a * 5 ;
+} ;
+
+exports.mul5 = mul5 ;
 
 /* js/src/arithmetic/pow.js */
 
