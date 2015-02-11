@@ -1,6 +1,6 @@
 {
 	"description": "primitive number type arithmetic code bricks for JavaScript",
-	"version": "1.6.0",
+	"version": "1.6.1",
 	"repo": "aureooms/js-number",
 	"scripts": [
 		"js/dist/number.js"
