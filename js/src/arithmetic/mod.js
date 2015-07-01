@@ -1,6 +1,4 @@
 
-var mod = function ( a, b ) {
-	return a % b;
-};
+const mod = ( a , b ) => a % b ;
 
-exports.mod = mod;
+exports.mod = mod ;

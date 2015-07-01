@@ -1,6 +1,4 @@
 
-var sub = function ( a, b ) {
-	return a - b;
-};
+const sub = ( a , b ) => a - b ;
 
-exports.sub = sub;
+exports.sub = sub ;

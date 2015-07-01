@@ -1,6 +1,4 @@
 
-var mul = function ( a, b ) {
-	return a * b;
-};
+const mul = ( a , b ) => a * b ;
 
-exports.mul = mul;
+exports.mul = mul ;

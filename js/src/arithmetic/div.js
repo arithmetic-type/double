@@ -1,6 +1,4 @@
 
-var div = function ( a, b ) {
-	return a / b;
-};
+const div = ( a , b ) => a / b ;
 
-exports.div = div;
+exports.div = div ;
