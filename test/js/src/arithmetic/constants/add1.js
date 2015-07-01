@@ -2,16 +2,10 @@
 var one ;
 
 one = function ( n ) {
-
-	var x ;
-
-	x = n ;
-
-	deepEqual ( number . iaddone ( x ) , n += 1 , x + " += " + 1 ) ;
-	
+	deepEqual ( number . add1 ( n ) , n + 1 , n + " + " + 1 ) ;
 } ;
 
-test ( "iaddone" , function ( ) {
+test ( "add1" , function ( ) {
 
 	var i , n ;
 

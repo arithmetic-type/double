@@ -15,13 +15,86 @@
 
 		exports.add = add;
 
-		/* js/src/arithmetic/addone.js */
+		/* js/src/arithmetic/constants */
+		/* js/src/arithmetic/constants/add1.js */
 
-		var addone = function addone(n) {
+		var add1 = function add1(n) {
 			return n + 1;
 		};
 
-		exports.addone = addone;
+		exports.add1 = add1;
+
+		/* js/src/arithmetic/constants/div2.js */
+
+		var div2 = function div2(n) {
+			return n / 2;
+		};
+
+		exports.div2 = div2;
+
+		/* js/src/arithmetic/constants/iadd1.js */
+
+		var iadd1 = function iadd1(n) {
+			return n += 1;
+		};
+
+		exports.iadd1 = iadd1;
+
+		/* js/src/arithmetic/constants/idiv2.js */
+
+		var idiv2 = function idiv2(n) {
+			return n /= 2;
+		};
+
+		exports.idiv2 = idiv2;
+
+		/* js/src/arithmetic/constants/imul2.js */
+
+		var imul2 = function imul2(a) {
+			return a *= 2;
+		};
+
+		exports.imul2 = imul2;
+
+		/* js/src/arithmetic/constants/imul5.js */
+
+		var imul5 = function imul5(a) {
+			return a *= 5;
+		};
+
+		exports.imul5 = imul5;
+
+		/* js/src/arithmetic/constants/isub1.js */
+
+		var isub1 = function isub1(n) {
+			return n -= 1;
+		};
+
+		exports.isub1 = isub1;
+
+		/* js/src/arithmetic/constants/mul2.js */
+
+		var mul2 = function mul2(a) {
+			return a * 2;
+		};
+
+		exports.mul2 = mul2;
+
+		/* js/src/arithmetic/constants/mul5.js */
+
+		var mul5 = function mul5(a) {
+			return a * 5;
+		};
+
+		exports.mul5 = mul5;
+
+		/* js/src/arithmetic/constants/sub1.js */
+
+		var sub1 = function sub1(n) {
+			return n - 1;
+		};
+
+		exports.sub1 = sub1;
 
 		/* js/src/arithmetic/div.js */
 
@@ -30,14 +103,6 @@
 		};
 
 		exports.div = div;
-
-		/* js/src/arithmetic/div2.js */
-
-		var div2 = function div2(n) {
-			return n / 2;
-		};
-
-		exports.div2 = div2;
 
 		/* js/src/arithmetic/divmod.js */
 
@@ -55,14 +120,6 @@
 
 		exports.iadd = iadd;
 
-		/* js/src/arithmetic/iaddone.js */
-
-		var iaddone = function iaddone(n) {
-			return n += 1;
-		};
-
-		exports.iaddone = iaddone;
-
 		/* js/src/arithmetic/idiv.js */
 
 		var idiv = function idiv(a, b) {
@@ -70,14 +127,6 @@
 		};
 
 		exports.idiv = idiv;
-
-		/* js/src/arithmetic/idiv2.js */
-
-		var idiv2 = function idiv2(n) {
-			return n /= 2;
-		};
-
-		exports.idiv2 = idiv2;
 
 		/* js/src/arithmetic/idivmod.js */
 
@@ -107,30 +156,6 @@
 		};
 
 		exports.imul = imul;
-
-		/* js/src/arithmetic/imul2.js */
-
-		var imul2 = function imul2(a) {
-			return a *= 2;
-		};
-
-		exports.imul2 = imul2;
-
-		/* js/src/arithmetic/imul5.js */
-
-		var imul5 = function imul5(a) {
-			return a *= 5;
-		};
-
-		exports.imul5 = imul5;
-
-		/* js/src/arithmetic/ipow2.js */
-
-		var ipow2 = function ipow2(a) {
-			return a *= a;
-		};
-
-		exports.ipow2 = ipow2;
 
 		/* js/src/arithmetic/ishl.js */
 
@@ -164,14 +189,6 @@
 
 		exports.isub = isub;
 
-		/* js/src/arithmetic/isubone.js */
-
-		var isubone = function isubone(n) {
-			return n -= 1;
-		};
-
-		exports.isubone = isubone;
-
 		/* js/src/arithmetic/mod.js */
 
 		var mod = function mod(a, b) {
@@ -188,33 +205,13 @@
 
 		exports.mul = mul;
 
-		/* js/src/arithmetic/mul2.js */
+		/* js/src/arithmetic/neg.js */
 
-		var mul2 = function mul2(a) {
-			return a * 2;
+		var neg = function neg(n) {
+			return -n;
 		};
 
-		exports.mul2 = mul2;
-
-		/* js/src/arithmetic/mul5.js */
-
-		var mul5 = function mul5(a) {
-			return a * 5;
-		};
-
-		exports.mul5 = mul5;
-
-		/* js/src/arithmetic/pow.js */
-
-		exports.pow = Math.pow;
-
-		/* js/src/arithmetic/pow2.js */
-
-		var pow2 = function pow2(a) {
-			return a * a;
-		};
-
-		exports.pow2 = pow2;
+		exports.neg = neg;
 
 		/* js/src/arithmetic/shl.js */
 
@@ -240,10 +237,6 @@
 
 		exports.shu = shu;
 
-		/* js/src/arithmetic/sqrt.js */
-
-		exports.sqrt = Math.sqrt;
-
 		/* js/src/arithmetic/sub.js */
 
 		var sub = function sub(a, b) {
@@ -251,14 +244,6 @@
 		};
 
 		exports.sub = sub;
-
-		/* js/src/arithmetic/subone.js */
-
-		var subone = function subone(n) {
-			return n - 1;
-		};
-
-		exports.subone = subone;
 
 		/* js/src/compare */
 		/* js/src/compare/decreasing.js */
@@ -270,46 +255,6 @@
 
 		exports.decreasing = decreasing;
 
-		/* js/src/compare/eq.js */
-
-		var eq = function eq(a, b) {
-			return a === b;
-		};
-
-		exports.eq = eq;
-
-		/* js/src/compare/ge.js */
-
-		var ge = function ge(a, b) {
-			return a >= b;
-		};
-
-		exports.ge = ge;
-
-		/* js/src/compare/geone.js */
-
-		var geone = function geone(n) {
-			return n >= 1;
-		};
-
-		exports.geone = geone;
-
-		/* js/src/compare/gt.js */
-
-		var gt = function gt(a, b) {
-			return a > b;
-		};
-
-		exports.gt = gt;
-
-		/* js/src/compare/gtone.js */
-
-		var gtone = function gtone(n) {
-			return n > 1;
-		};
-
-		exports.gtone = gtone;
-
 		/* js/src/compare/increasing.js */
 
 		var increasing = function increasing(a, b) {
@@ -319,113 +264,89 @@
 
 		exports.increasing = increasing;
 
-		/* js/src/compare/isnegativeone.js */
-
-		var isnegativeone = function isnegativeone(n) {
-
-			return n === -1;
-		};
-
-		exports.isnegativeone = isnegativeone;
-
-		/* js/src/compare/isone.js */
-
-		var isone = function isone(n) {
-
-			return n === 1;
-		};
-
-		exports.isone = isone;
-
-		/* js/src/compare/iszero.js */
-
-		var iszero = function iszero(n) {
-
-			return n === 0;
-		};
-
-		exports.iszero = iszero;
-
-		/* js/src/compare/le.js */
-
-		var le = function le(a, b) {
-			return a <= b;
-		};
-
-		exports.le = le;
-
-		/* js/src/compare/leone.js */
-
-		var leone = function leone(n) {
-			return n <= 1;
-		};
-
-		exports.leone = leone;
-
-		/* js/src/compare/lt.js */
-
-		var lt = function lt(a, b) {
-			return a < b;
-		};
-
-		exports.lt = lt;
-
-		/* js/src/compare/ltone.js */
-
-		var ltone = function ltone(n) {
-			return n < 1;
-		};
-
-		exports.ltone = ltone;
-
-		/* js/src/compare/ne.js */
-
-		var ne = function ne(a, b) {
-			return a !== b;
-		};
-
-		exports.ne = ne;
-
 		/* js/src/constants */
-		/* js/src/constants/five.js */
+		/* js/src/constants/$0.js */
 
-		var five = function five() {
-			return 5;
-		};
-
-		exports.five = five;
-
-		/* js/src/constants/negativeone.js */
-
-		var negativeone = function negativeone() {
-			return -1;
-		};
-
-		exports.negativeone = negativeone;
-
-		/* js/src/constants/one.js */
-
-		var one = function one() {
-			return 1;
-		};
-
-		exports.one = one;
-
-		/* js/src/constants/two.js */
-
-		var two = function two() {
-			return 2;
-		};
-
-		exports.two = two;
-
-		/* js/src/constants/zero.js */
-
-		var zero = function zero() {
+		var $0 = function $0() {
 			return 0;
 		};
 
-		exports.zero = zero;
+		exports.$0 = $0;
+
+		/* js/src/constants/$1.js */
+
+		var $1 = function $1() {
+			return 1;
+		};
+
+		exports.$1 = $1;
+
+		/* js/src/constants/$2.js */
+
+		var $2 = function $2() {
+			return 2;
+		};
+
+		exports.$2 = $2;
+
+		/* js/src/constants/$5.js */
+
+		var $5 = function $5() {
+			return 5;
+		};
+
+		exports.$5 = $5;
+
+		/* js/src/constants/$_1.js */
+
+		var $_1 = function $_1() {
+			return -1;
+		};
+
+		exports.$_1 = $_1;
+
+		/* js/src/exponential */
+		/* js/src/exponential/constants */
+		/* js/src/exponential/constants/ipow2.js */
+
+		var ipow2 = function ipow2(a) {
+			return a *= a;
+		};
+
+		exports.ipow2 = ipow2;
+
+		/* js/src/exponential/constants/pow2.js */
+
+		var pow2 = function pow2(a) {
+			return a * a;
+		};
+
+		exports.pow2 = pow2;
+
+		/* js/src/exponential/pow.js */
+
+		exports.pow = Math.pow;
+
+		/* js/src/exponential/sqrt.js */
+
+		exports.sqrt = Math.sqrt;
+
+		/* js/src/io */
+		/* js/src/io/parse.js */
+
+		var parse = function parse(n) {
+			return +n;
+		};
+
+		exports.parse = parse;
+
+		/* js/src/io/stringify.js */
+
+		var stringify = function stringify(n) {
+			return n.toString();
+		};
+
+		exports.stringify = stringify;
 
 		/* js/src/logarithmic */
 		/* js/src/logarithmic/log.js */
@@ -484,6 +405,139 @@
 		};
 
 		exports.copy = copy;
+
+		/* js/src/predicate */
+		/* js/src/predicate/constants */
+		/* js/src/predicate/constants/eq0.js */
+
+		var eq0 = function eq0(n) {
+			return n === 0;
+		};
+
+		exports.eq0 = eq0;
+
+		/* js/src/predicate/constants/eq1.js */
+
+		var eq1 = function eq1(n) {
+			return n === 1;
+		};
+
+		exports.eq1 = eq1;
+
+		/* js/src/predicate/constants/eq_1.js */
+
+		var eq_1 = function eq_1(n) {
+			return n === -1;
+		};
+
+		exports.eq_1 = eq_1;
+
+		/* js/src/predicate/constants/ge1.js */
+
+		var ge1 = function ge1(n) {
+			return n >= 1;
+		};
+
+		exports.ge1 = ge1;
+
+		/* js/src/predicate/constants/gt0.js */
+
+		var gt0 = function gt0(n) {
+			return n > 0;
+		};
+
+		exports.gt0 = gt0;
+
+		/* js/src/predicate/constants/gt1.js */
+
+		var gt1 = function gt1(n) {
+			return n > 1;
+		};
+
+		exports.gt1 = gt1;
+
+		/* js/src/predicate/constants/le1.js */
+
+		var le1 = function le1(n) {
+			return n <= 1;
+		};
+
+		exports.le1 = le1;
+
+		/* js/src/predicate/constants/lt1.js */
+
+		var lt1 = function lt1(n) {
+			return n < 1;
+		};
+
+		exports.lt1 = lt1;
+
+		/* js/src/predicate/eq.js */
+
+		var eq = function eq(a, b) {
+			return a === b;
+		};
+
+		exports.eq = eq;
+
+		/* js/src/predicate/ge.js */
+
+		var ge = function ge(a, b) {
+			return a >= b;
+		};
+
+		exports.ge = ge;
+
+		/* js/src/predicate/gt.js */
+
+		var gt = function gt(a, b) {
+			return a > b;
+		};
+
+		exports.gt = gt;
+
+		/* js/src/predicate/le.js */
+
+		var le = function le(a, b) {
+			return a <= b;
+		};
+
+		exports.le = le;
+
+		/* js/src/predicate/lt.js */
+
+		var lt = function lt(a, b) {
+			return a < b;
+		};
+
+		exports.lt = lt;
+
+		/* js/src/predicate/ne.js */
+
+		var ne = function ne(a, b) {
+			return a !== b;
+		};
+
+		exports.ne = ne;
+
+		/* js/src/trigonometry */
+		/* js/src/trigonometry/atan2.js */
+
+		var atan2 = Math.atan2;
+
+		exports.atan2 = atan2;
+
+		/* js/src/trigonometry/cos.js */
+
+		var cos = Math.cos;
+
+		exports.cos = cos;
+
+		/* js/src/trigonometry/sin.js */
+
+		var sin = Math.sin;
+
+		exports.sin = sin;
 
 		return exports;
 	};

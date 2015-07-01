@@ -7,11 +7,11 @@ one = function ( n ) {
 
 	x = n ;
 
-	deepEqual ( number . isubone ( x ) , n -= 1 , x + " -= " + 1 ) ;
+	deepEqual ( number . iadd1 ( x ) , n += 1 , x + " += " + 1 ) ;
 
 } ;
 
-test ( "isubone" , function ( ) {
+test ( "iadd1" , function ( ) {
 
 	var i , n ;
 

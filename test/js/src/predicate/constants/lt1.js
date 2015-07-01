@@ -2,17 +2,17 @@
 var one ;
 
 one = function ( n ) {
-	deepEqual ( number . leone ( n ) , n <= 1 , n + " <= " + 1 ) ;
+	deepEqual ( number . lt1 ( n ) , n < 1 , n + " < " + 1 ) ;
 } ;
 
-test ( "leone" , function ( ) {
+test ( "lt1" , function ( ) {
 
 	var i , n ;
 
 	n = 10 ;
 
 	for ( i = 0 ; i < n ; ++i ) {
-		one ( Math . random ( ) ) ;
+		one ( Math . random ( ) + 0.5 ) ;
 	}
 
 	one (  Infinity ) ;
