@@ -12,6 +12,7 @@
 	},
 	"src": "js/src/",
 	"out": "js/dist/",
-	"ns": "number",
-	"debug": false
+	"name": "number",
+	"debug": false,
+	"babel": true
 }
