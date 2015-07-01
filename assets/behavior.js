@@ -50,25 +50,215 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "depth": 2,
           "outline": []
         }, {
-          "type": "file",
+          "type": "folder",
           "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/addone.js",
-            "projectPath": "js/src/arithmetic/addone.js",
-            "targetPath": "arithmetic/addone",
-            "pageTitle": "arithmetic/addone",
-            "title": "addone"
+            "path": "arithmetic/constants",
+            "title": "constants"
           },
           "depth": 2,
-          "outline": []
+          "children": [
+            {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["//"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "JavaScript"
+                },
+                "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/constants/add1.js",
+                "projectPath": "js/src/arithmetic/constants/add1.js",
+                "targetPath": "arithmetic/constants/add1",
+                "pageTitle": "arithmetic/constants/add1",
+                "title": "add1"
+              },
+              "depth": 3,
+              "outline": []
+            }, {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["//"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "JavaScript"
+                },
+                "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/constants/div2.js",
+                "projectPath": "js/src/arithmetic/constants/div2.js",
+                "targetPath": "arithmetic/constants/div2",
+                "pageTitle": "arithmetic/constants/div2",
+                "title": "div2"
+              },
+              "depth": 3,
+              "outline": []
+            }, {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["//"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "JavaScript"
+                },
+                "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/constants/iadd1.js",
+                "projectPath": "js/src/arithmetic/constants/iadd1.js",
+                "targetPath": "arithmetic/constants/iadd1",
+                "pageTitle": "arithmetic/constants/iadd1",
+                "title": "iadd1"
+              },
+              "depth": 3,
+              "outline": []
+            }, {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["//"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "JavaScript"
+                },
+                "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/constants/idiv2.js",
+                "projectPath": "js/src/arithmetic/constants/idiv2.js",
+                "targetPath": "arithmetic/constants/idiv2",
+                "pageTitle": "arithmetic/constants/idiv2",
+                "title": "idiv2"
+              },
+              "depth": 3,
+              "outline": []
+            }, {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["//"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "JavaScript"
+                },
+                "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/constants/imul2.js",
+                "projectPath": "js/src/arithmetic/constants/imul2.js",
+                "targetPath": "arithmetic/constants/imul2",
+                "pageTitle": "arithmetic/constants/imul2",
+                "title": "imul2"
+              },
+              "depth": 3,
+              "outline": []
+            }, {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["//"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "JavaScript"
+                },
+                "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/constants/imul5.js",
+                "projectPath": "js/src/arithmetic/constants/imul5.js",
+                "targetPath": "arithmetic/constants/imul5",
+                "pageTitle": "arithmetic/constants/imul5",
+                "title": "imul5"
+              },
+              "depth": 3,
+              "outline": []
+            }, {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["//"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "JavaScript"
+                },
+                "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/constants/isub1.js",
+                "projectPath": "js/src/arithmetic/constants/isub1.js",
+                "targetPath": "arithmetic/constants/isub1",
+                "pageTitle": "arithmetic/constants/isub1",
+                "title": "isub1"
+              },
+              "depth": 3,
+              "outline": []
+            }, {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["//"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "JavaScript"
+                },
+                "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/constants/mul2.js",
+                "projectPath": "js/src/arithmetic/constants/mul2.js",
+                "targetPath": "arithmetic/constants/mul2",
+                "pageTitle": "arithmetic/constants/mul2",
+                "title": "mul2"
+              },
+              "depth": 3,
+              "outline": []
+            }, {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["//"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "JavaScript"
+                },
+                "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/constants/mul5.js",
+                "projectPath": "js/src/arithmetic/constants/mul5.js",
+                "targetPath": "arithmetic/constants/mul5",
+                "pageTitle": "arithmetic/constants/mul5",
+                "title": "mul5"
+              },
+              "depth": 3,
+              "outline": []
+            }, {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["//"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "JavaScript"
+                },
+                "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/constants/sub1.js",
+                "projectPath": "js/src/arithmetic/constants/sub1.js",
+                "targetPath": "arithmetic/constants/sub1",
+                "pageTitle": "arithmetic/constants/sub1",
+                "title": "sub1"
+              },
+              "depth": 3,
+              "outline": []
+            }
+          ]
         }, {
           "type": "file",
           "data": {
@@ -86,26 +276,6 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "targetPath": "arithmetic/div",
             "pageTitle": "arithmetic/div",
             "title": "div"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/div2.js",
-            "projectPath": "js/src/arithmetic/div2.js",
-            "targetPath": "arithmetic/div2",
-            "pageTitle": "arithmetic/div2",
-            "title": "div2"
           },
           "depth": 2,
           "outline": []
@@ -161,51 +331,11 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/iaddone.js",
-            "projectPath": "js/src/arithmetic/iaddone.js",
-            "targetPath": "arithmetic/iaddone",
-            "pageTitle": "arithmetic/iaddone",
-            "title": "iaddone"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
             "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/idiv.js",
             "projectPath": "js/src/arithmetic/idiv.js",
             "targetPath": "arithmetic/idiv",
             "pageTitle": "arithmetic/idiv",
             "title": "idiv"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/idiv2.js",
-            "projectPath": "js/src/arithmetic/idiv2.js",
-            "targetPath": "arithmetic/idiv2",
-            "pageTitle": "arithmetic/idiv2",
-            "title": "idiv2"
           },
           "depth": 2,
           "outline": []
@@ -266,66 +396,6 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "targetPath": "arithmetic/imul",
             "pageTitle": "arithmetic/imul",
             "title": "imul"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/imul2.js",
-            "projectPath": "js/src/arithmetic/imul2.js",
-            "targetPath": "arithmetic/imul2",
-            "pageTitle": "arithmetic/imul2",
-            "title": "imul2"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/imul5.js",
-            "projectPath": "js/src/arithmetic/imul5.js",
-            "targetPath": "arithmetic/imul5",
-            "pageTitle": "arithmetic/imul5",
-            "title": "imul5"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/ipow2.js",
-            "projectPath": "js/src/arithmetic/ipow2.js",
-            "targetPath": "arithmetic/ipow2",
-            "pageTitle": "arithmetic/ipow2",
-            "title": "ipow2"
           },
           "depth": 2,
           "outline": []
@@ -421,26 +491,6 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/isubone.js",
-            "projectPath": "js/src/arithmetic/isubone.js",
-            "targetPath": "arithmetic/isubone",
-            "pageTitle": "arithmetic/isubone",
-            "title": "isubone"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
             "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/mod.js",
             "projectPath": "js/src/arithmetic/mod.js",
             "targetPath": "arithmetic/mod",
@@ -481,71 +531,11 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/mul2.js",
-            "projectPath": "js/src/arithmetic/mul2.js",
-            "targetPath": "arithmetic/mul2",
-            "pageTitle": "arithmetic/mul2",
-            "title": "mul2"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/mul5.js",
-            "projectPath": "js/src/arithmetic/mul5.js",
-            "targetPath": "arithmetic/mul5",
-            "pageTitle": "arithmetic/mul5",
-            "title": "mul5"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/pow.js",
-            "projectPath": "js/src/arithmetic/pow.js",
-            "targetPath": "arithmetic/pow",
-            "pageTitle": "arithmetic/pow",
-            "title": "pow"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/pow2.js",
-            "projectPath": "js/src/arithmetic/pow2.js",
-            "targetPath": "arithmetic/pow2",
-            "pageTitle": "arithmetic/pow2",
-            "title": "pow2"
+            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/neg.js",
+            "projectPath": "js/src/arithmetic/neg.js",
+            "targetPath": "arithmetic/neg",
+            "pageTitle": "arithmetic/neg",
+            "title": "neg"
           },
           "depth": 2,
           "outline": []
@@ -621,51 +611,11 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/sqrt.js",
-            "projectPath": "js/src/arithmetic/sqrt.js",
-            "targetPath": "arithmetic/sqrt",
-            "pageTitle": "arithmetic/sqrt",
-            "title": "sqrt"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
             "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/sub.js",
             "projectPath": "js/src/arithmetic/sub.js",
             "targetPath": "arithmetic/sub",
             "pageTitle": "arithmetic/sub",
             "title": "sub"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/arithmetic/subone.js",
-            "projectPath": "js/src/arithmetic/subone.js",
-            "targetPath": "arithmetic/subone",
-            "pageTitle": "arithmetic/subone",
-            "title": "subone"
           },
           "depth": 2,
           "outline": []
@@ -711,271 +661,11 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/compare/eq.js",
-            "projectPath": "js/src/compare/eq.js",
-            "targetPath": "compare/eq",
-            "pageTitle": "compare/eq",
-            "title": "eq"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/compare/ge.js",
-            "projectPath": "js/src/compare/ge.js",
-            "targetPath": "compare/ge",
-            "pageTitle": "compare/ge",
-            "title": "ge"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/compare/geone.js",
-            "projectPath": "js/src/compare/geone.js",
-            "targetPath": "compare/geone",
-            "pageTitle": "compare/geone",
-            "title": "geone"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/compare/gt.js",
-            "projectPath": "js/src/compare/gt.js",
-            "targetPath": "compare/gt",
-            "pageTitle": "compare/gt",
-            "title": "gt"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/compare/gtone.js",
-            "projectPath": "js/src/compare/gtone.js",
-            "targetPath": "compare/gtone",
-            "pageTitle": "compare/gtone",
-            "title": "gtone"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
             "sourcePath": "/home/aureooms/dev/js/js-number/js/src/compare/increasing.js",
             "projectPath": "js/src/compare/increasing.js",
             "targetPath": "compare/increasing",
             "pageTitle": "compare/increasing",
             "title": "increasing"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/compare/isnegativeone.js",
-            "projectPath": "js/src/compare/isnegativeone.js",
-            "targetPath": "compare/isnegativeone",
-            "pageTitle": "compare/isnegativeone",
-            "title": "isnegativeone"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/compare/isone.js",
-            "projectPath": "js/src/compare/isone.js",
-            "targetPath": "compare/isone",
-            "pageTitle": "compare/isone",
-            "title": "isone"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/compare/iszero.js",
-            "projectPath": "js/src/compare/iszero.js",
-            "targetPath": "compare/iszero",
-            "pageTitle": "compare/iszero",
-            "title": "iszero"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/compare/le.js",
-            "projectPath": "js/src/compare/le.js",
-            "targetPath": "compare/le",
-            "pageTitle": "compare/le",
-            "title": "le"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/compare/leone.js",
-            "projectPath": "js/src/compare/leone.js",
-            "targetPath": "compare/leone",
-            "pageTitle": "compare/leone",
-            "title": "leone"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/compare/lt.js",
-            "projectPath": "js/src/compare/lt.js",
-            "targetPath": "compare/lt",
-            "pageTitle": "compare/lt",
-            "title": "lt"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/compare/ltone.js",
-            "projectPath": "js/src/compare/ltone.js",
-            "targetPath": "compare/ltone",
-            "pageTitle": "compare/ltone",
-            "title": "ltone"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/compare/ne.js",
-            "projectPath": "js/src/compare/ne.js",
-            "targetPath": "compare/ne",
-            "pageTitle": "compare/ne",
-            "title": "ne"
           },
           "depth": 2,
           "outline": []
@@ -1001,11 +691,11 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/constants/five.js",
-            "projectPath": "js/src/constants/five.js",
-            "targetPath": "constants/five",
-            "pageTitle": "constants/five",
-            "title": "five"
+            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/constants/$0.js",
+            "projectPath": "js/src/constants/$0.js",
+            "targetPath": "constants/$0",
+            "pageTitle": "constants/$0",
+            "title": "$0"
           },
           "depth": 2,
           "outline": []
@@ -1021,11 +711,11 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/constants/negativeone.js",
-            "projectPath": "js/src/constants/negativeone.js",
-            "targetPath": "constants/negativeone",
-            "pageTitle": "constants/negativeone",
-            "title": "negativeone"
+            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/constants/$1.js",
+            "projectPath": "js/src/constants/$1.js",
+            "targetPath": "constants/$1",
+            "pageTitle": "constants/$1",
+            "title": "$1"
           },
           "depth": 2,
           "outline": []
@@ -1041,11 +731,11 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/constants/one.js",
-            "projectPath": "js/src/constants/one.js",
-            "targetPath": "constants/one",
-            "pageTitle": "constants/one",
-            "title": "one"
+            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/constants/$2.js",
+            "projectPath": "js/src/constants/$2.js",
+            "targetPath": "constants/$2",
+            "pageTitle": "constants/$2",
+            "title": "$2"
           },
           "depth": 2,
           "outline": []
@@ -1061,11 +751,11 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/constants/two.js",
-            "projectPath": "js/src/constants/two.js",
-            "targetPath": "constants/two",
-            "pageTitle": "constants/two",
-            "title": "two"
+            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/constants/$5.js",
+            "projectPath": "js/src/constants/$5.js",
+            "targetPath": "constants/$5",
+            "pageTitle": "constants/$5",
+            "title": "$5"
           },
           "depth": 2,
           "outline": []
@@ -1081,11 +771,161 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/constants/zero.js",
-            "projectPath": "js/src/constants/zero.js",
-            "targetPath": "constants/zero",
-            "pageTitle": "constants/zero",
-            "title": "zero"
+            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/constants/$_1.js",
+            "projectPath": "js/src/constants/$_1.js",
+            "targetPath": "constants/$_1",
+            "pageTitle": "constants/$_1",
+            "title": "$_1"
+          },
+          "depth": 2,
+          "outline": []
+        }
+      ]
+    }, {
+      "type": "folder",
+      "data": {
+        "path": "exponential",
+        "title": "exponential"
+      },
+      "depth": 1,
+      "children": [
+        {
+          "type": "folder",
+          "data": {
+            "path": "exponential/constants",
+            "title": "constants"
+          },
+          "depth": 2,
+          "children": [
+            {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["//"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "JavaScript"
+                },
+                "sourcePath": "/home/aureooms/dev/js/js-number/js/src/exponential/constants/ipow2.js",
+                "projectPath": "js/src/exponential/constants/ipow2.js",
+                "targetPath": "exponential/constants/ipow2",
+                "pageTitle": "exponential/constants/ipow2",
+                "title": "ipow2"
+              },
+              "depth": 3,
+              "outline": []
+            }, {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["//"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "JavaScript"
+                },
+                "sourcePath": "/home/aureooms/dev/js/js-number/js/src/exponential/constants/pow2.js",
+                "projectPath": "js/src/exponential/constants/pow2.js",
+                "targetPath": "exponential/constants/pow2",
+                "pageTitle": "exponential/constants/pow2",
+                "title": "pow2"
+              },
+              "depth": 3,
+              "outline": []
+            }
+          ]
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/exponential/pow.js",
+            "projectPath": "js/src/exponential/pow.js",
+            "targetPath": "exponential/pow",
+            "pageTitle": "exponential/pow",
+            "title": "pow"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/exponential/sqrt.js",
+            "projectPath": "js/src/exponential/sqrt.js",
+            "targetPath": "exponential/sqrt",
+            "pageTitle": "exponential/sqrt",
+            "title": "sqrt"
+          },
+          "depth": 2,
+          "outline": []
+        }
+      ]
+    }, {
+      "type": "folder",
+      "data": {
+        "path": "io",
+        "title": "io"
+      },
+      "depth": 1,
+      "children": [
+        {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/io/parse.js",
+            "projectPath": "js/src/io/parse.js",
+            "targetPath": "io/parse",
+            "pageTitle": "io/parse",
+            "title": "parse"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/io/stringify.js",
+            "projectPath": "js/src/io/stringify.js",
+            "targetPath": "io/stringify",
+            "pageTitle": "io/stringify",
+            "title": "stringify"
           },
           "depth": 2,
           "outline": []
@@ -1246,6 +1086,376 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "targetPath": "memory/copy",
             "pageTitle": "memory/copy",
             "title": "copy"
+          },
+          "depth": 2,
+          "outline": []
+        }
+      ]
+    }, {
+      "type": "folder",
+      "data": {
+        "path": "predicate",
+        "title": "predicate"
+      },
+      "depth": 1,
+      "children": [
+        {
+          "type": "folder",
+          "data": {
+            "path": "predicate/constants",
+            "title": "constants"
+          },
+          "depth": 2,
+          "children": [
+            {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["//"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "JavaScript"
+                },
+                "sourcePath": "/home/aureooms/dev/js/js-number/js/src/predicate/constants/eq0.js",
+                "projectPath": "js/src/predicate/constants/eq0.js",
+                "targetPath": "predicate/constants/eq0",
+                "pageTitle": "predicate/constants/eq0",
+                "title": "eq0"
+              },
+              "depth": 3,
+              "outline": []
+            }, {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["//"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "JavaScript"
+                },
+                "sourcePath": "/home/aureooms/dev/js/js-number/js/src/predicate/constants/eq1.js",
+                "projectPath": "js/src/predicate/constants/eq1.js",
+                "targetPath": "predicate/constants/eq1",
+                "pageTitle": "predicate/constants/eq1",
+                "title": "eq1"
+              },
+              "depth": 3,
+              "outline": []
+            }, {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["//"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "JavaScript"
+                },
+                "sourcePath": "/home/aureooms/dev/js/js-number/js/src/predicate/constants/eq_1.js",
+                "projectPath": "js/src/predicate/constants/eq_1.js",
+                "targetPath": "predicate/constants/eq_1",
+                "pageTitle": "predicate/constants/eq_1",
+                "title": "eq_1"
+              },
+              "depth": 3,
+              "outline": []
+            }, {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["//"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "JavaScript"
+                },
+                "sourcePath": "/home/aureooms/dev/js/js-number/js/src/predicate/constants/ge1.js",
+                "projectPath": "js/src/predicate/constants/ge1.js",
+                "targetPath": "predicate/constants/ge1",
+                "pageTitle": "predicate/constants/ge1",
+                "title": "ge1"
+              },
+              "depth": 3,
+              "outline": []
+            }, {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["//"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "JavaScript"
+                },
+                "sourcePath": "/home/aureooms/dev/js/js-number/js/src/predicate/constants/gt0.js",
+                "projectPath": "js/src/predicate/constants/gt0.js",
+                "targetPath": "predicate/constants/gt0",
+                "pageTitle": "predicate/constants/gt0",
+                "title": "gt0"
+              },
+              "depth": 3,
+              "outline": []
+            }, {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["//"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "JavaScript"
+                },
+                "sourcePath": "/home/aureooms/dev/js/js-number/js/src/predicate/constants/gt1.js",
+                "projectPath": "js/src/predicate/constants/gt1.js",
+                "targetPath": "predicate/constants/gt1",
+                "pageTitle": "predicate/constants/gt1",
+                "title": "gt1"
+              },
+              "depth": 3,
+              "outline": []
+            }, {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["//"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "JavaScript"
+                },
+                "sourcePath": "/home/aureooms/dev/js/js-number/js/src/predicate/constants/le1.js",
+                "projectPath": "js/src/predicate/constants/le1.js",
+                "targetPath": "predicate/constants/le1",
+                "pageTitle": "predicate/constants/le1",
+                "title": "le1"
+              },
+              "depth": 3,
+              "outline": []
+            }, {
+              "type": "file",
+              "data": {
+                "language": {
+                  "nameMatchers": [".js"],
+                  "pygmentsLexer": "javascript",
+                  "multiLineComment": ["/*", "*", "*/"],
+                  "singleLineComment": ["//"],
+                  "ignorePrefix": "}",
+                  "foldPrefix": "^",
+                  "name": "JavaScript"
+                },
+                "sourcePath": "/home/aureooms/dev/js/js-number/js/src/predicate/constants/lt1.js",
+                "projectPath": "js/src/predicate/constants/lt1.js",
+                "targetPath": "predicate/constants/lt1",
+                "pageTitle": "predicate/constants/lt1",
+                "title": "lt1"
+              },
+              "depth": 3,
+              "outline": []
+            }
+          ]
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/predicate/eq.js",
+            "projectPath": "js/src/predicate/eq.js",
+            "targetPath": "predicate/eq",
+            "pageTitle": "predicate/eq",
+            "title": "eq"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/predicate/ge.js",
+            "projectPath": "js/src/predicate/ge.js",
+            "targetPath": "predicate/ge",
+            "pageTitle": "predicate/ge",
+            "title": "ge"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/predicate/gt.js",
+            "projectPath": "js/src/predicate/gt.js",
+            "targetPath": "predicate/gt",
+            "pageTitle": "predicate/gt",
+            "title": "gt"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/predicate/le.js",
+            "projectPath": "js/src/predicate/le.js",
+            "targetPath": "predicate/le",
+            "pageTitle": "predicate/le",
+            "title": "le"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/predicate/lt.js",
+            "projectPath": "js/src/predicate/lt.js",
+            "targetPath": "predicate/lt",
+            "pageTitle": "predicate/lt",
+            "title": "lt"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/predicate/ne.js",
+            "projectPath": "js/src/predicate/ne.js",
+            "targetPath": "predicate/ne",
+            "pageTitle": "predicate/ne",
+            "title": "ne"
+          },
+          "depth": 2,
+          "outline": []
+        }
+      ]
+    }, {
+      "type": "folder",
+      "data": {
+        "path": "trigonometry",
+        "title": "trigonometry"
+      },
+      "depth": 1,
+      "children": [
+        {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/trigonometry/atan2.js",
+            "projectPath": "js/src/trigonometry/atan2.js",
+            "targetPath": "trigonometry/atan2",
+            "pageTitle": "trigonometry/atan2",
+            "title": "atan2"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/trigonometry/cos.js",
+            "projectPath": "js/src/trigonometry/cos.js",
+            "targetPath": "trigonometry/cos",
+            "pageTitle": "trigonometry/cos",
+            "title": "cos"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-number/js/src/trigonometry/sin.js",
+            "projectPath": "js/src/trigonometry/sin.js",
+            "targetPath": "trigonometry/sin",
+            "pageTitle": "trigonometry/sin",
+            "title": "sin"
           },
           "depth": 2,
           "outline": []
