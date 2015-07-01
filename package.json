@@ -12,7 +12,7 @@
 		"number",
 		"primitive"
 	],
-	"version": "1.6.2",
+	"version": "1.6.3",
 	"repository": {
 		"url": "https://github.com/aureooms/js-number.git",
 		"type": "git"
