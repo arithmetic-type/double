@@ -1,6 +1,4 @@
 
-var div2 = function ( n ) {
-	return n / 2;
-};
+const div2 = n => n / 2 ;
 
 exports.div2 = div2;
