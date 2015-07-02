@@ -237,6 +237,15 @@
 
 		exports.shu = shu;
 
+		/* js/src/arithmetic/special */
+		/* js/src/arithmetic/special/div2n.js */
+
+		var div2n = function div2n(a, n) {
+			return a / Math.pow(2, n);
+		};
+
+		exports.div2n = div2n;
+
 		/* js/src/arithmetic/sub.js */
 
 		var sub = function sub(a, b) {
@@ -521,6 +530,12 @@
 		exports.ne = ne;
 
 		/* js/src/trigonometry */
+		/* js/src/trigonometry/PI.js */
+
+		var PI = Math.PI;
+
+		exports.PI = PI;
+
 		/* js/src/trigonometry/atan2.js */
 
 		var atan2 = Math.atan2;
