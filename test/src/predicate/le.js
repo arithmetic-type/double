@@ -1,19 +1,17 @@
+import test from 'ava' ;
+import number from '../../src' ;
 
-var one;
+test( "le", t => {
 
-one = function ( a, b ) {
-	deepEqual( number.le( a, b ), a <= b, a + " <= " + b );
-}
+	const one = function ( a, b ) {
+		t.deepEqual( number.le( a, b ), a <= b, a + " <= " + b );
+	} ;
 
-test( "le", function () {
+	const n = 10;
 
-	var a, b, i, n;
-
-	n = 10;
-
-	for ( i = 0 ; i < n ; ++i ) {
-		a = Math.random();
-		b = Math.random();
+	for ( let i = 0 ; i < n ; ++i ) {
+		const a = Math.random();
+		const b = Math.random();
 		one( a, b );
 	}
 

@@ -1,25 +1,22 @@
+import test from 'ava' ;
+import number from '../../src' ;
+import algo from "aureooms-js-algo" ;
 
-var one , algo , epsilon , compare, e ;
+const epsilon = 1e-6 ;
 
-algo = require ( "aureooms-js-algo" ) ;
+const compare = algo . __relepsilon__ ( epsilon ) ;
 
-epsilon = 1e-6 ;
+test ( "loglog2" , t => {
 
-compare = algo . __relepsilon__ ( epsilon ) ;
+	const one = function ( n , expected ) {
 
-one = function ( n , expected ) {
+		const computed = number.loglog2 ( n ) ;
 
-	var computed , isok ;
+		const isok = compare ( computed , expected ) === 0 ;
 
-	computed = number.loglog2 ( n ) ;
+		t.truthy ( isok , "loglog2 ( " + n + " ) is " + expected + " got " + computed ) ;
 
-	isok = compare ( computed , expected ) === 0 ;
-
-	ok ( isok , "loglog2 ( " + n + " ) is " + expected + " got " + computed ) ;
-
-} ;
-
-test ( "loglog2" , function ( ) {
+	} ;
 
 	one ( Math.pow ( 2 , 1 ) , 0 ) ;
 	one ( Math.pow ( 2 , 2 * 2 * 2 ) , 3 ) ;

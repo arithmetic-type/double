@@ -1,30 +1,26 @@
+import test from 'ava' ;
+import number from '../../src' ;
 
-var one ;
+test( "memory" , t => {
 
-one = function ( a ) {
+	const one = function ( a ) {
 
-	var b , x ;
+		const b = number.copy( a ) ;
 
-	b = number.copy( a ) ;
+		t.truthy( a === b , a + " === " + b ) ;
 
-	ok( a === b , a + " === " + b ) ;
+		const x = Math.random( ) ;
 
-	x = Math.random( ) ;
+		a -= x ;
 
-	a -= x ;
+		t.truthy( a === b - x , a + " === " + b + " - " + x ) ;
 
-	ok( a === b - x , a + " === " + b + " - " + x ) ;
+	} ;
 
-} ;
+	const n = 10 ;
 
-test( "memory" , function ( ) {
-
-	var a , i , n ;
-
-	n = 10 ;
-
-	for ( i = 0 ; i < n ; ++i ) {
-		a = Math.random( ) ;
+	for ( let i = 0 ; i < n ; ++i ) {
+		let a = Math.random( ) ;
 		one( a ) ;
 	}
 

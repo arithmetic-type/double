@@ -1,15 +1,13 @@
+import test from 'ava' ;
+import number from '../../src' ;
 
-var one , e ;
+const e = Math.E ;
 
-one = function ( a , b , expected ) {
+test ( "log" , t => {
 
-	deepEqual ( number.log ( a , b ) , expected , "log ( " + a + " , " + b + " )" ) ;
-
-} ;
-
-e = Math.E ;
-
-test ( "log" , function ( ) {
+	const one = function ( a , b , expected ) {
+		t.deepEqual ( number.log ( a , b ) , expected , "log ( " + a + " , " + b + " )" ) ;
+	} ;
 
 	one ( 2 , 1 , 0 ) ;
 	one ( 2 , 2 * 2 * 2 , 3 ) ;

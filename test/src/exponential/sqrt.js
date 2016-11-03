@@ -1,20 +1,18 @@
+import test from 'ava' ;
+import number from '../../src' ;
 
-var one ;
+test( "sqrt" , t => {
 
-one = function ( a ) {
+	const one = function ( a ) {
 
-	deepEqual( number.sqrt( a ) , Math.sqrt( a ) , "sqrt " + a ) ;
+		t.deepEqual( number.sqrt( a ) , Math.sqrt( a ) , "sqrt " + a ) ;
 
-} ;
+	} ;
 
-test( "sqrt" , function ( ) {
+	const n = 10 ;
 
-	var a , i , n ;
-
-	n = 10 ;
-
-	for ( i = 0 ; i < n ; ++i ) {
-		a = Math.random( ) ;
+	for ( let i = 0 ; i < n ; ++i ) {
+		const a = Math.random( ) ;
 		one( a ) ;
 	}
 

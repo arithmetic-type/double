@@ -1,16 +1,17 @@
+import test from 'ava' ;
+import number from '../../src' ;
 
-test( "ishu" , function ( ) {
+test( "ishu" , t => {
 
-	var a , b , i , n , x ;
+	const n = 10 ;
 
-	n = 10 ;
+	for ( let i = 0 ; i < n ; ++i ) {
 
-	for ( i = 0 ; i < n ; ++i ) {
+		let a = Math.floor( Math.random() * Math.pow( 2 , 32 ) ) ;
+		let b = Math.floor( Math.random() * 32 ) ;
+		let x = a ;
 
-		x = a = Math.floor( Math.random() * Math.pow( 2 , 32 ) ) ;
-		b = Math.floor( Math.random() * 32 ) ;
-
-		deepEqual( number.ishu( x , b ) , a >>>= b , x + " >>> " + b ) ;
+		t.deepEqual( number.ishu( x , b ) , a >>>= b , x + " >>> " + b ) ;
 
 	}
 

@@ -1,28 +1,23 @@
+import test from 'ava' ;
+import number from '../../src' ;
+import int32 from "aureooms-js-int32"  ;
+import random from "aureooms-js-random" ;
 
-var one , int32 , random ;
+test ( "imod" , t => {
 
-int32 = require ( "aureooms-js-int32" ) ;
-random = require ( "aureooms-js-random" ) ;
+	const one = function ( a , b ) {
 
-one = function ( a , b ) {
+		let x = a ;
 
-	var x ;
+		t.deepEqual ( number . imod ( x , b ) , a %= b , x + " %= " + b ) ;
 
-	x = a ;
+	} ;
 
-	deepEqual ( number . imod ( x , b ) , a %= b , x + " %= " + b ) ;
+	const n = 10 ;
 
-} ;
-
-test ( "imod" , function ( ) {
-
-	var a , b , i , n ;
-
-	n = 10 ;
-
-	for ( i = 0 ; i < n ; ++i ) {
-		a = random . randint ( int32 . min , int32 . max + 1 ) ;
-		b = random . randint ( int32 . min , int32 . max + 1 ) ;
+	for ( let i = 0 ; i < n ; ++i ) {
+		let a = random . randint ( int32 . min , int32 . max + 1 ) ;
+		let b = random . randint ( int32 . min , int32 . max + 1 ) ;
 		one ( a , b ) ;
 	}
 

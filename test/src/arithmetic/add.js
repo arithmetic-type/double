@@ -1,20 +1,18 @@
-
-var one ;
-
-one = function ( a , b ) {
-	deepEqual ( number . add ( a , b ) , a + b , a + " + " + b ) ;
-} ;
+import test from 'ava' ;
+import number from '../../src' ;
 
 test ( "add" , function ( ) {
 
-	var a , b , i , n ;
+	const one = function ( a , b ) {
+		t.deepEqual ( number . add ( a , b ) , a + b , a + " + " + b ) ;
+	} ;
 
-	n = 10 ;
+	const n = 10 ;
 
-	for ( i = 0 ; i < n ; ++i ) {
+	for ( let i = 0 ; i < n ; ++i ) {
 
-		a = Math . random ( ) ;
-		b = Math . random ( ) ;
+		const a = Math . random ( ) ;
+		const b = Math . random ( ) ;
 
 		one ( a , b ) ;
 

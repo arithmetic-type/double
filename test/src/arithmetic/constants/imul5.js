@@ -1,24 +1,20 @@
+import test from 'ava' ;
+import number from '../../src' ;
 
-var one ;
+test( "imul5" , assert => {
 
-one = function ( a ) {
+	const one = function ( a ) {
 
-	var x ;
+		let x = a ;
 
-	x = a ;
+		assert.deepEqual( number.imul5( x ) , a *= 5 , x + " *= 5" ) ;
 
-	deepEqual( number.imul5( x ) , a *= 5 , x + " *= 5" ) ;
+	} ;
 
-} ;
+	const n = 10 ;
 
-test( "imul5" , function ( ) {
-
-	var a , i , n ;
-
-	n = 10 ;
-
-	for ( i = 0 ; i < n ; ++i ) {
-		a = Math.random( ) ;
+	for ( let i = 0 ; i < n ; ++i ) {
+		const a = Math.random( ) ;
 		one( a ) ;
 	}
 

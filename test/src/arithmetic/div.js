@@ -1,19 +1,17 @@
+import test from 'ava' ;
+import number from '../../src' ;
 
-var one ;
+test ( "div" , t => {
 
-one = function ( a , b ) {
-	deepEqual ( number . div ( a , b ) , a / b , a + " / " + b ) ;
-} ;
+	const one = function ( a , b ) {
+		t.deepEqual ( number . div ( a , b ) , a / b , a + " / " + b ) ;
+	} ;
 
-test ( "div" , function ( ) {
+	const n = 10 ;
 
-	var a , b , i , n ;
-
-	n = 10 ;
-
-	for ( i = 0 ; i < n ; ++i ) {
-		a = Math . random ( ) ;
-		b = Math . random ( ) ;
+	for ( let i = 0 ; i < n ; ++i ) {
+		let a = Math . random ( ) ;
+		let b = Math . random ( ) ;
 		one ( a , b ) ;
 	}
 

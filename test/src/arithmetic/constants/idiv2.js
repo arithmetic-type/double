@@ -1,23 +1,19 @@
+import test from 'ava' ;
+import number from '../../src' ;
 
-var one ;
+test ( "idiv2" , assert => {
 
-one = function ( n ) {
+	const one = function ( n ) {
 
-	var x ;
+		let x = n ;
 
-	x = n ;
+		assert.deepEqual ( number . idiv2 ( x ) , n /= 2 , x + " /= " + 2 ) ;
 
-	deepEqual ( number . idiv2 ( x ) , n /= 2 , x + " /= " + 2 ) ;
+	} ;
 
-} ;
+	const n = 10 ;
 
-test ( "idiv2" , function ( ) {
-
-	var i , n ;
-
-	n = 10 ;
-
-	for ( i = 0 ; i < n ; ++i ) {
+	for ( let i = 0 ; i < n ; ++i ) {
 		one ( Math . random ( ) ) ;
 	}
 

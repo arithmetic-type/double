@@ -1,19 +1,17 @@
+import test from 'ava' ;
+import number from '../../src' ;
 
-var one;
+test( "mul", t => {
 
-one = function ( a, b ) {
-	deepEqual( number.mul( a, b ), a * b, a + " * " + b );
-}
+	const one = function ( a, b ) {
+		t.deepEqual( number.mul( a, b ), a * b, a + " * " + b );
+	} ;
 
-test( "mul", function () {
-
-	var a, b, i, n;
-
-	n = 10;
+	const n = 10;
 
 	for ( i = 0 ; i < n ; ++i ) {
-		a = Math.random();
-		b = Math.random();
+		const a = Math.random();
+		const b = Math.random();
 		one( a, b );
 	}
 

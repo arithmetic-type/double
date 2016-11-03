@@ -1,17 +1,15 @@
+import test from 'ava' ;
+import number from '../../src' ;
 
-var one ;
+test ( "gt0" , t => {
 
-one = function ( n ) {
-	deepEqual ( number . gt0 ( n ) , n > 0 , n + " > " + 0 ) ;
-} ;
+	const one = function ( n ) {
+		t.deepEqual ( number . gt0 ( n ) , n > 0 , n + " > " + 0 ) ;
+	} ;
 
-test ( "gt0" , function ( ) {
+	const n = 10 ;
 
-	var i , n ;
-
-	n = 10 ;
-
-	for ( i = 0 ; i < n ; ++i ) {
+	for ( let i = 0 ; i < n ; ++i ) {
 		one ( Math . random ( ) - 0.5 ) ;
 	}
 

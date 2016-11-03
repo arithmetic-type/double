@@ -1,16 +1,16 @@
+import test from 'ava' ;
+import number from '../../src' ;
 
-test( "shu" , function ( ) {
+test( "shu" , t => {
 
-	var a , b , i , n ;
+	const n = 10 ;
 
-	n = 10 ;
+	for ( let i = 0 ; i < n ; ++i ) {
 
-	for ( i = 0 ; i < n ; ++i ) {
+		const a = Math.floor( Math.random() * Math.pow( 2 , 32 ) ) ;
+		const b = Math.floor( Math.random() * 32 ) ;
 
-		a = Math.floor( Math.random() * Math.pow( 2 , 32 ) ) ;
-		b = Math.floor( Math.random() * 32 ) ;
-
-		deepEqual( number.shu( a , b ) , a >>> b , a + " >>> " + b ) ;
+		t.deepEqual( number.shu( a , b ) , a >>> b , a + " >>> " + b ) ;
 
 	}
 

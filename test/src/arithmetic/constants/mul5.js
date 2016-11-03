@@ -1,18 +1,16 @@
+import test from 'ava' ;
+import number from '../../src' ;
 
-var one ;
+test( "mul5" , assert => {
 
-one = function ( a ) {
-	deepEqual( number.mul5( a ) , a * 5 , a + " * 5" ) ;
-} ;
+	const one = function ( a ) {
+		assert.deepEqual( number.mul5( a ) , a * 5 , a + " * 5" ) ;
+	} ;
 
-test( "mul5" , function ( ) {
+	const n = 10 ;
 
-	var a , i , n ;
-
-	n = 10 ;
-
-	for ( i = 0 ; i < n ; ++i ) {
-		a = Math.random( ) ;
+	for ( let i = 0 ; i < n ; ++i ) {
+		const a = Math.random( ) ;
 		one( a ) ;
 	}
 

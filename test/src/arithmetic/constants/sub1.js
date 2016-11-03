@@ -1,17 +1,15 @@
+import test from 'ava' ;
+import number from '../../src' ;
 
-var one ;
+test ( "sub1" , assert => {
 
-one = function ( n ) {
-	deepEqual ( number . sub1 ( n ) , n - 1 , n + " - " + 1 ) ;
-} ;
+	const one = function ( n ) {
+		assert . deepEqual ( number . sub1 ( n ) , n - 1 , n + " - " + 1 ) ;
+	} ;
 
-test ( "sub1" , function ( ) {
+	const n = 10 ;
 
-	var i , n ;
-
-	n = 10 ;
-
-	for ( i = 0 ; i < n ; ++i ) {
+	for ( let i = 0 ; i < n ; ++i ) {
 
 		one ( Math . random ( ) ) ;
 

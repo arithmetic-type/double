@@ -1,15 +1,15 @@
+import test from 'ava' ;
+import number from '../../src' ;
 
-var one = function ( a ) {
-	deepEqual( number.stringify( a ), a.toString( ), "stringify(" + a + ")" );
-} ;
+test( "stringify", t => {
 
-test( "stringify", function () {
+	const one = function ( a ) {
+		t.deepEqual( number.stringify( a ), a.toString( ), "stringify(" + a + ")" );
+	} ;
 
-	var i, n;
+	const n = 10;
 
-	n = 10;
-
-	for ( i = 0 ; i < n ; ++i ) {
+	for ( let i = 0 ; i < n ; ++i ) {
 		one( Math.random( ) );
 	}
 

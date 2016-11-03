@@ -1,25 +1,21 @@
+import test from 'ava' ;
+import number from '../../src' ;
 
-var one;
+test( "imul", t => {
 
-one = function ( a, b ) {
+	const one = function ( a, b ) {
 
-	var x ;
+		let x = a ;
 
-	x = a ;
+		t.deepEqual( number.imul( x, b ), a *= b, x + " *= " + b );
 
-	deepEqual( number.imul( x, b ), a *= b, x + " *= " + b );
+	} ;
 
-} ;
+	const n = 10;
 
-test( "imul", function () {
-
-	var a, b, i, n;
-
-	n = 10;
-
-	for ( i = 0 ; i < n ; ++i ) {
-		a = Math.random();
-		b = Math.random();
+	for ( let i = 0 ; i < n ; ++i ) {
+		let a = Math.random();
+		let b = Math.random();
 		one( a, b );
 	}
 

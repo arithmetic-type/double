@@ -1,19 +1,18 @@
+import test from 'ava' ;
+import number from '../../src' ;
 
-var one;
 
-one = function ( a, b ) {
-	deepEqual( number.sub( a, b ), a - b, a + " - " + b );
-}
+test( "sub", t => {
 
-test( "sub", function () {
+	const one = function ( a, b ) {
+		t.deepEqual( number.sub( a, b ), a - b, a + " - " + b );
+	} ;
 
-	var a, b, i, n;
+	const n = 10;
 
-	n = 10;
-
-	for ( i = 0 ; i < n ; ++i ) {
-		a = Math.random();
-		b = Math.random();
+	for ( let i = 0 ; i < n ; ++i ) {
+		const a = Math.random();
+		const b = Math.random();
 		one( a, b );
 	}
 

@@ -1,24 +1,20 @@
+import test from 'ava' ;
+import number from '../../src' ;
 
-var one ;
+test( "ipow2" , t => {
 
-one = function ( a ) {
+	const one = function ( a ) {
 
-	var x ;
+		let x = a ;
 
-	x = a ;
+		t.deepEqual( number.ipow2( x ) , a *= a , x + " *= " + x ) ;
 
-	deepEqual( number.ipow2( x ) , a *= a , x + " *= " + x ) ;
+	} ;
 
-} ;
+	const n = 10 ;
 
-test( "ipow2" , function ( ) {
-
-	var a , i , n ;
-
-	n = 10 ;
-
-	for ( i = 0 ; i < n ; ++i ) {
-		a = Math.random( ) ;
+	for ( let i = 0 ; i < n ; ++i ) {
+		let a = Math.random( ) ;
 		one( a ) ;
 	}
 
