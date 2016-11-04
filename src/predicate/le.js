@@ -1,1 +1,1 @@
-export const le ( a , b ) => a <= b ;
+export const le = ( a , b ) => a <= b ;

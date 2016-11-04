@@ -1,1 +1,1 @@
-const ipow2 = a => a *= a ;
+export const ipow2 = a => a *= a ;

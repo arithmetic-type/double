@@ -1,6 +1,5 @@
 import test from 'ava' ;
-import number from '../../src' ;
-
+import number from '../../../src' ;
 
 test( "sub", t => {
 
