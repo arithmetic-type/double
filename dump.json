@@ -1,0 +1,3226 @@
+[
+  {
+    "__docId__": 0,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/add.js",
+    "memberof": null,
+    "longname": "src/arithmetic/add.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const add = ( a , b ) => a + b ;\n"
+  },
+  {
+    "__docId__": 1,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "add",
+    "memberof": "src/arithmetic/add.js",
+    "longname": "src/arithmetic/add.js~add",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/add.js",
+    "importStyle": "{add}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 2,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/constants/add1.js",
+    "memberof": null,
+    "longname": "src/arithmetic/constants/add1.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const add1 = n => n + 1 ;\n"
+  },
+  {
+    "__docId__": 3,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "add1",
+    "memberof": "src/arithmetic/constants/add1.js",
+    "longname": "src/arithmetic/constants/add1.js~add1",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/constants/add1.js",
+    "importStyle": "{add1}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 4,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/constants/div2.js",
+    "memberof": null,
+    "longname": "src/arithmetic/constants/div2.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const div2 = n => n / 2 ;\n"
+  },
+  {
+    "__docId__": 5,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "div2",
+    "memberof": "src/arithmetic/constants/div2.js",
+    "longname": "src/arithmetic/constants/div2.js~div2",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/constants/div2.js",
+    "importStyle": "{div2}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 6,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/constants/iadd1.js",
+    "memberof": null,
+    "longname": "src/arithmetic/constants/iadd1.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const iadd1 = n => n += 1 ;\n"
+  },
+  {
+    "__docId__": 7,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "iadd1",
+    "memberof": "src/arithmetic/constants/iadd1.js",
+    "longname": "src/arithmetic/constants/iadd1.js~iadd1",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/constants/iadd1.js",
+    "importStyle": "{iadd1}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 8,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/constants/idiv2.js",
+    "memberof": null,
+    "longname": "src/arithmetic/constants/idiv2.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const idiv2 = n => n /= 2 ;\n"
+  },
+  {
+    "__docId__": 9,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "idiv2",
+    "memberof": "src/arithmetic/constants/idiv2.js",
+    "longname": "src/arithmetic/constants/idiv2.js~idiv2",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/constants/idiv2.js",
+    "importStyle": "{idiv2}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 10,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/constants/imul2.js",
+    "memberof": null,
+    "longname": "src/arithmetic/constants/imul2.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const imul2 = a => a *= 2 ;\n"
+  },
+  {
+    "__docId__": 11,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "imul2",
+    "memberof": "src/arithmetic/constants/imul2.js",
+    "longname": "src/arithmetic/constants/imul2.js~imul2",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/constants/imul2.js",
+    "importStyle": "{imul2}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 12,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/constants/imul5.js",
+    "memberof": null,
+    "longname": "src/arithmetic/constants/imul5.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const imul5 = a => a *= 5 ;\n"
+  },
+  {
+    "__docId__": 13,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "imul5",
+    "memberof": "src/arithmetic/constants/imul5.js",
+    "longname": "src/arithmetic/constants/imul5.js~imul5",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/constants/imul5.js",
+    "importStyle": "{imul5}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 14,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/constants/index.js",
+    "memberof": null,
+    "longname": "src/arithmetic/constants/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export * from './add1' ;\nexport * from './div2' ;\nexport * from './iadd1' ;\nexport * from './idiv2' ;\nexport * from './imul2' ;\nexport * from './imul5' ;\nexport * from './isub1' ;\nexport * from './mul2' ;\nexport * from './mul5' ;\nexport * from './sub1' ;\n"
+  },
+  {
+    "__docId__": 15,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/constants/isub1.js",
+    "memberof": null,
+    "longname": "src/arithmetic/constants/isub1.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const isub1 = n => n -= 1 ;\n"
+  },
+  {
+    "__docId__": 16,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "isub1",
+    "memberof": "src/arithmetic/constants/isub1.js",
+    "longname": "src/arithmetic/constants/isub1.js~isub1",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/constants/isub1.js",
+    "importStyle": "{isub1}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 17,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/constants/mul2.js",
+    "memberof": null,
+    "longname": "src/arithmetic/constants/mul2.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const mul2 = a => a * 2 ;\n"
+  },
+  {
+    "__docId__": 18,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "mul2",
+    "memberof": "src/arithmetic/constants/mul2.js",
+    "longname": "src/arithmetic/constants/mul2.js~mul2",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/constants/mul2.js",
+    "importStyle": "{mul2}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 19,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/constants/mul5.js",
+    "memberof": null,
+    "longname": "src/arithmetic/constants/mul5.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const mul5 = a => a * 5 ;\n"
+  },
+  {
+    "__docId__": 20,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "mul5",
+    "memberof": "src/arithmetic/constants/mul5.js",
+    "longname": "src/arithmetic/constants/mul5.js~mul5",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/constants/mul5.js",
+    "importStyle": "{mul5}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 21,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/constants/sub1.js",
+    "memberof": null,
+    "longname": "src/arithmetic/constants/sub1.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const sub1 = n => n - 1 ;\n"
+  },
+  {
+    "__docId__": 22,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "sub1",
+    "memberof": "src/arithmetic/constants/sub1.js",
+    "longname": "src/arithmetic/constants/sub1.js~sub1",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/constants/sub1.js",
+    "importStyle": "{sub1}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 23,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/div.js",
+    "memberof": null,
+    "longname": "src/arithmetic/div.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const div = ( a , b ) => a / b ;\n"
+  },
+  {
+    "__docId__": 24,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "div",
+    "memberof": "src/arithmetic/div.js",
+    "longname": "src/arithmetic/div.js~div",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/div.js",
+    "importStyle": "{div}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 25,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/divmod.js",
+    "memberof": null,
+    "longname": "src/arithmetic/divmod.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const divmod = ( a, b ) => [ a / b | 0, a % b ] ;\n"
+  },
+  {
+    "__docId__": 26,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "divmod",
+    "memberof": "src/arithmetic/divmod.js",
+    "longname": "src/arithmetic/divmod.js~divmod",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/divmod.js",
+    "importStyle": "{divmod}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 27,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/iadd.js",
+    "memberof": null,
+    "longname": "src/arithmetic/iadd.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const iadd = ( a , b ) => a += b ;\n"
+  },
+  {
+    "__docId__": 28,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "iadd",
+    "memberof": "src/arithmetic/iadd.js",
+    "longname": "src/arithmetic/iadd.js~iadd",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/iadd.js",
+    "importStyle": "{iadd}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 29,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/idiv.js",
+    "memberof": null,
+    "longname": "src/arithmetic/idiv.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const idiv = ( a , b ) => a /= b ;\n"
+  },
+  {
+    "__docId__": 30,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "idiv",
+    "memberof": "src/arithmetic/idiv.js",
+    "longname": "src/arithmetic/idiv.js~idiv",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/idiv.js",
+    "importStyle": "{idiv}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 31,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/idivmod.js",
+    "memberof": null,
+    "longname": "src/arithmetic/idivmod.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export function idivmod ( a , b ) {\n\n\tconst q = a / b | 0 ;\n\n\treturn [ q , a %= b ] ;\n\n}\n"
+  },
+  {
+    "__docId__": 32,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "idivmod",
+    "memberof": "src/arithmetic/idivmod.js",
+    "longname": "src/arithmetic/idivmod.js~idivmod",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/idivmod.js",
+    "importStyle": "{idivmod}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "a",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "b",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 33,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/imod.js",
+    "memberof": null,
+    "longname": "src/arithmetic/imod.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const imod = ( a , b ) => a %= b ;\n"
+  },
+  {
+    "__docId__": 34,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "imod",
+    "memberof": "src/arithmetic/imod.js",
+    "longname": "src/arithmetic/imod.js~imod",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/imod.js",
+    "importStyle": "{imod}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 35,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/imul.js",
+    "memberof": null,
+    "longname": "src/arithmetic/imul.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const imul = ( a , b ) => a *= b ;\n"
+  },
+  {
+    "__docId__": 36,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "imul",
+    "memberof": "src/arithmetic/imul.js",
+    "longname": "src/arithmetic/imul.js~imul",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/imul.js",
+    "importStyle": "{imul}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 37,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/index.js",
+    "memberof": null,
+    "longname": "src/arithmetic/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export * from './add' ;\nexport * from './constants' ;\nexport * from './div' ;\nexport * from './divmod' ;\nexport * from './iadd' ;\nexport * from './idiv' ;\nexport * from './idivmod' ;\nexport * from './imod' ;\nexport * from './imul' ;\nexport * from './ishl' ;\nexport * from './ishr' ;\nexport * from './ishu' ;\nexport * from './isub' ;\nexport * from './mod' ;\nexport * from './mul' ;\nexport * from './neg' ;\nexport * from './shl' ;\nexport * from './shr' ;\nexport * from './shu' ;\nexport * from './special' ;\nexport * from './sub' ;\n"
+  },
+  {
+    "__docId__": 38,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/ishl.js",
+    "memberof": null,
+    "longname": "src/arithmetic/ishl.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const ishl = ( a , n ) => a <<= n ;\n"
+  },
+  {
+    "__docId__": 39,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "ishl",
+    "memberof": "src/arithmetic/ishl.js",
+    "longname": "src/arithmetic/ishl.js~ishl",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/ishl.js",
+    "importStyle": "{ishl}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 40,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/ishr.js",
+    "memberof": null,
+    "longname": "src/arithmetic/ishr.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const ishr = ( a , n ) => a >>= n ;\n"
+  },
+  {
+    "__docId__": 41,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "ishr",
+    "memberof": "src/arithmetic/ishr.js",
+    "longname": "src/arithmetic/ishr.js~ishr",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/ishr.js",
+    "importStyle": "{ishr}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 42,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/ishu.js",
+    "memberof": null,
+    "longname": "src/arithmetic/ishu.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const ishu = ( a , n ) => a >>>= n ;\n"
+  },
+  {
+    "__docId__": 43,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "ishu",
+    "memberof": "src/arithmetic/ishu.js",
+    "longname": "src/arithmetic/ishu.js~ishu",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/ishu.js",
+    "importStyle": "{ishu}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 44,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/isub.js",
+    "memberof": null,
+    "longname": "src/arithmetic/isub.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const isub = ( a , b ) => a -= b ;\n"
+  },
+  {
+    "__docId__": 45,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "isub",
+    "memberof": "src/arithmetic/isub.js",
+    "longname": "src/arithmetic/isub.js~isub",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/isub.js",
+    "importStyle": "{isub}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 46,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/mod.js",
+    "memberof": null,
+    "longname": "src/arithmetic/mod.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const mod = ( a , b ) => a % b ;\n"
+  },
+  {
+    "__docId__": 47,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "mod",
+    "memberof": "src/arithmetic/mod.js",
+    "longname": "src/arithmetic/mod.js~mod",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/mod.js",
+    "importStyle": "{mod}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/mul.js",
+    "memberof": null,
+    "longname": "src/arithmetic/mul.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const mul = ( a , b ) => a * b ;\n"
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "mul",
+    "memberof": "src/arithmetic/mul.js",
+    "longname": "src/arithmetic/mul.js~mul",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/mul.js",
+    "importStyle": "{mul}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 50,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/neg.js",
+    "memberof": null,
+    "longname": "src/arithmetic/neg.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const neg = n => -n ;\n"
+  },
+  {
+    "__docId__": 51,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "neg",
+    "memberof": "src/arithmetic/neg.js",
+    "longname": "src/arithmetic/neg.js~neg",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/neg.js",
+    "importStyle": "{neg}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/shl.js",
+    "memberof": null,
+    "longname": "src/arithmetic/shl.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const shl = ( a , n ) => a << n ;\n"
+  },
+  {
+    "__docId__": 53,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "shl",
+    "memberof": "src/arithmetic/shl.js",
+    "longname": "src/arithmetic/shl.js~shl",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/shl.js",
+    "importStyle": "{shl}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/shr.js",
+    "memberof": null,
+    "longname": "src/arithmetic/shr.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const shr = ( a , n ) => a >> n ;\n"
+  },
+  {
+    "__docId__": 55,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "shr",
+    "memberof": "src/arithmetic/shr.js",
+    "longname": "src/arithmetic/shr.js~shr",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/shr.js",
+    "importStyle": "{shr}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 56,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/shu.js",
+    "memberof": null,
+    "longname": "src/arithmetic/shu.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const shu = ( a , n ) => a >>> n ;\n"
+  },
+  {
+    "__docId__": 57,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "shu",
+    "memberof": "src/arithmetic/shu.js",
+    "longname": "src/arithmetic/shu.js~shu",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/shu.js",
+    "importStyle": "{shu}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/special/div2n.js",
+    "memberof": null,
+    "longname": "src/arithmetic/special/div2n.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const div2n = ( a , n ) => a / Math.pow( 2 , n ) ;\n"
+  },
+  {
+    "__docId__": 59,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "div2n",
+    "memberof": "src/arithmetic/special/div2n.js",
+    "longname": "src/arithmetic/special/div2n.js~div2n",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/special/div2n.js",
+    "importStyle": "{div2n}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/special/index.js",
+    "memberof": null,
+    "longname": "src/arithmetic/special/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export * from './div2n' ;\n"
+  },
+  {
+    "__docId__": 61,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/arithmetic/sub.js",
+    "memberof": null,
+    "longname": "src/arithmetic/sub.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const sub = ( a , b ) => a - b ;\n"
+  },
+  {
+    "__docId__": 62,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "sub",
+    "memberof": "src/arithmetic/sub.js",
+    "longname": "src/arithmetic/sub.js~sub",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/arithmetic/sub.js",
+    "importStyle": "{sub}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 63,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/compare/decreasing.js",
+    "memberof": null,
+    "longname": "src/compare/decreasing.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const decreasing = ( a , b ) => ( a > b ) ? -1 : ( ( a === b ) ? 0 : 1 ) ;\n"
+  },
+  {
+    "__docId__": 64,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "decreasing",
+    "memberof": "src/compare/decreasing.js",
+    "longname": "src/compare/decreasing.js~decreasing",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/compare/decreasing.js",
+    "importStyle": "{decreasing}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/compare/increasing.js",
+    "memberof": null,
+    "longname": "src/compare/increasing.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const increasing = ( a , b ) => ( a < b ) ? -1 : ( ( a === b ) ? 0 : 1 ) ;\n"
+  },
+  {
+    "__docId__": 66,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "increasing",
+    "memberof": "src/compare/increasing.js",
+    "longname": "src/compare/increasing.js~increasing",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/compare/increasing.js",
+    "importStyle": "{increasing}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 67,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/compare/index.js",
+    "memberof": null,
+    "longname": "src/compare/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export * from './decreasing' ;\nexport * from './increasing' ;\n"
+  },
+  {
+    "__docId__": 68,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/constants/$0.js",
+    "memberof": null,
+    "longname": "src/constants/$0.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const $0 = ( ) => 0 ;\n"
+  },
+  {
+    "__docId__": 69,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "$0",
+    "memberof": "src/constants/$0.js",
+    "longname": "src/constants/$0.js~$0",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/constants/$0.js",
+    "importStyle": "{$0}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 70,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/constants/$1.js",
+    "memberof": null,
+    "longname": "src/constants/$1.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const $1 = ( ) => 1 ;\n"
+  },
+  {
+    "__docId__": 71,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "$1",
+    "memberof": "src/constants/$1.js",
+    "longname": "src/constants/$1.js~$1",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/constants/$1.js",
+    "importStyle": "{$1}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 72,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/constants/$2.js",
+    "memberof": null,
+    "longname": "src/constants/$2.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const $2 = ( ) => 2 ;\n"
+  },
+  {
+    "__docId__": 73,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "$2",
+    "memberof": "src/constants/$2.js",
+    "longname": "src/constants/$2.js~$2",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/constants/$2.js",
+    "importStyle": "{$2}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 74,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/constants/$5.js",
+    "memberof": null,
+    "longname": "src/constants/$5.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const $5 = ( ) => 5 ;\n"
+  },
+  {
+    "__docId__": 75,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "$5",
+    "memberof": "src/constants/$5.js",
+    "longname": "src/constants/$5.js~$5",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/constants/$5.js",
+    "importStyle": "{$5}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 76,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/constants/$_1.js",
+    "memberof": null,
+    "longname": "src/constants/$_1.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const $_1 = ( ) => -1 ;\n"
+  },
+  {
+    "__docId__": 77,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "$_1",
+    "memberof": "src/constants/$_1.js",
+    "longname": "src/constants/$_1.js~$_1",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/constants/$_1.js",
+    "importStyle": "{$_1}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 78,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/constants/index.js",
+    "memberof": null,
+    "longname": "src/constants/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export * from './$0' ;\nexport * from './$1' ;\nexport * from './$2' ;\nexport * from './$5' ;\nexport * from './$_1' ;\n"
+  },
+  {
+    "__docId__": 79,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/exponential/constants/index.js",
+    "memberof": null,
+    "longname": "src/exponential/constants/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export * from './ipow2' ;\nexport * from './pow2' ;\n"
+  },
+  {
+    "__docId__": 80,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/exponential/constants/ipow2.js",
+    "memberof": null,
+    "longname": "src/exponential/constants/ipow2.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const ipow2 = a => a *= a ;\n"
+  },
+  {
+    "__docId__": 81,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "ipow2",
+    "memberof": "src/exponential/constants/ipow2.js",
+    "longname": "src/exponential/constants/ipow2.js~ipow2",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/exponential/constants/ipow2.js",
+    "importStyle": "{ipow2}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 82,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/exponential/constants/pow2.js",
+    "memberof": null,
+    "longname": "src/exponential/constants/pow2.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const pow2 = a => a * a ;\n"
+  },
+  {
+    "__docId__": 83,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "pow2",
+    "memberof": "src/exponential/constants/pow2.js",
+    "longname": "src/exponential/constants/pow2.js~pow2",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/exponential/constants/pow2.js",
+    "importStyle": "{pow2}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 84,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/exponential/index.js",
+    "memberof": null,
+    "longname": "src/exponential/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export * from './constants' ;\nexport * from './pow' ;\nexport * from './sqrt' ;\n"
+  },
+  {
+    "__docId__": 85,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/exponential/pow.js",
+    "memberof": null,
+    "longname": "src/exponential/pow.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const pow = Math.pow ;\n"
+  },
+  {
+    "__docId__": 86,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "pow",
+    "memberof": "src/exponential/pow.js",
+    "longname": "src/exponential/pow.js~pow",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/exponential/pow.js",
+    "importStyle": "{pow}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 87,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/exponential/sqrt.js",
+    "memberof": null,
+    "longname": "src/exponential/sqrt.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const sqrt = Math.sqrt ;\n"
+  },
+  {
+    "__docId__": 88,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "sqrt",
+    "memberof": "src/exponential/sqrt.js",
+    "longname": "src/exponential/sqrt.js~sqrt",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/exponential/sqrt.js",
+    "importStyle": "{sqrt}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 89,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/index.js",
+    "memberof": null,
+    "longname": "src/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export * from './arithmetic' ;\nexport * from './compare' ;\nexport * from './constants' ;\nexport * from './exponential' ;\nexport * from './io' ;\nexport * from './logarithmic' ;\nexport * from './memory' ;\nexport * from './predicate' ;\nexport * from './trigonometry' ;\n"
+  },
+  {
+    "__docId__": 90,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/io/index.js",
+    "memberof": null,
+    "longname": "src/io/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export * from './parse' ;\nexport * from './stringify' ;\n"
+  },
+  {
+    "__docId__": 91,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/io/parse.js",
+    "memberof": null,
+    "longname": "src/io/parse.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const parse = n => +n ;\n"
+  },
+  {
+    "__docId__": 92,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "parse",
+    "memberof": "src/io/parse.js",
+    "longname": "src/io/parse.js~parse",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/io/parse.js",
+    "importStyle": "{parse}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 93,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/io/stringify.js",
+    "memberof": null,
+    "longname": "src/io/stringify.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const stringify = n => n.toString( ) ;\n"
+  },
+  {
+    "__docId__": 94,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "stringify",
+    "memberof": "src/io/stringify.js",
+    "longname": "src/io/stringify.js~stringify",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/io/stringify.js",
+    "importStyle": "{stringify}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 95,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/logarithmic/index.js",
+    "memberof": null,
+    "longname": "src/logarithmic/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export * from './log' ;\nexport * from './log2' ;\nexport * from './loge' ;\nexport * from './loglog' ;\nexport * from './loglog2' ;\nexport * from './logloge' ;\n"
+  },
+  {
+    "__docId__": 96,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/logarithmic/log.js",
+    "memberof": null,
+    "longname": "src/logarithmic/log.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const log = ( a , b ) => Math.log( b ) / Math.log( a ) ;\n"
+  },
+  {
+    "__docId__": 97,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "log",
+    "memberof": "src/logarithmic/log.js",
+    "longname": "src/logarithmic/log.js~log",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/logarithmic/log.js",
+    "importStyle": "{log}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 98,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/logarithmic/log2.js",
+    "memberof": null,
+    "longname": "src/logarithmic/log2.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const log2 = n => Math.log2( n ) ;\n"
+  },
+  {
+    "__docId__": 99,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "log2",
+    "memberof": "src/logarithmic/log2.js",
+    "longname": "src/logarithmic/log2.js~log2",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/logarithmic/log2.js",
+    "importStyle": "{log2}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 100,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/logarithmic/loge.js",
+    "memberof": null,
+    "longname": "src/logarithmic/loge.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const loge = n => Math.log( n ) ;\n"
+  },
+  {
+    "__docId__": 101,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "loge",
+    "memberof": "src/logarithmic/loge.js",
+    "longname": "src/logarithmic/loge.js~loge",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/logarithmic/loge.js",
+    "importStyle": "{loge}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 102,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/logarithmic/loglog.js",
+    "memberof": null,
+    "longname": "src/logarithmic/loglog.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const loglog = ( a , b ) => Math.log( Math.log( b ) / Math.log( a ) ) / Math.log( a ) ;\n"
+  },
+  {
+    "__docId__": 103,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "loglog",
+    "memberof": "src/logarithmic/loglog.js",
+    "longname": "src/logarithmic/loglog.js~loglog",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/logarithmic/loglog.js",
+    "importStyle": "{loglog}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 104,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/logarithmic/loglog2.js",
+    "memberof": null,
+    "longname": "src/logarithmic/loglog2.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const loglog2 = n => Math.log( Math.log( n ) / Math.log( 2 ) ) / Math.log( 2 ) ;\n"
+  },
+  {
+    "__docId__": 105,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "loglog2",
+    "memberof": "src/logarithmic/loglog2.js",
+    "longname": "src/logarithmic/loglog2.js~loglog2",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/logarithmic/loglog2.js",
+    "importStyle": "{loglog2}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 106,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/logarithmic/logloge.js",
+    "memberof": null,
+    "longname": "src/logarithmic/logloge.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const logloge = n => Math.log( Math.log( n ) ) ;\n"
+  },
+  {
+    "__docId__": 107,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "logloge",
+    "memberof": "src/logarithmic/logloge.js",
+    "longname": "src/logarithmic/logloge.js~logloge",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/logarithmic/logloge.js",
+    "importStyle": "{logloge}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 108,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/memory/copy.js",
+    "memberof": null,
+    "longname": "src/memory/copy.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const copy = a => a ;\n"
+  },
+  {
+    "__docId__": 109,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "copy",
+    "memberof": "src/memory/copy.js",
+    "longname": "src/memory/copy.js~copy",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/memory/copy.js",
+    "importStyle": "{copy}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 110,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/memory/index.js",
+    "memberof": null,
+    "longname": "src/memory/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export * from './copy' ;\n"
+  },
+  {
+    "__docId__": 111,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/predicate/constants/eq0.js",
+    "memberof": null,
+    "longname": "src/predicate/constants/eq0.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const eq0 = n => n === 0 ;\n"
+  },
+  {
+    "__docId__": 112,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "eq0",
+    "memberof": "src/predicate/constants/eq0.js",
+    "longname": "src/predicate/constants/eq0.js~eq0",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/predicate/constants/eq0.js",
+    "importStyle": "{eq0}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 113,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/predicate/constants/eq1.js",
+    "memberof": null,
+    "longname": "src/predicate/constants/eq1.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const eq1 = n => n === 1 ;\n"
+  },
+  {
+    "__docId__": 114,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "eq1",
+    "memberof": "src/predicate/constants/eq1.js",
+    "longname": "src/predicate/constants/eq1.js~eq1",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/predicate/constants/eq1.js",
+    "importStyle": "{eq1}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 115,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/predicate/constants/eq_1.js",
+    "memberof": null,
+    "longname": "src/predicate/constants/eq_1.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const eq_1 = n => n === -1 ;\n"
+  },
+  {
+    "__docId__": 116,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "eq_1",
+    "memberof": "src/predicate/constants/eq_1.js",
+    "longname": "src/predicate/constants/eq_1.js~eq_1",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/predicate/constants/eq_1.js",
+    "importStyle": "{eq_1}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 117,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/predicate/constants/ge1.js",
+    "memberof": null,
+    "longname": "src/predicate/constants/ge1.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const ge1 = n => n >= 1 ;\n"
+  },
+  {
+    "__docId__": 118,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "ge1",
+    "memberof": "src/predicate/constants/ge1.js",
+    "longname": "src/predicate/constants/ge1.js~ge1",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/predicate/constants/ge1.js",
+    "importStyle": "{ge1}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 119,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/predicate/constants/gt0.js",
+    "memberof": null,
+    "longname": "src/predicate/constants/gt0.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const gt0 = n => n > 0 ;\n"
+  },
+  {
+    "__docId__": 120,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "gt0",
+    "memberof": "src/predicate/constants/gt0.js",
+    "longname": "src/predicate/constants/gt0.js~gt0",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/predicate/constants/gt0.js",
+    "importStyle": "{gt0}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 121,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/predicate/constants/gt1.js",
+    "memberof": null,
+    "longname": "src/predicate/constants/gt1.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const gt1 = n => n > 1 ;\n"
+  },
+  {
+    "__docId__": 122,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "gt1",
+    "memberof": "src/predicate/constants/gt1.js",
+    "longname": "src/predicate/constants/gt1.js~gt1",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/predicate/constants/gt1.js",
+    "importStyle": "{gt1}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 123,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/predicate/constants/index.js",
+    "memberof": null,
+    "longname": "src/predicate/constants/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export * from './eq0' ;\nexport * from './eq1' ;\nexport * from './eq_1' ;\nexport * from './ge1' ;\nexport * from './gt0' ;\nexport * from './gt1' ;\nexport * from './le1' ;\nexport * from './lt1' ;\n"
+  },
+  {
+    "__docId__": 124,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/predicate/constants/le1.js",
+    "memberof": null,
+    "longname": "src/predicate/constants/le1.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const le1 = n => n <= 1 ;\n"
+  },
+  {
+    "__docId__": 125,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "le1",
+    "memberof": "src/predicate/constants/le1.js",
+    "longname": "src/predicate/constants/le1.js~le1",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/predicate/constants/le1.js",
+    "importStyle": "{le1}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 126,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/predicate/constants/lt1.js",
+    "memberof": null,
+    "longname": "src/predicate/constants/lt1.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const lt1 = n => n < 1 ;\n"
+  },
+  {
+    "__docId__": 127,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "lt1",
+    "memberof": "src/predicate/constants/lt1.js",
+    "longname": "src/predicate/constants/lt1.js~lt1",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/predicate/constants/lt1.js",
+    "importStyle": "{lt1}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 128,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/predicate/eq.js",
+    "memberof": null,
+    "longname": "src/predicate/eq.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const eq = ( a , b ) => a === b ;\n"
+  },
+  {
+    "__docId__": 129,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "eq",
+    "memberof": "src/predicate/eq.js",
+    "longname": "src/predicate/eq.js~eq",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/predicate/eq.js",
+    "importStyle": "{eq}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 130,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/predicate/ge.js",
+    "memberof": null,
+    "longname": "src/predicate/ge.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const ge = ( a , b ) => a >= b ;\n"
+  },
+  {
+    "__docId__": 131,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "ge",
+    "memberof": "src/predicate/ge.js",
+    "longname": "src/predicate/ge.js~ge",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/predicate/ge.js",
+    "importStyle": "{ge}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 132,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/predicate/gt.js",
+    "memberof": null,
+    "longname": "src/predicate/gt.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const gt = ( a , b ) => a > b ;\n"
+  },
+  {
+    "__docId__": 133,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "gt",
+    "memberof": "src/predicate/gt.js",
+    "longname": "src/predicate/gt.js~gt",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/predicate/gt.js",
+    "importStyle": "{gt}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 134,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/predicate/index.js",
+    "memberof": null,
+    "longname": "src/predicate/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export * from './constants' ;\nexport * from './eq' ;\nexport * from './ge' ;\nexport * from './gt' ;\nexport * from './le' ;\nexport * from './lt' ;\nexport * from './ne' ;\n"
+  },
+  {
+    "__docId__": 135,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/predicate/le.js",
+    "memberof": null,
+    "longname": "src/predicate/le.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const le = ( a , b ) => a <= b ;\n"
+  },
+  {
+    "__docId__": 136,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "le",
+    "memberof": "src/predicate/le.js",
+    "longname": "src/predicate/le.js~le",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/predicate/le.js",
+    "importStyle": "{le}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 137,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/predicate/lt.js",
+    "memberof": null,
+    "longname": "src/predicate/lt.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const lt = ( a , b ) => a < b ;\n"
+  },
+  {
+    "__docId__": 138,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "lt",
+    "memberof": "src/predicate/lt.js",
+    "longname": "src/predicate/lt.js~lt",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/predicate/lt.js",
+    "importStyle": "{lt}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 139,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/predicate/ne.js",
+    "memberof": null,
+    "longname": "src/predicate/ne.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const ne = ( a , b ) => a !== b ;\n"
+  },
+  {
+    "__docId__": 140,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "ne",
+    "memberof": "src/predicate/ne.js",
+    "longname": "src/predicate/ne.js~ne",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/predicate/ne.js",
+    "importStyle": "{ne}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 141,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/trigonometry/PI.js",
+    "memberof": null,
+    "longname": "src/trigonometry/PI.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const PI = Math.PI ;\n"
+  },
+  {
+    "__docId__": 142,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "PI",
+    "memberof": "src/trigonometry/PI.js",
+    "longname": "src/trigonometry/PI.js~PI",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/trigonometry/PI.js",
+    "importStyle": "{PI}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 143,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/trigonometry/atan2.js",
+    "memberof": null,
+    "longname": "src/trigonometry/atan2.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const atan2 = Math.atan2 ;\n"
+  },
+  {
+    "__docId__": 144,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "atan2",
+    "memberof": "src/trigonometry/atan2.js",
+    "longname": "src/trigonometry/atan2.js~atan2",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/trigonometry/atan2.js",
+    "importStyle": "{atan2}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 145,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/trigonometry/cos.js",
+    "memberof": null,
+    "longname": "src/trigonometry/cos.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const cos = Math.cos ;\n"
+  },
+  {
+    "__docId__": 146,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "cos",
+    "memberof": "src/trigonometry/cos.js",
+    "longname": "src/trigonometry/cos.js~cos",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/trigonometry/cos.js",
+    "importStyle": "{cos}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 147,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/trigonometry/index.js",
+    "memberof": null,
+    "longname": "src/trigonometry/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export * from './PI' ;\nexport * from './atan2' ;\nexport * from './cos' ;\nexport * from './sin' ;\n"
+  },
+  {
+    "__docId__": 148,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/trigonometry/sin.js",
+    "memberof": null,
+    "longname": "src/trigonometry/sin.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "export const sin = Math.sin ;\n"
+  },
+  {
+    "__docId__": 149,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "sin",
+    "memberof": "src/trigonometry/sin.js",
+    "longname": "src/trigonometry/sin.js~sin",
+    "access": null,
+    "export": true,
+    "importPath": "aureooms-js-number/src/trigonometry/sin.js",
+    "importStyle": "{sin}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 151,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Infinity",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 152,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~NaN",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 153,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~undefined",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 154,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~null",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 155,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Object",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 156,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~object",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 157,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Function",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 158,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~function",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 159,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Boolean",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 160,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~boolean",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 161,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Symbol",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 162,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Error",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 163,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~EvalError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 164,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~InternalError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 165,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~RangeError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 166,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~ReferenceError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 167,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~SyntaxError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 168,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~TypeError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 169,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~URIError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 170,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Number",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 171,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~number",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 172,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Date",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 173,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~String",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 174,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~string",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 175,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~RegExp",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 176,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 177,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Int8Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 178,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Uint8Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 179,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Uint8ClampedArray",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 180,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Int16Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 181,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Uint16Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 182,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Int32Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 183,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Uint32Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 184,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Float32Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 185,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Float64Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 186,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Map",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 187,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Set",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 188,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~WeakMap",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 189,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~WeakSet",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 190,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~ArrayBuffer",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 191,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~DataView",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 192,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~JSON",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 193,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Promise",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 194,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Generator",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 195,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~GeneratorFunction",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 196,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Reflect",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 197,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Proxy",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 199,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "CanvasRenderingContext2D",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~CanvasRenderingContext2D",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 200,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "DocumentFragment",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~DocumentFragment",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 201,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Element",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/Element",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~Element",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 202,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Event",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/Event",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~Event",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 203,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Node",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/Node",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~Node",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 204,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "NodeList",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/NodeList",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~NodeList",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 205,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "XMLHttpRequest",
+    "externalLink": "https://developer.mozilla.org/en/docs/Web/API/XMLHttpRequest",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~XMLHttpRequest",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 206,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "AudioContext",
+    "externalLink": "https://developer.mozilla.org/en/docs/Web/API/AudioContext",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~AudioContext",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  }
+]
