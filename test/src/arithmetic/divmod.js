@@ -1,9 +1,9 @@
 import test from 'ava' ;
-import number from '../../../src' ;
+import * as number from '../../../src' ;
 import int32 from "aureooms-js-int32" ;
 import random from "aureooms-js-random" ;
 
-test ( "divmod" , function ( ) {
+test ( "divmod" , t => {
 
 	const one = function ( a , b ) {
 		t.deepEqual ( number . divmod ( a , b ) , [ a / b | 0 , a % b ] , a + " /% " + b ) ;

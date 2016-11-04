@@ -1,5 +1,5 @@
 import test from 'ava' ;
-import number from '../../../../src' ;
+import * as number from '../../../../src' ;
 
 test ( "gt0" , t => {
 

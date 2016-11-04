@@ -1,5 +1,5 @@
 import test from 'ava' ;
-import number from '../../../src' ;
+import * as number from '../../../src' ;
 
 test( "iadd", t => {
 
@@ -25,7 +25,8 @@ test( "iadd", t => {
 	one( -Infinity, -Infinity );
 	one( -Infinity,         0 );
 	one(         0, -Infinity );
-	one( -Infinity,  Infinity );
-	one(  Infinity, -Infinity );
+
+	t.truthy ( isNaN( number.iadd( -Infinity ,  Infinity ) ) , '-Infinity += Infinity' ) ;
+	t.truthy ( isNaN( number.iadd(  Infinity , -Infinity ) ) , 'Infinity += -Infinity' ) ;
 
 } );

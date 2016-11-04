@@ -1,5 +1,5 @@
 import test from 'ava' ;
-import number from '../../../src' ;
+import * as number from '../../../src' ;
 
 test( "sub", t => {
 
@@ -15,13 +15,14 @@ test( "sub", t => {
 		one( a, b );
 	}
 
-	one(  Infinity,  Infinity );
 	one(  Infinity,         0 );
 	one(         0,  Infinity );
-	one( -Infinity, -Infinity );
 	one( -Infinity,         0 );
 	one(         0, -Infinity );
 	one( -Infinity,  Infinity );
 	one(  Infinity, -Infinity );
+
+	t.truthy( isNaN( number.sub(  Infinity,  Infinity ) ) , "Infinity - Infinity" );
+t.truthy( isNaN( number.sub( -Infinity, -Infinity ) ) , "-Infinity - -Infinity" );
 
 } );

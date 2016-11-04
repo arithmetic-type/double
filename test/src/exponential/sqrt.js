@@ -1,5 +1,5 @@
 import test from 'ava' ;
-import number from '../../../src' ;
+import * as number from '../../../src' ;
 
 test( "sqrt" , t => {
 
@@ -18,6 +18,6 @@ test( "sqrt" , t => {
 
 	one(  Infinity ) ;
 	one(         0 ) ;
-	one( -Infinity ) ;
+	t.truthy( isNaN(number.sqrt(-Infinity)) , "sqrt -Infinity" ) ;
 
 } ) ;

@@ -1,16 +1,17 @@
 import test from 'ava' ;
-import number from '../../../src' ;
+import * as number from '../../../src' ;
 
 test ( "log2" , t => {
 
-	const one = function ( n , expected ) {
+	const one = function ( n ) {
+		const expected = Math.log2( n ) ;
 		t.deepEqual ( number.log2 ( n ) , expected , "log2 ( " + n + " )" ) ;
 	} ;
 
-	one ( 1 , 0 ) ;
-	one ( 2 * 2 * 2 , 3 ) ;
-	one ( 2 * 2 * 2 * 2 , 4 ) ;
+	one ( 1 ) ;
+	one ( 2 * 2 * 2 ) ;
+	one ( 2 * 2 * 2 * 2 ) ;
 
-	one ( 2 * 2 * 2 * Math.sqrt ( 2 ) , 3.5 ) ;
+	one ( 2 * 2 * 2 * Math.sqrt ( 2 ) ) ;
 
 } ) ;

@@ -1,5 +1,5 @@
 import test from 'ava' ;
-import number from '../../../src' ;
+import * as number from '../../../src' ;
 
 test( "idiv", t => {
 
@@ -19,13 +19,18 @@ test( "idiv", t => {
 		one( a, b );
 	}
 
-	one(  Infinity,  Infinity );
 	one(  Infinity,         0 );
 	one(         0,  Infinity );
-	one( -Infinity, -Infinity );
 	one( -Infinity,         0 );
 	one(         0, -Infinity );
-	one( -Infinity,  Infinity );
-	one(  Infinity, -Infinity );
+
+	const nan = function ( a, b ) {
+		t.truthy( isNaN( number.idiv( a, b ) ), a + " /= " + b );
+	} ;
+
+	nan(  Infinity,  Infinity );
+	nan( -Infinity, -Infinity );
+	nan( -Infinity,  Infinity );
+	nan(  Infinity, -Infinity );
 
 } );

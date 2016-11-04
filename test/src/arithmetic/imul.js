@@ -1,5 +1,5 @@
 import test from 'ava' ;
-import number from '../../../src' ;
+import * as number from '../../../src' ;
 
 test( "imul", t => {
 
@@ -20,12 +20,17 @@ test( "imul", t => {
 	}
 
 	one(  Infinity,  Infinity );
-	one(  Infinity,         0 );
-	one(         0,  Infinity );
 	one( -Infinity, -Infinity );
-	one( -Infinity,         0 );
-	one(         0, -Infinity );
 	one( -Infinity,  Infinity );
 	one(  Infinity, -Infinity );
+
+	const nan = function ( a, b ) {
+		t.truthy( isNaN( number.mul( a, b ) ), a + " *= " + b );
+	} ;
+
+	nan(  Infinity,         0 );
+	nan(         0,  Infinity );
+	nan( -Infinity,         0 );
+	nan(         0, -Infinity );
 
 } );

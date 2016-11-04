@@ -1,10 +1,10 @@
 import test from 'ava' ;
-import number from '../../../src' ;
+import * as number from '../../../src' ;
 
-test ( "add" , function ( ) {
+test ( "add" , t => {
 
 	const one = function ( a , b ) {
-		t.deepEqual ( number . add ( a , b ) , a + b , a + " + " + b ) ;
+		t.is ( number . add ( a , b ) , a + b , a + " + " + b ) ;
 	} ;
 
 	const n = 10 ;
@@ -24,7 +24,8 @@ test ( "add" , function ( ) {
 	one ( -Infinity , -Infinity ) ;
 	one ( -Infinity ,         0 ) ;
 	one (         0 , -Infinity ) ;
-	one ( -Infinity ,  Infinity ) ;
-	one (  Infinity , -Infinity ) ;
+
+	t.truthy ( isNaN( number.add( -Infinity ,  Infinity ) ) , '-Infinity + Infinity' ) ;
+	t.truthy ( isNaN( number.add(  Infinity , -Infinity ) ) , 'Infinity + -Infinity' ) ;
 
 } ) ;
