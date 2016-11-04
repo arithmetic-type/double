@@ -1,2 +1,0 @@
-
-exports.pow = Math.pow ;

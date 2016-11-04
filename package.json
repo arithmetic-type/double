@@ -1,39 +1,35 @@
 {
-	"bugs": {
-		"url": "https://github.com/aureooms/js-number/issues"
-	},
-	"author": "aureooms",
-	"dependencies": {},
-	"keywords": [
-		"arithmetic",
-		"bricks",
-		"javascript",
-		"js",
-		"number",
-		"primitive"
-	],
-	"version": "2.1.0",
-	"repository": {
-		"url": "https://github.com/aureooms/js-number.git",
-		"type": "git"
-	},
-	"homepage": "http://aureooms.github.io/js-number/",
-	"license": "AGPL-3.0",
-	"name": "aureooms-js-number",
-	"main": "js/dist/number.js",
-	"devDependencies": {
-		"aureooms-node-package": "^6.0.1",
-		"aureooms-js-random": "^1.0.2",
-		"aureooms-js-int32": "^0.1.2",
-		"aureooms-js-algo": "^3.0.4"
-	},
-	"scripts": {
-		"build": "./node_modules/.bin/aureooms-node-package-build",
-		"doc": "./node_modules/.bin/groc",
-		"test": "./node_modules/.bin/aureooms-node-package-test"
-	},
-	"description": "primitive number type arithmetic code bricks for JavaScript",
-	"spm": {
-		"main": "js/dist/number.js"
-	}
+  "name": "aureooms-js-number",
+  "description": "Primitive number type arithmetic for JavaScript",
+  "version": "2.1.0",
+  "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/aureooms/js-number/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "aureooms-js-algo": "^3.0.5",
+    "aureooms-js-int32": "^0.1.2",
+    "aureooms-js-random": "^1.0.2"
+  },
+  "homepage": "http://aureooms.github.io/js-number",
+  "keywords": [
+    "arithmetic",
+    "javascript",
+    "js",
+    "number",
+    "primitive"
+  ],
+  "license": "AGPL-3.0",
+  "main": "lib/index.js",
+  "repository": {
+    "url": "https://github.com/aureooms/js-number.git",
+    "type": "git"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "cover": "nyc --reporter=lcov npm test",
+    "prepublish": "npm run build",
+    "test": "ava ./test/src"
+  }
 }

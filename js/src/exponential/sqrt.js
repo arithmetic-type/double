@@ -1,2 +1,0 @@
-
-exports.sqrt = Math.sqrt ;
