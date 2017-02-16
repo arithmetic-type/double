@@ -8,7 +8,7 @@ Primitive number type arithmetic for JavaScript. Parent is
 mul( 6 , 7 ) ; // 42
 ```
 
-[![NPM license](https://img.shields.io/npm/l/@aureooms/js-number.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-number/master/LICENSE)
+[![License](https://img.shields.io/github/license/aureooms/js-number.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-number/master/LICENSE)
 [![NPM version](https://img.shields.io/npm/v/@aureooms/js-number.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-number)
 [![Build Status](https://img.shields.io/travis/aureooms/js-number.svg?style=flat)](https://travis-ci.org/aureooms/js-number)
 [![Coverage Status](https://img.shields.io/coveralls/aureooms/js-number.svg?style=flat)](https://coveralls.io/r/aureooms/js-number)
