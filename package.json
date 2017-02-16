@@ -25,7 +25,7 @@
   "dependencies": {},
   "devDependencies": {
     "@aureooms/js-algo": "^3.0.5",
-    "@aureooms/js-int32": "^0.1.2",
+    "@aureooms/js-int32": "^1.0.0",
     "@aureooms/js-random": "^1.0.2",
     "ava": "^0.18.0",
     "babel-cli": "^6.18.0",
