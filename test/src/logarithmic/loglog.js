@@ -1,6 +1,6 @@
 import test from 'ava' ;
 import * as number from '../../../src' ;
-import algo from "@aureooms/js-algo" ;
+import algo from "@aureooms/js-algorithms" ;
 
 const epsilon = 1e-6 ;
 

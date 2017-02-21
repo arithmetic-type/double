@@ -1,7 +1,7 @@
 import test from 'ava' ;
 import * as number from '../../../src' ;
 import int32 from "@aureooms/js-int32" ;
-import random from "@aureooms/js-random" ;
+import * as random from "@aureooms/js-random" ;
 
 
 test ( "mod" , t => {
