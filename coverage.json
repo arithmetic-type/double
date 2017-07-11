@@ -1,6 +1,6 @@
 {
   "coverage": "0%",
-  "expectCount": 68,
+  "expectCount": 69,
   "actualCount": 0,
   "files": {
     "src/constants/$0.js": {
@@ -137,6 +137,13 @@
       ]
     },
     "src/predicate/constants/eq_1.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "src/exponential/exp.js": {
       "expectCount": 1,
       "actualCount": 0,
       "undocumentLines": [

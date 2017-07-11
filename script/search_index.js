@@ -1,739 +1,745 @@
 window.esdocSearchIndex = [
   [
-    "aureooms-js-number/src/constants/$0.js~$0",
-    "variable/index.html#static-variable-$0",
-    "<span>$0</span> <span class=\"search-result-import-path\">aureooms-js-number/src/constants/$0.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/constants/$1.js~$1",
-    "variable/index.html#static-variable-$1",
-    "<span>$1</span> <span class=\"search-result-import-path\">aureooms-js-number/src/constants/$1.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/constants/$2.js~$2",
-    "variable/index.html#static-variable-$2",
-    "<span>$2</span> <span class=\"search-result-import-path\">aureooms-js-number/src/constants/$2.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/constants/$5.js~$5",
-    "variable/index.html#static-variable-$5",
-    "<span>$5</span> <span class=\"search-result-import-path\">aureooms-js-number/src/constants/$5.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/constants/$_1.js~$_1",
-    "variable/index.html#static-variable-$_1",
-    "<span>$_1</span> <span class=\"search-result-import-path\">aureooms-js-number/src/constants/$_1.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/trigonometry/pi.js~pi",
-    "variable/index.html#static-variable-PI",
-    "<span>PI</span> <span class=\"search-result-import-path\">aureooms-js-number/src/trigonometry/PI.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/arithmetic/constants/add1.js~add1",
-    "variable/index.html#static-variable-add1",
-    "<span>add1</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/constants/add1.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/arithmetic/add.js~add",
-    "variable/index.html#static-variable-add",
-    "<span>add</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/add.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/trigonometry/atan2.js~atan2",
-    "variable/index.html#static-variable-atan2",
-    "<span>atan2</span> <span class=\"search-result-import-path\">aureooms-js-number/src/trigonometry/atan2.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/memory/copy.js~copy",
-    "variable/index.html#static-variable-copy",
-    "<span>copy</span> <span class=\"search-result-import-path\">aureooms-js-number/src/memory/copy.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/trigonometry/cos.js~cos",
-    "variable/index.html#static-variable-cos",
-    "<span>cos</span> <span class=\"search-result-import-path\">aureooms-js-number/src/trigonometry/cos.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/compare/decreasing.js~decreasing",
-    "variable/index.html#static-variable-decreasing",
-    "<span>decreasing</span> <span class=\"search-result-import-path\">aureooms-js-number/src/compare/decreasing.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/arithmetic/constants/div2.js~div2",
-    "variable/index.html#static-variable-div2",
-    "<span>div2</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/constants/div2.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/arithmetic/special/div2n.js~div2n",
-    "variable/index.html#static-variable-div2n",
-    "<span>div2n</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/special/div2n.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/arithmetic/div.js~div",
-    "variable/index.html#static-variable-div",
-    "<span>div</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/div.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/arithmetic/divmod.js~divmod",
-    "variable/index.html#static-variable-divmod",
-    "<span>divmod</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/divmod.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/predicate/constants/eq0.js~eq0",
-    "variable/index.html#static-variable-eq0",
-    "<span>eq0</span> <span class=\"search-result-import-path\">aureooms-js-number/src/predicate/constants/eq0.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/predicate/constants/eq1.js~eq1",
-    "variable/index.html#static-variable-eq1",
-    "<span>eq1</span> <span class=\"search-result-import-path\">aureooms-js-number/src/predicate/constants/eq1.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/predicate/eq.js~eq",
-    "variable/index.html#static-variable-eq",
-    "<span>eq</span> <span class=\"search-result-import-path\">aureooms-js-number/src/predicate/eq.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/predicate/constants/eq_1.js~eq_1",
-    "variable/index.html#static-variable-eq_1",
-    "<span>eq_1</span> <span class=\"search-result-import-path\">aureooms-js-number/src/predicate/constants/eq_1.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/predicate/constants/ge1.js~ge1",
-    "variable/index.html#static-variable-ge1",
-    "<span>ge1</span> <span class=\"search-result-import-path\">aureooms-js-number/src/predicate/constants/ge1.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/predicate/ge.js~ge",
-    "variable/index.html#static-variable-ge",
-    "<span>ge</span> <span class=\"search-result-import-path\">aureooms-js-number/src/predicate/ge.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/predicate/constants/gt0.js~gt0",
-    "variable/index.html#static-variable-gt0",
-    "<span>gt0</span> <span class=\"search-result-import-path\">aureooms-js-number/src/predicate/constants/gt0.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/predicate/constants/gt1.js~gt1",
-    "variable/index.html#static-variable-gt1",
-    "<span>gt1</span> <span class=\"search-result-import-path\">aureooms-js-number/src/predicate/constants/gt1.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/predicate/gt.js~gt",
-    "variable/index.html#static-variable-gt",
-    "<span>gt</span> <span class=\"search-result-import-path\">aureooms-js-number/src/predicate/gt.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/arithmetic/constants/iadd1.js~iadd1",
-    "variable/index.html#static-variable-iadd1",
-    "<span>iadd1</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/constants/iadd1.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/arithmetic/iadd.js~iadd",
-    "variable/index.html#static-variable-iadd",
-    "<span>iadd</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/iadd.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/arithmetic/constants/idiv2.js~idiv2",
-    "variable/index.html#static-variable-idiv2",
-    "<span>idiv2</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/constants/idiv2.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/arithmetic/idiv.js~idiv",
-    "variable/index.html#static-variable-idiv",
-    "<span>idiv</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/idiv.js</span>",
-    "variable"
-  ],
-  [
-    "aureooms-js-number/src/arithmetic/idivmod.js~idivmod",
-    "function/index.html#static-function-idivmod",
-    "<span>idivmod</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/idivmod.js</span>",
+    "@aureooms/js-number/src/constants/$0.js~$0",
+    "function/index.html#static-function-$0",
+    "<span>$0</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/constants/$0.js</span>",
     "function"
   ],
   [
-    "aureooms-js-number/src/arithmetic/imod.js~imod",
-    "variable/index.html#static-variable-imod",
-    "<span>imod</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/imod.js</span>",
+    "@aureooms/js-number/src/constants/$1.js~$1",
+    "function/index.html#static-function-$1",
+    "<span>$1</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/constants/$1.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/constants/$2.js~$2",
+    "function/index.html#static-function-$2",
+    "<span>$2</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/constants/$2.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/constants/$5.js~$5",
+    "function/index.html#static-function-$5",
+    "<span>$5</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/constants/$5.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/constants/$_1.js~$_1",
+    "function/index.html#static-function-$_1",
+    "<span>$_1</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/constants/$_1.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/trigonometry/pi.js~pi",
+    "variable/index.html#static-variable-PI",
+    "<span>PI</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/trigonometry/PI.js</span>",
     "variable"
   ],
   [
-    "aureooms-js-number/src/arithmetic/constants/imul2.js~imul2",
-    "variable/index.html#static-variable-imul2",
-    "<span>imul2</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/constants/imul2.js</span>",
+    "@aureooms/js-number/src/arithmetic/constants/add1.js~add1",
+    "function/index.html#static-function-add1",
+    "<span>add1</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/constants/add1.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/arithmetic/add.js~add",
+    "function/index.html#static-function-add",
+    "<span>add</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/add.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/trigonometry/atan2.js~atan2",
+    "variable/index.html#static-variable-atan2",
+    "<span>atan2</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/trigonometry/atan2.js</span>",
     "variable"
   ],
   [
-    "aureooms-js-number/src/arithmetic/constants/imul5.js~imul5",
-    "variable/index.html#static-variable-imul5",
-    "<span>imul5</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/constants/imul5.js</span>",
+    "@aureooms/js-number/src/memory/copy.js~copy",
+    "function/index.html#static-function-copy",
+    "<span>copy</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/memory/copy.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/trigonometry/cos.js~cos",
+    "variable/index.html#static-variable-cos",
+    "<span>cos</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/trigonometry/cos.js</span>",
     "variable"
   ],
   [
-    "aureooms-js-number/src/arithmetic/imul.js~imul",
-    "variable/index.html#static-variable-imul",
-    "<span>imul</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/imul.js</span>",
+    "@aureooms/js-number/src/compare/decreasing.js~decreasing",
+    "function/index.html#static-function-decreasing",
+    "<span>decreasing</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/compare/decreasing.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/arithmetic/constants/div2.js~div2",
+    "function/index.html#static-function-div2",
+    "<span>div2</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/constants/div2.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/arithmetic/special/div2n.js~div2n",
+    "function/index.html#static-function-div2n",
+    "<span>div2n</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/special/div2n.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/arithmetic/div.js~div",
+    "function/index.html#static-function-div",
+    "<span>div</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/div.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/arithmetic/divmod.js~divmod",
+    "function/index.html#static-function-divmod",
+    "<span>divmod</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/divmod.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/predicate/constants/eq0.js~eq0",
+    "function/index.html#static-function-eq0",
+    "<span>eq0</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/constants/eq0.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/predicate/constants/eq1.js~eq1",
+    "function/index.html#static-function-eq1",
+    "<span>eq1</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/constants/eq1.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/predicate/eq.js~eq",
+    "function/index.html#static-function-eq",
+    "<span>eq</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/eq.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/predicate/constants/eq_1.js~eq_1",
+    "function/index.html#static-function-eq_1",
+    "<span>eq_1</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/constants/eq_1.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/exponential/exp.js~exp",
+    "variable/index.html#static-variable-exp",
+    "<span>exp</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/exponential/exp.js</span>",
     "variable"
   ],
   [
-    "aureooms-js-number/src/compare/increasing.js~increasing",
-    "variable/index.html#static-variable-increasing",
-    "<span>increasing</span> <span class=\"search-result-import-path\">aureooms-js-number/src/compare/increasing.js</span>",
-    "variable"
+    "@aureooms/js-number/src/predicate/constants/ge1.js~ge1",
+    "function/index.html#static-function-ge1",
+    "<span>ge1</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/constants/ge1.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/exponential/constants/ipow2.js~ipow2",
-    "variable/index.html#static-variable-ipow2",
-    "<span>ipow2</span> <span class=\"search-result-import-path\">aureooms-js-number/src/exponential/constants/ipow2.js</span>",
-    "variable"
+    "@aureooms/js-number/src/predicate/ge.js~ge",
+    "function/index.html#static-function-ge",
+    "<span>ge</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/ge.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/arithmetic/ishl.js~ishl",
-    "variable/index.html#static-variable-ishl",
-    "<span>ishl</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/ishl.js</span>",
-    "variable"
+    "@aureooms/js-number/src/predicate/constants/gt0.js~gt0",
+    "function/index.html#static-function-gt0",
+    "<span>gt0</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/constants/gt0.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/arithmetic/ishr.js~ishr",
-    "variable/index.html#static-variable-ishr",
-    "<span>ishr</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/ishr.js</span>",
-    "variable"
+    "@aureooms/js-number/src/predicate/constants/gt1.js~gt1",
+    "function/index.html#static-function-gt1",
+    "<span>gt1</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/constants/gt1.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/arithmetic/ishu.js~ishu",
-    "variable/index.html#static-variable-ishu",
-    "<span>ishu</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/ishu.js</span>",
-    "variable"
+    "@aureooms/js-number/src/predicate/gt.js~gt",
+    "function/index.html#static-function-gt",
+    "<span>gt</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/gt.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/arithmetic/constants/isub1.js~isub1",
-    "variable/index.html#static-variable-isub1",
-    "<span>isub1</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/constants/isub1.js</span>",
-    "variable"
+    "@aureooms/js-number/src/arithmetic/constants/iadd1.js~iadd1",
+    "function/index.html#static-function-iadd1",
+    "<span>iadd1</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/constants/iadd1.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/arithmetic/isub.js~isub",
-    "variable/index.html#static-variable-isub",
-    "<span>isub</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/isub.js</span>",
-    "variable"
+    "@aureooms/js-number/src/arithmetic/iadd.js~iadd",
+    "function/index.html#static-function-iadd",
+    "<span>iadd</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/iadd.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/predicate/constants/le1.js~le1",
-    "variable/index.html#static-variable-le1",
-    "<span>le1</span> <span class=\"search-result-import-path\">aureooms-js-number/src/predicate/constants/le1.js</span>",
-    "variable"
+    "@aureooms/js-number/src/arithmetic/constants/idiv2.js~idiv2",
+    "function/index.html#static-function-idiv2",
+    "<span>idiv2</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/constants/idiv2.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/predicate/le.js~le",
-    "variable/index.html#static-variable-le",
-    "<span>le</span> <span class=\"search-result-import-path\">aureooms-js-number/src/predicate/le.js</span>",
-    "variable"
+    "@aureooms/js-number/src/arithmetic/idiv.js~idiv",
+    "function/index.html#static-function-idiv",
+    "<span>idiv</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/idiv.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/logarithmic/log2.js~log2",
-    "variable/index.html#static-variable-log2",
-    "<span>log2</span> <span class=\"search-result-import-path\">aureooms-js-number/src/logarithmic/log2.js</span>",
-    "variable"
+    "@aureooms/js-number/src/arithmetic/idivmod.js~idivmod",
+    "function/index.html#static-function-idivmod",
+    "<span>idivmod</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/idivmod.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/logarithmic/log.js~log",
-    "variable/index.html#static-variable-log",
-    "<span>log</span> <span class=\"search-result-import-path\">aureooms-js-number/src/logarithmic/log.js</span>",
-    "variable"
+    "@aureooms/js-number/src/arithmetic/imod.js~imod",
+    "function/index.html#static-function-imod",
+    "<span>imod</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/imod.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/logarithmic/loge.js~loge",
-    "variable/index.html#static-variable-loge",
-    "<span>loge</span> <span class=\"search-result-import-path\">aureooms-js-number/src/logarithmic/loge.js</span>",
-    "variable"
+    "@aureooms/js-number/src/arithmetic/constants/imul2.js~imul2",
+    "function/index.html#static-function-imul2",
+    "<span>imul2</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/constants/imul2.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/logarithmic/loglog2.js~loglog2",
-    "variable/index.html#static-variable-loglog2",
-    "<span>loglog2</span> <span class=\"search-result-import-path\">aureooms-js-number/src/logarithmic/loglog2.js</span>",
-    "variable"
+    "@aureooms/js-number/src/arithmetic/constants/imul5.js~imul5",
+    "function/index.html#static-function-imul5",
+    "<span>imul5</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/constants/imul5.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/logarithmic/loglog.js~loglog",
-    "variable/index.html#static-variable-loglog",
-    "<span>loglog</span> <span class=\"search-result-import-path\">aureooms-js-number/src/logarithmic/loglog.js</span>",
-    "variable"
+    "@aureooms/js-number/src/arithmetic/imul.js~imul",
+    "function/index.html#static-function-imul",
+    "<span>imul</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/imul.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/logarithmic/logloge.js~logloge",
-    "variable/index.html#static-variable-logloge",
-    "<span>logloge</span> <span class=\"search-result-import-path\">aureooms-js-number/src/logarithmic/logloge.js</span>",
-    "variable"
+    "@aureooms/js-number/src/compare/increasing.js~increasing",
+    "function/index.html#static-function-increasing",
+    "<span>increasing</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/compare/increasing.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/predicate/constants/lt1.js~lt1",
-    "variable/index.html#static-variable-lt1",
-    "<span>lt1</span> <span class=\"search-result-import-path\">aureooms-js-number/src/predicate/constants/lt1.js</span>",
-    "variable"
+    "@aureooms/js-number/src/exponential/constants/ipow2.js~ipow2",
+    "function/index.html#static-function-ipow2",
+    "<span>ipow2</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/exponential/constants/ipow2.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/predicate/lt.js~lt",
-    "variable/index.html#static-variable-lt",
-    "<span>lt</span> <span class=\"search-result-import-path\">aureooms-js-number/src/predicate/lt.js</span>",
-    "variable"
+    "@aureooms/js-number/src/arithmetic/ishl.js~ishl",
+    "function/index.html#static-function-ishl",
+    "<span>ishl</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/ishl.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/arithmetic/mod.js~mod",
-    "variable/index.html#static-variable-mod",
-    "<span>mod</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/mod.js</span>",
-    "variable"
+    "@aureooms/js-number/src/arithmetic/ishr.js~ishr",
+    "function/index.html#static-function-ishr",
+    "<span>ishr</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/ishr.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/arithmetic/constants/mul2.js~mul2",
-    "variable/index.html#static-variable-mul2",
-    "<span>mul2</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/constants/mul2.js</span>",
-    "variable"
+    "@aureooms/js-number/src/arithmetic/ishu.js~ishu",
+    "function/index.html#static-function-ishu",
+    "<span>ishu</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/ishu.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/arithmetic/constants/mul5.js~mul5",
-    "variable/index.html#static-variable-mul5",
-    "<span>mul5</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/constants/mul5.js</span>",
-    "variable"
+    "@aureooms/js-number/src/arithmetic/constants/isub1.js~isub1",
+    "function/index.html#static-function-isub1",
+    "<span>isub1</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/constants/isub1.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/arithmetic/mul.js~mul",
-    "variable/index.html#static-variable-mul",
-    "<span>mul</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/mul.js</span>",
-    "variable"
+    "@aureooms/js-number/src/arithmetic/isub.js~isub",
+    "function/index.html#static-function-isub",
+    "<span>isub</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/isub.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/predicate/ne.js~ne",
-    "variable/index.html#static-variable-ne",
-    "<span>ne</span> <span class=\"search-result-import-path\">aureooms-js-number/src/predicate/ne.js</span>",
-    "variable"
+    "@aureooms/js-number/src/predicate/constants/le1.js~le1",
+    "function/index.html#static-function-le1",
+    "<span>le1</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/constants/le1.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/arithmetic/neg.js~neg",
-    "variable/index.html#static-variable-neg",
-    "<span>neg</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/neg.js</span>",
-    "variable"
+    "@aureooms/js-number/src/predicate/le.js~le",
+    "function/index.html#static-function-le",
+    "<span>le</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/le.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/io/parse.js~parse",
-    "variable/index.html#static-variable-parse",
-    "<span>parse</span> <span class=\"search-result-import-path\">aureooms-js-number/src/io/parse.js</span>",
-    "variable"
+    "@aureooms/js-number/src/logarithmic/log2.js~log2",
+    "function/index.html#static-function-log2",
+    "<span>log2</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/logarithmic/log2.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/exponential/constants/pow2.js~pow2",
-    "variable/index.html#static-variable-pow2",
-    "<span>pow2</span> <span class=\"search-result-import-path\">aureooms-js-number/src/exponential/constants/pow2.js</span>",
-    "variable"
+    "@aureooms/js-number/src/logarithmic/log.js~log",
+    "function/index.html#static-function-log",
+    "<span>log</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/logarithmic/log.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/exponential/pow.js~pow",
+    "@aureooms/js-number/src/logarithmic/loge.js~loge",
+    "function/index.html#static-function-loge",
+    "<span>loge</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/logarithmic/loge.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/logarithmic/loglog2.js~loglog2",
+    "function/index.html#static-function-loglog2",
+    "<span>loglog2</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/logarithmic/loglog2.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/logarithmic/loglog.js~loglog",
+    "function/index.html#static-function-loglog",
+    "<span>loglog</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/logarithmic/loglog.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/logarithmic/logloge.js~logloge",
+    "function/index.html#static-function-logloge",
+    "<span>logloge</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/logarithmic/logloge.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/predicate/constants/lt1.js~lt1",
+    "function/index.html#static-function-lt1",
+    "<span>lt1</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/constants/lt1.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/predicate/lt.js~lt",
+    "function/index.html#static-function-lt",
+    "<span>lt</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/lt.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/arithmetic/mod.js~mod",
+    "function/index.html#static-function-mod",
+    "<span>mod</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/mod.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/arithmetic/constants/mul2.js~mul2",
+    "function/index.html#static-function-mul2",
+    "<span>mul2</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/constants/mul2.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/arithmetic/constants/mul5.js~mul5",
+    "function/index.html#static-function-mul5",
+    "<span>mul5</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/constants/mul5.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/arithmetic/mul.js~mul",
+    "function/index.html#static-function-mul",
+    "<span>mul</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/mul.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/predicate/ne.js~ne",
+    "function/index.html#static-function-ne",
+    "<span>ne</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/ne.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/arithmetic/neg.js~neg",
+    "function/index.html#static-function-neg",
+    "<span>neg</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/neg.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/io/parse.js~parse",
+    "function/index.html#static-function-parse",
+    "<span>parse</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/io/parse.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/exponential/constants/pow2.js~pow2",
+    "function/index.html#static-function-pow2",
+    "<span>pow2</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/exponential/constants/pow2.js</span>",
+    "function"
+  ],
+  [
+    "@aureooms/js-number/src/exponential/pow.js~pow",
     "variable/index.html#static-variable-pow",
-    "<span>pow</span> <span class=\"search-result-import-path\">aureooms-js-number/src/exponential/pow.js</span>",
+    "<span>pow</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/exponential/pow.js</span>",
     "variable"
   ],
   [
-    "aureooms-js-number/src/arithmetic/shl.js~shl",
-    "variable/index.html#static-variable-shl",
-    "<span>shl</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/shl.js</span>",
-    "variable"
+    "@aureooms/js-number/src/arithmetic/shl.js~shl",
+    "function/index.html#static-function-shl",
+    "<span>shl</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/shl.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/arithmetic/shr.js~shr",
-    "variable/index.html#static-variable-shr",
-    "<span>shr</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/shr.js</span>",
-    "variable"
+    "@aureooms/js-number/src/arithmetic/shr.js~shr",
+    "function/index.html#static-function-shr",
+    "<span>shr</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/shr.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/arithmetic/shu.js~shu",
-    "variable/index.html#static-variable-shu",
-    "<span>shu</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/shu.js</span>",
-    "variable"
+    "@aureooms/js-number/src/arithmetic/shu.js~shu",
+    "function/index.html#static-function-shu",
+    "<span>shu</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/shu.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/trigonometry/sin.js~sin",
+    "@aureooms/js-number/src/trigonometry/sin.js~sin",
     "variable/index.html#static-variable-sin",
-    "<span>sin</span> <span class=\"search-result-import-path\">aureooms-js-number/src/trigonometry/sin.js</span>",
+    "<span>sin</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/trigonometry/sin.js</span>",
     "variable"
   ],
   [
-    "aureooms-js-number/src/exponential/sqrt.js~sqrt",
+    "@aureooms/js-number/src/exponential/sqrt.js~sqrt",
     "variable/index.html#static-variable-sqrt",
-    "<span>sqrt</span> <span class=\"search-result-import-path\">aureooms-js-number/src/exponential/sqrt.js</span>",
+    "<span>sqrt</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/exponential/sqrt.js</span>",
     "variable"
   ],
   [
-    "aureooms-js-number/src/io/stringify.js~stringify",
-    "variable/index.html#static-variable-stringify",
-    "<span>stringify</span> <span class=\"search-result-import-path\">aureooms-js-number/src/io/stringify.js</span>",
-    "variable"
+    "@aureooms/js-number/src/io/stringify.js~stringify",
+    "function/index.html#static-function-stringify",
+    "<span>stringify</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/io/stringify.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/arithmetic/constants/sub1.js~sub1",
-    "variable/index.html#static-variable-sub1",
-    "<span>sub1</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/constants/sub1.js</span>",
-    "variable"
+    "@aureooms/js-number/src/arithmetic/constants/sub1.js~sub1",
+    "function/index.html#static-function-sub1",
+    "<span>sub1</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/constants/sub1.js</span>",
+    "function"
   ],
   [
-    "aureooms-js-number/src/arithmetic/sub.js~sub",
-    "variable/index.html#static-variable-sub",
-    "<span>sub</span> <span class=\"search-result-import-path\">aureooms-js-number/src/arithmetic/sub.js</span>",
-    "variable"
+    "@aureooms/js-number/src/arithmetic/sub.js~sub",
+    "function/index.html#static-function-sub",
+    "<span>sub</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/sub.js</span>",
+    "function"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~array",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
     "BuiltinExternal/ECMAScriptExternal.js~Array",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~arraybuffer",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
     "BuiltinExternal/ECMAScriptExternal.js~ArrayBuffer",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~boolean",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
     "BuiltinExternal/ECMAScriptExternal.js~Boolean",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~dataview",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
     "BuiltinExternal/ECMAScriptExternal.js~DataView",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~date",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
     "BuiltinExternal/ECMAScriptExternal.js~Date",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~error",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
     "BuiltinExternal/ECMAScriptExternal.js~Error",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~evalerror",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
     "BuiltinExternal/ECMAScriptExternal.js~EvalError",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~float32array",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
     "BuiltinExternal/ECMAScriptExternal.js~Float32Array",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~float64array",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
     "BuiltinExternal/ECMAScriptExternal.js~Float64Array",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~function",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
     "BuiltinExternal/ECMAScriptExternal.js~Function",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~generator",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
     "BuiltinExternal/ECMAScriptExternal.js~Generator",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~generatorfunction",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
     "BuiltinExternal/ECMAScriptExternal.js~GeneratorFunction",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~infinity",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
     "BuiltinExternal/ECMAScriptExternal.js~Infinity",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~int16array",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
     "BuiltinExternal/ECMAScriptExternal.js~Int16Array",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~int32array",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
     "BuiltinExternal/ECMAScriptExternal.js~Int32Array",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~int8array",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
     "BuiltinExternal/ECMAScriptExternal.js~Int8Array",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~internalerror",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
     "BuiltinExternal/ECMAScriptExternal.js~InternalError",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~json",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
     "BuiltinExternal/ECMAScriptExternal.js~JSON",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~map",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
     "BuiltinExternal/ECMAScriptExternal.js~Map",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~nan",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
     "BuiltinExternal/ECMAScriptExternal.js~NaN",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~number",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
     "BuiltinExternal/ECMAScriptExternal.js~Number",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~object",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
     "BuiltinExternal/ECMAScriptExternal.js~Object",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~promise",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
     "BuiltinExternal/ECMAScriptExternal.js~Promise",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~proxy",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
     "BuiltinExternal/ECMAScriptExternal.js~Proxy",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~rangeerror",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
     "BuiltinExternal/ECMAScriptExternal.js~RangeError",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~referenceerror",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
     "BuiltinExternal/ECMAScriptExternal.js~ReferenceError",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~reflect",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
     "BuiltinExternal/ECMAScriptExternal.js~Reflect",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~regexp",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
     "BuiltinExternal/ECMAScriptExternal.js~RegExp",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~set",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
     "BuiltinExternal/ECMAScriptExternal.js~Set",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~string",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
     "BuiltinExternal/ECMAScriptExternal.js~String",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~symbol",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
     "BuiltinExternal/ECMAScriptExternal.js~Symbol",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~syntaxerror",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
     "BuiltinExternal/ECMAScriptExternal.js~SyntaxError",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~typeerror",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
     "BuiltinExternal/ECMAScriptExternal.js~TypeError",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~urierror",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
     "BuiltinExternal/ECMAScriptExternal.js~URIError",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~uint16array",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
     "BuiltinExternal/ECMAScriptExternal.js~Uint16Array",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~uint32array",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
     "BuiltinExternal/ECMAScriptExternal.js~Uint32Array",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~uint8array",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
     "BuiltinExternal/ECMAScriptExternal.js~Uint8Array",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~uint8clampedarray",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
     "BuiltinExternal/ECMAScriptExternal.js~Uint8ClampedArray",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~weakmap",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
     "BuiltinExternal/ECMAScriptExternal.js~WeakMap",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~weakset",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
     "BuiltinExternal/ECMAScriptExternal.js~WeakSet",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~boolean",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
     "BuiltinExternal/ECMAScriptExternal.js~boolean",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~function",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
     "BuiltinExternal/ECMAScriptExternal.js~function",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~null",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
     "BuiltinExternal/ECMAScriptExternal.js~null",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~number",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
     "BuiltinExternal/ECMAScriptExternal.js~number",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~object",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
     "BuiltinExternal/ECMAScriptExternal.js~object",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~string",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
     "BuiltinExternal/ECMAScriptExternal.js~string",
     "external"
   ],
   [
     "builtinexternal/ecmascriptexternal.js~undefined",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
     "BuiltinExternal/ECMAScriptExternal.js~undefined",
     "external"
   ],
   [
     "builtinexternal/webapiexternal.js~audiocontext",
-    "external/index.html",
+    "https://developer.mozilla.org/en/docs/Web/API/AudioContext",
     "BuiltinExternal/WebAPIExternal.js~AudioContext",
     "external"
   ],
   [
     "builtinexternal/webapiexternal.js~canvasrenderingcontext2d",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D",
     "BuiltinExternal/WebAPIExternal.js~CanvasRenderingContext2D",
     "external"
   ],
   [
     "builtinexternal/webapiexternal.js~documentfragment",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment",
     "BuiltinExternal/WebAPIExternal.js~DocumentFragment",
     "external"
   ],
   [
     "builtinexternal/webapiexternal.js~element",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/API/Element",
     "BuiltinExternal/WebAPIExternal.js~Element",
     "external"
   ],
   [
     "builtinexternal/webapiexternal.js~event",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/API/Event",
     "BuiltinExternal/WebAPIExternal.js~Event",
     "external"
   ],
   [
     "builtinexternal/webapiexternal.js~node",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/API/Node",
     "BuiltinExternal/WebAPIExternal.js~Node",
     "external"
   ],
   [
     "builtinexternal/webapiexternal.js~nodelist",
-    "external/index.html",
+    "https://developer.mozilla.org/en-US/docs/Web/API/NodeList",
     "BuiltinExternal/WebAPIExternal.js~NodeList",
     "external"
   ],
   [
     "builtinexternal/webapiexternal.js~xmlhttprequest",
-    "external/index.html",
+    "https://developer.mozilla.org/en/docs/Web/API/XMLHttpRequest",
     "BuiltinExternal/WebAPIExternal.js~XMLHttpRequest",
     "external"
   ],
@@ -1005,6 +1011,12 @@ window.esdocSearchIndex = [
     "src/exponential/constants/pow2.js",
     "file/src/exponential/constants/pow2.js.html",
     "src/exponential/constants/pow2.js",
+    "file"
+  ],
+  [
+    "src/exponential/exp.js",
+    "file/src/exponential/exp.js.html",
+    "src/exponential/exp.js",
     "file"
   ],
   [
