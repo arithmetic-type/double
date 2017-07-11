@@ -1,8 +1,11 @@
-[js-number](http://aureooms.github.io/js-number)
+[@aureooms/js-number](https://aureooms.github.io/js-number)
 ==
 
-Primitive number type arithmetic for JavaScript. Parent is
-[aureooms/js-library](https://github.com/aureooms/js-library).
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Latex_real_numbers.svg" width="864">
+
+Primitive number type arithmetic for JavaScript.
+See [docs](https://aureooms.github.io/js-number).
+Parent is [aureooms/js-library](https://github.com/aureooms/js-library).
 
 ```js
 mul( 6 , 7 ) ; // 42
