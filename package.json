@@ -2,7 +2,57 @@
   "name": "@aureooms/js-number",
   "description": "Primitive number type arithmetic for JavaScript",
   "version": "3.1.0",
+  "license": "AGPL-3.0",
   "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
+  "homepage": "https://aureooms.github.io/js-number",
+  "repository": {
+    "url": "https://github.com/aureooms/js-number",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/aureooms/js-number/issues"
+  },
+  "keywords": [
+    "arithmetic",
+    "javascript",
+    "js",
+    "number",
+    "primitive"
+  ],
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "rm -rf lib && babel src -d lib",
+    "cover": "nyc --reporter=lcov npm test",
+    "esdoc": "esdoc",
+    "lint-config": "fixpack --dryRun",
+    "lint-config-and-fix": "fixpack || fixpack",
+    "prepare": "npm run build",
+    "release": "np",
+    "test": "ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@aureooms/js-algorithms": "^3.0.7",
+    "@aureooms/js-int32": "^3.0.0",
+    "@aureooms/js-random": "^2.0.0",
+    "@babel/cli": "7.13.10",
+    "@babel/core": "7.13.10",
+    "@babel/polyfill": "7.8.7",
+    "@babel/preset-env": "7.13.12",
+    "@babel/register": "7.13.8",
+    "ava": "^3.15.0",
+    "coveralls": "^3.1.0",
+    "esdoc": "^1.1.0",
+    "esdoc-inject-script-plugin": "1.0.0",
+    "esdoc-inject-style-plugin": "1.0.0",
+    "esdoc-standard-plugin": "1.0.0",
+    "fixpack": "4.0.0",
+    "np": "7.4.0",
+    "nyc": "^15.1.0"
+  },
   "ava": {
     "require": [
       "@babel/polyfill",
@@ -23,55 +73,5 @@
         "sourceMaps": "inline"
       }
     }
-  },
-  "bugs": {
-    "url": "https://github.com/aureooms/js-number/issues"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "@aureooms/js-algorithms": "^3.0.7",
-    "@aureooms/js-int32": "^3.0.0",
-    "@aureooms/js-random": "^2.0.0",
-    "@babel/cli": "7.13.10",
-    "@babel/core": "7.13.10",
-    "@babel/polyfill": "7.8.7",
-    "@babel/preset-env": "7.13.12",
-    "@babel/register": "7.13.8",
-    "ava": "^3.15.0",
-    "coveralls": "^3.1.0",
-    "esdoc": "^1.1.0",
-    "esdoc-inject-script-plugin": "1.0.0",
-    "esdoc-inject-style-plugin": "1.0.0",
-    "esdoc-standard-plugin": "1.0.0",
-    "np": "7.4.0",
-    "nyc": "^15.1.0",
-    "fixpack": "4.0.0"
-  },
-  "files": [
-    "lib"
-  ],
-  "homepage": "https://aureooms.github.io/js-number",
-  "keywords": [
-    "arithmetic",
-    "javascript",
-    "js",
-    "number",
-    "primitive"
-  ],
-  "license": "AGPL-3.0",
-  "main": "lib/index.js",
-  "repository": {
-    "url": "https://github.com/aureooms/js-number",
-    "type": "git"
-  },
-  "scripts": {
-    "build": "rm -rf lib && babel src -d lib",
-    "cover": "nyc --reporter=lcov npm test",
-    "esdoc": "esdoc",
-    "prepare": "npm run build",
-    "release": "np",
-    "test": "ava",
-    "lint-config-and-fix": "fixpack || fixpack",
-    "lint-config": "fixpack --dryRun"
   }
 }
