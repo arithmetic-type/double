@@ -1,1 +1,1 @@
-export const pow = Math.pow ;
+export const pow = Math.pow;

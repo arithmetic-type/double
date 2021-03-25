@@ -1,10 +1,11 @@
-import test from 'ava' ;
-import * as number from "../../../src/index.js" ;
+import test from 'ava';
+import * as number from '../../../src/index.js';
 
-test( "increasing", t => {
-
-	t.truthy( number.increasing(        0, Infinity )   < 0, "number <" );
-	t.truthy( number.increasing( Infinity, Infinity ) === 0, "number =" );
-	t.truthy( number.increasing( Infinity,        0 )   > 0, "number >" );
-
-} );
+test('increasing', (t) => {
+	t.true(number.increasing(0, Number.POSITIVE_INFINITY) < 0, 'number <');
+	t.true(
+		number.increasing(Number.POSITIVE_INFINITY, Number.POSITIVE_INFINITY) === 0,
+		'number =',
+	);
+	t.true(number.increasing(Number.POSITIVE_INFINITY, 0) > 0, 'number >');
+});

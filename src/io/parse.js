@@ -1,1 +1,1 @@
-export const parse = n => +n ;
+export const parse = (n) => Number(n);

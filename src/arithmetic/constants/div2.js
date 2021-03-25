@@ -1,1 +1,1 @@
-export const div2 = n => n / 2 ;
+export const div2 = (n) => n / 2;

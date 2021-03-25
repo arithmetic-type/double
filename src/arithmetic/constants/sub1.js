@@ -1,1 +1,1 @@
-export const sub1 = n => n - 1 ;
+export const sub1 = (n) => n - 1;

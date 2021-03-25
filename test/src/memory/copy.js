@@ -1,32 +1,27 @@
-import test from 'ava' ;
-import * as number from "../../../src/index.js" ;
+import test from 'ava';
+import * as number from '../../../src/index.js';
 
-test( "memory" , t => {
+test('memory', (t) => {
+	const one = function (a) {
+		const b = number.copy(a);
 
-	const one = function ( a ) {
+		t.true(a === b, a + ' === ' + b);
 
-		const b = number.copy( a ) ;
+		const x = Math.random();
 
-		t.truthy( a === b , a + " === " + b ) ;
+		a -= x;
 
-		const x = Math.random( ) ;
+		t.true(a === b - x, a + ' === ' + b + ' - ' + x);
+	};
 
-		a -= x ;
+	const n = 10;
 
-		t.truthy( a === b - x , a + " === " + b + " - " + x ) ;
-
-	} ;
-
-	const n = 10 ;
-
-	for ( let i = 0 ; i < n ; ++i ) {
-		let a = Math.random( ) ;
-		one( a ) ;
+	for (let i = 0; i < n; ++i) {
+		const a = Math.random();
+		one(a);
 	}
 
-	one(  Infinity ) ;
-	one(         0 ) ;
-	one( -Infinity ) ;
-
-
-} )
+	one(Number.POSITIVE_INFINITY);
+	one(0);
+	one(Number.NEGATIVE_INFINITY);
+});

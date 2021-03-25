@@ -192,6 +192,8 @@
       "no-constant-condition": "off",
       "unicorn/prefer-math-trunc": "off",
       "unicorn/no-new-array": "off",
+      "prefer-exponentiation-operator": "off",
+      "no-return-assign": "off",
       "no-negated-condition": "off"
     },
     "overrides": [

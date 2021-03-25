@@ -1,1 +1,1 @@
-export const ishl = ( a , n ) => a <<= n ;
+export const ishl = (a, n) => (a <<= n);

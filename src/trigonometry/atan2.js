@@ -1,1 +1,1 @@
-export const atan2 = Math.atan2 ;
+export const atan2 = Math.atan2;

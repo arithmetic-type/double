@@ -1,1 +1,1 @@
-export const logloge = n => Math.log( Math.log( n ) ) ;
+export const logloge = (n) => Math.log(Math.log(n));

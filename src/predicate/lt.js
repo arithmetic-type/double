@@ -1,1 +1,1 @@
-export const lt = ( a , b ) => a < b ;
+export const lt = (a, b) => a < b;

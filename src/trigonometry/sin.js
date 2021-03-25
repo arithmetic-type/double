@@ -1,1 +1,1 @@
-export const sin = Math.sin ;
+export const sin = Math.sin;

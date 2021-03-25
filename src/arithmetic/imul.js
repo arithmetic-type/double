@@ -1,1 +1,1 @@
-export const imul = ( a , b ) => a *= b ;
+export const imul = (a, b) => (a *= b);

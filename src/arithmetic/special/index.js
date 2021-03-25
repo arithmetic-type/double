@@ -1,1 +1,1 @@
-export * from "./div2n.js" ;
+export * from './div2n.js';

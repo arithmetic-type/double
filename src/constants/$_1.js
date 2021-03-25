@@ -1,1 +1,1 @@
-export const $_1 = ( ) => -1 ;
+export const $_1 = () => -1;

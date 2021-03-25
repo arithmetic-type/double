@@ -1,1 +1,1 @@
-export const mul5 = a => a * 5 ;
+export const mul5 = (a) => a * 5;

@@ -1,1 +1,1 @@
-export const isub1 = n => n -= 1 ;
+export const isub1 = (n) => (n -= 1);

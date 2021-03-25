@@ -1,25 +1,19 @@
-import test from 'ava' ;
-import * as number from "../../../../src/index.js" ;
+import test from 'ava';
+import * as number from '../../../../src/index.js';
 
-test ( "isub1" , assert => {
+test('isub1', (t) => {
+	const one = function (n) {
+		const x = n;
 
-	const one = function ( n ) {
+		t.deepEqual(number.isub1(x), (n -= 1), x + ' -= ' + 1);
+	};
 
-		let x = n ;
+	const n = 10;
 
-		assert.deepEqual ( number . isub1 ( x ) , n -= 1 , x + " -= " + 1 ) ;
-
-	} ;
-
-	const n = 10 ;
-
-	for ( let i = 0 ; i < n ; ++i ) {
-
-		one ( Math . random ( ) ) ;
-
+	for (let i = 0; i < n; ++i) {
+		one(Math.random());
 	}
 
-	one (  Infinity ) ;
-	one ( -Infinity ) ;
-
-} ) ;
+	one(Number.POSITIVE_INFINITY);
+	one(Number.NEGATIVE_INFINITY);
+});

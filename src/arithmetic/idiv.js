@@ -1,1 +1,1 @@
-export const idiv = ( a , b ) => a /= b ;
+export const idiv = (a, b) => (a /= b);

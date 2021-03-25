@@ -1,1 +1,1 @@
-export const neg = n => -n ;
+export const neg = (n) => -n;

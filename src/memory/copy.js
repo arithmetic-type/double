@@ -1,1 +1,1 @@
-export const copy = a => a ;
+export const copy = (a) => a;

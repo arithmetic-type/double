@@ -1,9 +1,9 @@
-export * from "./arithmetic/index.js" ;
-export * from "./compare/index.js" ;
-export * from "./constants/index.js" ;
-export * from "./exponential/index.js" ;
-export * from "./io/index.js" ;
-export * from "./logarithmic/index.js" ;
-export * from "./memory/index.js" ;
-export * from "./predicate/index.js" ;
-export * from "./trigonometry/index.js" ;
+export * from './arithmetic/index.js';
+export * from './compare/index.js';
+export * from './constants/index.js';
+export * from './exponential/index.js';
+export * from './io/index.js';
+export * from './logarithmic/index.js';
+export * from './memory/index.js';
+export * from './predicate/index.js';
+export * from './trigonometry/index.js';

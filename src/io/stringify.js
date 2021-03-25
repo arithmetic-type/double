@@ -1,1 +1,1 @@
-export const stringify = n => n.toString( ) ;
+export const stringify = (n) => n.toString();

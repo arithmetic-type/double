@@ -1,1 +1,1 @@
-export const pow2 = a => a * a ;
+export const pow2 = (a) => a * a;

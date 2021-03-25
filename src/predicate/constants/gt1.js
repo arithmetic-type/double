@@ -1,1 +1,1 @@
-export const gt1 = n => n > 1 ;
+export const gt1 = (n) => n > 1;

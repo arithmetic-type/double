@@ -1,36 +1,32 @@
-import test from 'ava' ;
-import * as number from "../../../src/index.js" ;
+import test from 'ava';
+import * as number from '../../../src/index.js';
 
-test( "isub", t => {
+test('isub', (t) => {
+	const one = function (a, b) {
+		const x = a;
 
-	const one = function ( a, b ) {
-
-		let x = a ;
-
-		t.deepEqual( number.isub( x, b ), a -= b, x + " -= " + b );
-
-	} ;
+		t.deepEqual(number.isub(x, b), (a -= b), x + ' -= ' + b);
+	};
 
 	const n = 10;
 
-	for ( let i = 0 ; i < n ; ++i ) {
+	for (let i = 0; i < n; ++i) {
 		const a = Math.random();
 		const b = Math.random();
-		one( a, b );
+		one(a, b);
 	}
 
-	one(  Infinity,         0 );
-	one(         0,  Infinity );
-	one( -Infinity,         0 );
-	one(         0, -Infinity );
-	one( -Infinity,  Infinity );
-	one(  Infinity, -Infinity );
+	one(Number.POSITIVE_INFINITY, 0);
+	one(0, Number.POSITIVE_INFINITY);
+	one(Number.NEGATIVE_INFINITY, 0);
+	one(0, Number.NEGATIVE_INFINITY);
+	one(Number.NEGATIVE_INFINITY, Number.POSITIVE_INFINITY);
+	one(Number.POSITIVE_INFINITY, Number.NEGATIVE_INFINITY);
 
-	const nan = function ( a, b ) {
-		t.truthy( isNaN( number.isub( a, b ) ), a + " -= " + b );
-	} ;
+	const nan = function (a, b) {
+		t.true(Number.isNaN(number.isub(a, b)), a + ' -= ' + b);
+	};
 
-	nan(  Infinity,  Infinity );
-	nan( -Infinity, -Infinity );
-
-} );
+	nan(Number.POSITIVE_INFINITY, Number.POSITIVE_INFINITY);
+	nan(Number.NEGATIVE_INFINITY, Number.NEGATIVE_INFINITY);
+});

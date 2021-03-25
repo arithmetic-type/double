@@ -1,1 +1,1 @@
-export const add1 = n => n + 1 ;
+export const add1 = (n) => n + 1;

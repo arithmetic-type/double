@@ -1,1 +1,1 @@
-export const ge = ( a , b ) => a >= b ;
+export const ge = (a, b) => a >= b;

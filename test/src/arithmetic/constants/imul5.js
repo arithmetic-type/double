@@ -1,25 +1,21 @@
-import test from 'ava' ;
-import * as number from "../../../../src/index.js" ;
+import test from 'ava';
+import * as number from '../../../../src/index.js';
 
-test( "imul5" , assert => {
+test('imul5', (t) => {
+	const one = function (a) {
+		const x = a;
 
-	const one = function ( a ) {
+		t.deepEqual(number.imul5(x), (a *= 5), x + ' *= 5');
+	};
 
-		let x = a ;
+	const n = 10;
 
-		assert.deepEqual( number.imul5( x ) , a *= 5 , x + " *= 5" ) ;
-
-	} ;
-
-	const n = 10 ;
-
-	for ( let i = 0 ; i < n ; ++i ) {
-		const a = Math.random( ) ;
-		one( a ) ;
+	for (let i = 0; i < n; ++i) {
+		const a = Math.random();
+		one(a);
 	}
 
-	one(  Infinity ) ;
-	one(         0 ) ;
-	one( -Infinity ) ;
-
-} ) ;
+	one(Number.POSITIVE_INFINITY);
+	one(0);
+	one(Number.NEGATIVE_INFINITY);
+});

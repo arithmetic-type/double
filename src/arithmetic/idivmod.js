@@ -1,7 +1,5 @@
-export function idivmod ( a , b ) {
+export function idivmod(a, b) {
+	const q = (a / b) | 0;
 
-	const q = a / b | 0 ;
-
-	return [ q , a %= b ] ;
-
+	return [q, (a %= b)];
 }

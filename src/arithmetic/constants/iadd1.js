@@ -1,1 +1,1 @@
-export const iadd1 = n => n += 1 ;
+export const iadd1 = (n) => (n += 1);

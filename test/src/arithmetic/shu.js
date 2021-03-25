@@ -1,17 +1,13 @@
-import test from 'ava' ;
-import * as number from "../../../src/index.js" ;
+import test from 'ava';
+import * as number from '../../../src/index.js';
 
-test( "shu" , t => {
+test('shu', (t) => {
+	const n = 10;
 
-	const n = 10 ;
+	for (let i = 0; i < n; ++i) {
+		const a = Math.floor(Math.random() * 2 ** 32);
+		const b = Math.floor(Math.random() * 32);
 
-	for ( let i = 0 ; i < n ; ++i ) {
-
-		const a = Math.floor( Math.random() * Math.pow( 2 , 32 ) ) ;
-		const b = Math.floor( Math.random() * 32 ) ;
-
-		t.deepEqual( number.shu( a , b ) , a >>> b , a + " >>> " + b ) ;
-
+		t.deepEqual(number.shu(a, b), a >>> b, a + ' >>> ' + b);
 	}
-
-} ) ;
+});

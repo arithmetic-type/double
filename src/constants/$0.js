@@ -1,1 +1,1 @@
-export const $0 = ( ) => 0 ;
+export const $0 = () => 0;

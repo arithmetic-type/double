@@ -1,1 +1,1 @@
-export const lt1 = n => n < 1 ;
+export const lt1 = (n) => n < 1;

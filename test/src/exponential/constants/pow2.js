@@ -1,23 +1,19 @@
-import test from 'ava' ;
-import * as number from "../../../../src/index.js" ;
+import test from 'ava';
+import * as number from '../../../../src/index.js';
 
-test( "pow2" , t => {
+test('pow2', (t) => {
+	const one = function (a) {
+		t.deepEqual(number.pow2(a), a * a, a + ' * ' + a);
+	};
 
-	const one = function ( a ) {
+	const n = 10;
 
-		t.deepEqual( number.pow2( a ) , a * a , a + " * " + a ) ;
-
-	} ;
-
-	const n = 10 ;
-
-	for ( let i = 0 ; i < n ; ++i ) {
-		const a = Math.random( ) ;
-		one( a ) ;
+	for (let i = 0; i < n; ++i) {
+		const a = Math.random();
+		one(a);
 	}
 
-	one(  Infinity ) ;
-	one(         0 ) ;
-	one( -Infinity ) ;
-
-} ) ;
+	one(Number.POSITIVE_INFINITY);
+	one(0);
+	one(Number.NEGATIVE_INFINITY);
+});

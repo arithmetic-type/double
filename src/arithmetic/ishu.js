@@ -1,1 +1,1 @@
-export const ishu = ( a , n ) => a >>>= n ;
+export const ishu = (a, n) => (a >>>= n);

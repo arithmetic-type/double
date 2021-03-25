@@ -1,1 +1,1 @@
-export const exp = Math.exp ;
+export const exp = Math.exp;

@@ -1,1 +1,1 @@
-export const shu = ( a , n ) => a >>> n ;
+export const shu = (a, n) => a >>> n;

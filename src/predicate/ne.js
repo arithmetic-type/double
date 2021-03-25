@@ -1,1 +1,1 @@
-export const ne = ( a , b ) => a !== b ;
+export const ne = (a, b) => a !== b;

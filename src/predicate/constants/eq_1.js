@@ -1,1 +1,1 @@
-export const eq_1 = n => n === -1 ;
+export const eq_1 = (n) => n === -1;
