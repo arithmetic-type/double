@@ -13,7 +13,7 @@ mul( 6 , 7 ) ; // 42
 
 [![License](https://img.shields.io/github/license/aureooms/js-number.svg)](https://raw.githubusercontent.com/aureooms/js-number/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@aureooms/js-number.svg)](https://www.npmjs.org/package/@aureooms/js-number)
-[![Build](https://img.shields.io/travis/aureooms/js-number/main.svg)](https://travis-ci.org/aureooms/js-number/branches)
+[![Build](https://img.shields.io/travis/aureooms/js-number/main.svg)](https://travis-ci.com/aureooms/js-number/branches)
 [![Dependencies](https://img.shields.io/david/aureooms/js-number.svg)](https://david-dm.org/aureooms/js-number)
 [![Dev dependencies](https://img.shields.io/david/dev/aureooms/js-number.svg)](https://david-dm.org/aureooms/js-number?type=dev)
 [![GitHub issues](https://img.shields.io/github/issues/aureooms/js-number.svg)](https://github.com/aureooms/js-number/issues)
