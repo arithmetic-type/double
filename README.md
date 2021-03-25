@@ -1,7 +1,16 @@
 :1234: [@aureooms/js-number](https://aureooms.github.io/js-number)
 ==
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Latex_real_numbers.svg" width="864">
+<p align="center">
+<a href="https://commons.wikimedia.org/wiki/File:Latex_real_numbers.svg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Latex_real_numbers.svg" width="300">
+</a><br/>
+<a href="https://en.wikipedia.org/wiki/User:Arichnad">
+User:Arichnad
+</a>
+/
+<a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>
+</p>
 
 Primitive number type arithmetic for JavaScript.
 See [docs](https://aureooms.github.io/js-number).
