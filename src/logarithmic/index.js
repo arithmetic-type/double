@@ -1,6 +1,6 @@
-export * from './log' ;
-export * from './log2' ;
-export * from './loge' ;
-export * from './loglog' ;
-export * from './loglog2' ;
-export * from './logloge' ;
+export * from "./log.js" ;
+export * from "./log2.js" ;
+export * from "./loge.js" ;
+export * from "./loglog.js" ;
+export * from "./loglog2.js" ;
+export * from "./logloge.js" ;

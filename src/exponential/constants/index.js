@@ -1,2 +1,2 @@
-export * from './ipow2' ;
-export * from './pow2' ;
+export * from "./ipow2.js" ;
+export * from "./pow2.js" ;

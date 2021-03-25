@@ -1,2 +1,2 @@
-export * from './decreasing' ;
-export * from './increasing' ;
+export * from "./decreasing.js" ;
+export * from "./increasing.js" ;

@@ -1,5 +1,5 @@
 import test from 'ava' ;
-import * as number from '../../../src' ;
+import * as number from "../../../src/index.js" ;
 
 test( "ishu" , t => {
 

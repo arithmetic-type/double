@@ -1,5 +1,5 @@
 import test from 'ava' ;
-import * as number from '../../../src' ;
+import * as number from "../../../src/index.js" ;
 import int32 from "@aureooms/js-int32" ;
 import * as random from "@aureooms/js-random" ;
 
