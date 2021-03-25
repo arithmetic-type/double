@@ -1,4 +1,4 @@
-[@aureooms/js-number](https://aureooms.github.io/js-number)
+:1234: [@aureooms/js-number](https://aureooms.github.io/js-number)
 ==
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Latex_real_numbers.svg" width="864">
