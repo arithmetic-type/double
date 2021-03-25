@@ -1,7 +1,7 @@
 {
   "type": "File",
   "start": 0,
-  "end": 32,
+  "end": 31,
   "loc": {
     "start": {
       "line": 1,
@@ -15,7 +15,7 @@
   "program": {
     "type": "Program",
     "start": 0,
-    "end": 32,
+    "end": 31,
     "loc": {
       "start": {
         "line": 1,
@@ -31,7 +31,7 @@
       {
         "type": "ExportNamedDeclaration",
         "start": 0,
-        "end": 31,
+        "end": 30,
         "loc": {
           "start": {
             "line": 1,
@@ -39,7 +39,7 @@
           },
           "end": {
             "line": 1,
-            "column": 31
+            "column": 30
           }
         },
         "specifiers": [],
@@ -47,7 +47,7 @@
         "declaration": {
           "type": "VariableDeclaration",
           "start": 7,
-          "end": 31,
+          "end": 30,
           "loc": {
             "start": {
               "line": 1,
@@ -55,7 +55,7 @@
             },
             "end": {
               "line": 1,
-              "column": 31
+              "column": 30
             }
           },
           "declarations": [
@@ -352,16 +352,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 30,
-      "end": 31,
+      "start": 29,
+      "end": 30,
       "loc": {
         "start": {
           "line": 1,
-          "column": 30
+          "column": 29
         },
         "end": {
           "line": 1,
-          "column": 31
+          "column": 30
         }
       }
     },
@@ -378,8 +378,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 32,
-      "end": 32,
+      "start": 31,
+      "end": 31,
       "loc": {
         "start": {
           "line": 2,
