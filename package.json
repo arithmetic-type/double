@@ -6,11 +6,11 @@
   "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
   "homepage": "https://make-github-pseudonymous-again.github.io/js-number",
   "repository": {
-    "url": "https://github.com/aureooms/js-number",
+    "url": "https://github.com/make-github-pseudonymous-again/js-number",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/aureooms/js-number/issues"
+    "url": "https://github.com/make-github-pseudonymous-again/js-number/issues"
   },
   "keywords": [
     "arithmetic",
