@@ -30,6 +30,7 @@ export {shu} from './arithmetic/shu.js';
 export {sub} from './arithmetic/sub.js';
 export {decreasing} from './compare/decreasing.js';
 export {increasing} from './compare/increasing.js';
+export {sign} from './compare/sign.js';
 export {$0} from './constants/$0.js';
 export {$1} from './constants/$1.js';
 export {$2} from './constants/$2.js';
