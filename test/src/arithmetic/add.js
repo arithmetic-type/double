@@ -3,7 +3,7 @@ import * as number from '../../../src/index.js';
 
 test('add', (t) => {
 	const one = function (a, b) {
-		t.is(number.add(a, b), a + b, a + ' + ' + b);
+		t.is(number.add(a, b), a + b);
 	};
 
 	const n = 10;

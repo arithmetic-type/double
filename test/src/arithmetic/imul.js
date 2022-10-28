@@ -5,7 +5,7 @@ test('imul', (t) => {
 	const one = function (a, b) {
 		const x = a;
 
-		t.deepEqual(number.imul(x, b), (a *= b), x + ' *= ' + b);
+		t.deepEqual(number.imul(x, b), (a *= b));
 	};
 
 	const n = 10;
@@ -22,7 +22,7 @@ test('imul', (t) => {
 	one(Number.POSITIVE_INFINITY, Number.NEGATIVE_INFINITY);
 
 	const nan = function (a, b) {
-		t.true(Number.isNaN(number.mul(a, b)), a + ' *= ' + b);
+		t.true(Number.isNaN(number.mul(a, b)));
 	};
 
 	nan(Number.POSITIVE_INFINITY, 0);

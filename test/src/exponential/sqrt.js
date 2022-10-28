@@ -3,7 +3,7 @@ import * as number from '../../../src/index.js';
 
 test('sqrt', (t) => {
 	const one = function (a) {
-		t.deepEqual(number.sqrt(a), Math.sqrt(a), 'sqrt ' + a);
+		t.deepEqual(number.sqrt(a), Math.sqrt(a), `sqrt(${a})`);
 	};
 
 	const n = 10;
@@ -15,5 +15,5 @@ test('sqrt', (t) => {
 
 	one(Number.POSITIVE_INFINITY);
 	one(0);
-	t.true(Number.isNaN(number.sqrt(Number.NEGATIVE_INFINITY)), 'sqrt -Infinity');
+	t.true(Number.isNaN(number.sqrt(Number.NEGATIVE_INFINITY)), 'sqrt(-oo)');
 });

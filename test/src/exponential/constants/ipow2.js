@@ -5,7 +5,7 @@ test('ipow2', (t) => {
 	const one = function (a) {
 		const x = a;
 
-		t.deepEqual(number.ipow2(x), (a *= a), x + ' *= ' + x);
+		t.deepEqual(number.ipow2(x), (a *= a), `${a} = ${a}^2`);
 	};
 
 	const n = 10;

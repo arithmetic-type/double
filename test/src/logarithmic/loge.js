@@ -5,7 +5,7 @@ const e = Math.E;
 
 test('loge', (t) => {
 	const one = function (n, expected) {
-		t.deepEqual(number.loge(n), expected, 'loge ( ' + n + ' )');
+		t.deepEqual(number.loge(n), expected);
 	};
 
 	one(e * Math.sqrt(e), 1.5);

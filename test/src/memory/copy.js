@@ -5,13 +5,13 @@ test('memory', (t) => {
 	const one = function (a) {
 		const b = number.copy(a);
 
-		t.true(a === b, a + ' === ' + b);
+		t.true(a === b);
 
 		const x = Math.random();
 
 		a -= x;
 
-		t.true(a === b - x, a + ' === ' + b + ' - ' + x);
+		t.true(a === b - x);
 	};
 
 	const n = 10;

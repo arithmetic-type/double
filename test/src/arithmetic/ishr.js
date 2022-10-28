@@ -9,6 +9,6 @@ test('ishr', (t) => {
 		const b = Math.floor(Math.random() * 32);
 		const x = a;
 
-		t.deepEqual(number.ishr(x, b), (a >>= b), x + ' >>= ' + b);
+		t.deepEqual(number.ishr(x, b), (a >>= b));
 	}
 });

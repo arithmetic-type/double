@@ -3,7 +3,7 @@ import * as number from '../../../../src/index.js';
 
 test('add1', (t) => {
 	const one = function (n) {
-		t.deepEqual(number.add1(n), n + 1, n + ' + ' + 1);
+		t.deepEqual(number.add1(n), n + 1);
 	};
 
 	const n = 10;

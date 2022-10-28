@@ -3,7 +3,7 @@ import * as number from '../../../src/index.js';
 
 test('parse', (t) => {
 	const one = function (a) {
-		t.deepEqual(number.parse(a.toString()), a, "parse('" + a + "')");
+		t.deepEqual(number.parse(a.toString()), a);
 	};
 
 	const n = 10;

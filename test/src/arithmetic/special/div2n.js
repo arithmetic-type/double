@@ -3,7 +3,7 @@ import * as number from '../../../../src/index.js';
 
 test('div2n', (t) => {
 	const one = function (n, l) {
-		t.deepEqual(number.div2n(n, l), n / 2 ** l, n + ' / ' + 2 ** l);
+		t.deepEqual(number.div2n(n, l), n / 2 ** l, `${n} / ${2 ** l}`);
 	};
 
 	const n = 10;

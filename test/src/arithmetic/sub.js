@@ -3,7 +3,7 @@ import * as number from '../../../src/index.js';
 
 test('sub', (t) => {
 	const one = function (a, b) {
-		t.deepEqual(number.sub(a, b), a - b, a + ' - ' + b);
+		t.deepEqual(number.sub(a, b), a - b);
 	};
 
 	const n = 10;

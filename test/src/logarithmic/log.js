@@ -6,7 +6,7 @@ const e = Math.E;
 test('log', (t) => {
 	const one = function (a, b) {
 		const expected = Math.log(b) / Math.log(a);
-		t.deepEqual(number.log(a, b), expected, 'log ( ' + a + ' , ' + b + ' )');
+		t.deepEqual(number.log(a, b), expected);
 	};
 
 	one(2, 1);

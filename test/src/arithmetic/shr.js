@@ -8,6 +8,6 @@ test('shr', (t) => {
 		const a = Math.floor(Math.random() * 2 ** 32);
 		const b = Math.floor(Math.random() * 32);
 
-		t.deepEqual(number.shr(a, b), a >> b, a + ' >> ' + b);
+		t.deepEqual(number.shr(a, b), a >> b);
 	}
 });

@@ -3,7 +3,7 @@ import * as number from '../../../src/index.js';
 
 test('neg', (t) => {
 	const one = function (a) {
-		t.deepEqual(number.neg(a), -a, '-' + a);
+		t.deepEqual(number.neg(a), -a);
 	};
 
 	const n = 10;

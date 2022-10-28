@@ -3,7 +3,7 @@ import * as number from '../../../../src/index.js';
 
 test('mul2', (t) => {
 	const one = function (a) {
-		t.deepEqual(number.mul2(a), a * 2, a + ' * 2');
+		t.deepEqual(number.mul2(a), a * 2);
 	};
 
 	const n = 10;

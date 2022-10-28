@@ -3,7 +3,7 @@ import * as number from '../../../src/index.js';
 
 test('div', (t) => {
 	const one = function (a, b) {
-		t.deepEqual(number.div(a, b), a / b, a + ' / ' + b);
+		t.deepEqual(number.div(a, b), a / b);
 	};
 
 	const n = 10;
@@ -20,7 +20,7 @@ test('div', (t) => {
 	one(0, Number.NEGATIVE_INFINITY);
 
 	const nan = function (a, b) {
-		t.true(Number.isNaN(number.div(a, b)), a + ' / ' + b);
+		t.true(Number.isNaN(number.div(a, b)));
 	};
 
 	nan(Number.POSITIVE_INFINITY, Number.POSITIVE_INFINITY);

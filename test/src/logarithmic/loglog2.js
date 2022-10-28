@@ -1,10 +1,9 @@
 import test from 'ava';
 import * as number from '../../../src/index.js';
-import algo from '@aureooms/js-algorithms';
 
 const epsilon = 1e-6;
 
-const compare = algo.__relepsilon__(epsilon);
+const compare = number.relapprox(epsilon);
 
 test('loglog2', (t) => {
 	const one = function (n, expected) {
@@ -12,7 +11,7 @@ test('loglog2', (t) => {
 
 		const isok = compare(computed, expected) === 0;
 
-		t.true(isok, 'loglog2 ( ' + n + ' ) is ' + expected + ' got ' + computed);
+		t.true(isok);
 	};
 
 	one(2 ** 1, 0);

@@ -3,7 +3,7 @@ import * as number from '../../../../src/index.js';
 
 test('pow2', (t) => {
 	const one = function (a) {
-		t.deepEqual(number.pow2(a), a * a, a + ' * ' + a);
+		t.deepEqual(number.pow2(a), a * a, `${a}^2`);
 	};
 
 	const n = 10;

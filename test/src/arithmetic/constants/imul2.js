@@ -5,7 +5,7 @@ test('imul2', (t) => {
 	const one = function (a) {
 		const x = a;
 
-		t.deepEqual(number.imul2(x), (a *= 2), x + ' *= 2');
+		t.deepEqual(number.imul2(x), (a *= 2));
 	};
 
 	const n = 10;

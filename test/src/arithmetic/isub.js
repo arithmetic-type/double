@@ -5,7 +5,7 @@ test('isub', (t) => {
 	const one = function (a, b) {
 		const x = a;
 
-		t.deepEqual(number.isub(x, b), (a -= b), x + ' -= ' + b);
+		t.deepEqual(number.isub(x, b), (a -= b));
 	};
 
 	const n = 10;
@@ -24,7 +24,7 @@ test('isub', (t) => {
 	one(Number.POSITIVE_INFINITY, Number.NEGATIVE_INFINITY);
 
 	const nan = function (a, b) {
-		t.true(Number.isNaN(number.isub(a, b)), a + ' -= ' + b);
+		t.true(Number.isNaN(number.isub(a, b)));
 	};
 
 	nan(Number.POSITIVE_INFINITY, Number.POSITIVE_INFINITY);

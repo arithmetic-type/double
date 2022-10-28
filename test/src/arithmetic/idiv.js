@@ -5,7 +5,7 @@ test('idiv', (t) => {
 	const one = function (a, b) {
 		const x = a;
 
-		t.deepEqual(number.idiv(x, b), (a /= b), x + ' /= ' + b);
+		t.deepEqual(number.idiv(x, b), (a /= b));
 	};
 
 	const n = 10;
@@ -22,7 +22,7 @@ test('idiv', (t) => {
 	one(0, Number.NEGATIVE_INFINITY);
 
 	const nan = function (a, b) {
-		t.true(Number.isNaN(number.idiv(a, b)), a + ' /= ' + b);
+		t.true(Number.isNaN(number.idiv(a, b)));
 	};
 
 	nan(Number.POSITIVE_INFINITY, Number.POSITIVE_INFINITY);

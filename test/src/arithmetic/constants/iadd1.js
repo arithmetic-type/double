@@ -5,7 +5,7 @@ test('iadd1', (t) => {
 	const one = function (n) {
 		const x = n;
 
-		t.deepEqual(number.iadd1(x), (n += 1), x + ' += ' + 1);
+		t.deepEqual(number.iadd1(x), (n += 1));
 	};
 
 	const n = 10;

@@ -5,7 +5,7 @@ test('isub1', (t) => {
 	const one = function (n) {
 		const x = n;
 
-		t.deepEqual(number.isub1(x), (n -= 1), x + ' -= ' + 1);
+		t.deepEqual(number.isub1(x), (n -= 1));
 	};
 
 	const n = 10;
