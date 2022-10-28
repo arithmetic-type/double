@@ -1,5 +1,5 @@
 import test from 'ava';
-import * as number from '../../../src/index.js';
+import * as number from '#module';
 
 test('constants', (t) => {
 	t.deepEqual(number.$_1(), -1, '$_1');

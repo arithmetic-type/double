@@ -3,7 +3,7 @@ import test from 'ava';
 import {min, max} from '@arithmetic-type/int32';
 import {randint} from '@randomized/random';
 
-import {imod} from '../../../src/index.js';
+import {imod} from '#module';
 
 test('imod', (t) => {
 	const one = function (a, b) {

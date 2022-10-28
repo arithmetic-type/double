@@ -1,5 +1,5 @@
 import test from 'ava';
-import * as number from '../../../src/index.js';
+import * as number from '#module';
 
 test('shr', (t) => {
 	const n = 10;

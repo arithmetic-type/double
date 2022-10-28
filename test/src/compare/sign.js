@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import {sign} from '../../../src/index.js';
+import {sign} from '#module';
 
 const macro = (t, input, output) => {
 	t.is(sign(input), output);

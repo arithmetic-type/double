@@ -1,5 +1,5 @@
 import test from 'ava';
-import * as number from '../../../src/index.js';
+import * as number from '#module';
 
 test('increasing', (t) => {
 	t.true(number.increasing(0, Number.POSITIVE_INFINITY) < 0, 'number <');

@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import {absapprox, relapprox} from '../../../src/index.js';
+import {absapprox, relapprox} from '#module';
 
 test('approx', (t) => {
 	const epsilon = Math.pow(2, -10);

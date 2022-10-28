@@ -3,7 +3,7 @@ import test from 'ava';
 import {min, max} from '@arithmetic-type/int32';
 import {randint} from '@randomized/random';
 
-import {idivmod} from '../../../src/index.js';
+import {idivmod} from '#module';
 
 test('idivmod', (t) => {
 	const one = function (a, b) {

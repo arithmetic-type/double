@@ -1,5 +1,5 @@
 import test from 'ava';
-import * as number from '../../../../src/index.js';
+import * as number from '#module';
 
 test('div2n', (t) => {
 	const one = function (n, l) {

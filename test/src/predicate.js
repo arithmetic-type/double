@@ -18,7 +18,7 @@ import {
 	gt,
 	eq,
 	ne,
-} from '../../src/index.js';
+} from '#module';
 
 import {macro} from './_fixtures.js';
 
