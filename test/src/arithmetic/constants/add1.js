@@ -1,9 +1,9 @@
 import test from 'ava';
-import * as number from '#module';
+import * as double from '#module';
 
 test('add1', (t) => {
 	const one = function (n) {
-		t.deepEqual(number.add1(n), n + 1);
+		t.deepEqual(double.add1(n), n + 1);
 	};
 
 	const n = 10;

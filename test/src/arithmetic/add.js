@@ -1,9 +1,9 @@
 import test from 'ava';
-import * as number from '#module';
+import * as double from '#module';
 
 test('add', (t) => {
 	const one = function (a, b) {
-		t.is(number.add(a, b), a + b);
+		t.is(double.add(a, b), a + b);
 	};
 
 	const n = 10;
@@ -24,13 +24,13 @@ test('add', (t) => {
 
 	t.true(
 		Number.isNaN(
-			number.add(Number.NEGATIVE_INFINITY, Number.POSITIVE_INFINITY),
+			double.add(Number.NEGATIVE_INFINITY, Number.POSITIVE_INFINITY),
 		),
 		'-Infinity + Infinity',
 	);
 	t.true(
 		Number.isNaN(
-			number.add(Number.POSITIVE_INFINITY, Number.NEGATIVE_INFINITY),
+			double.add(Number.POSITIVE_INFINITY, Number.NEGATIVE_INFINITY),
 		),
 		'Infinity + -Infinity',
 	);

@@ -1,9 +1,9 @@
 import test from 'ava';
-import * as number from '#module';
+import * as double from '#module';
 
 test('exp', (t) => {
 	const one = function (a) {
-		t.deepEqual(number.exp(a), Math.exp(a), `e^${a}`);
+		t.deepEqual(double.exp(a), Math.exp(a), `e^${a}`);
 	};
 
 	const n = 10;

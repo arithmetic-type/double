@@ -2,22 +2,23 @@
 ==
 
 <p align="center">
-<a href="https://commons.wikimedia.org/wiki/File:Latex_real_numbers.svg">
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Latex_real_numbers.svg" width="300">
+<a href="https://commons.wikimedia.org/wiki/File:Z3_Deutsches_Museum.JPG">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Z3_Deutsches_Museum.JPG/640px-Z3_Deutsches_Museum.JPG" width="300">
 </a><br/>
-<a href="https://en.wikipedia.org/wiki/User:Arichnad">
-User:Arichnad
+<a href="https://en.wikipedia.org/wiki/de:User:Venusianer">
+de:User:Venusianer
 </a>
 /
-<a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>
+<a href="https://www.gnu.org/licenses/fdl-1.3.html">GNU FDL</a>
 </p>
 
-Primitive number type arithmetic for JavaScript.
+64-bit float arithmetic for JavaScript.
 See [docs](https://arithmetic-type.github.io/double).
 Parent is [js-library](https://github.com/make-github-pseudonymous-again/js-library).
 
 ```js
-mul( 6 , 7 ) ; // 42
+import {mul} from '@arithmetic-type/double';
+mul(6, 7); // 42
 ```
 
 [![License](https://img.shields.io/github/license/arithmetic-type/double.svg)](https://raw.githubusercontent.com/arithmetic-type/double/main/LICENSE)

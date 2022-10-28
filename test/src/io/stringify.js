@@ -1,9 +1,9 @@
 import test from 'ava';
-import * as number from '#module';
+import * as double from '#module';
 
 test('stringify', (t) => {
 	const one = function (a) {
-		t.deepEqual(number.stringify(a), a.toString());
+		t.deepEqual(double.stringify(a), a.toString());
 	};
 
 	const n = 10;

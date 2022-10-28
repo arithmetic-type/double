@@ -1,11 +1,11 @@
 import test from 'ava';
-import * as number from '#module';
+import * as double from '#module';
 
 test('iadd1', (t) => {
 	const one = function (n) {
 		const x = n;
 
-		t.deepEqual(number.iadd1(x), (n += 1));
+		t.deepEqual(double.iadd1(x), (n += 1));
 	};
 
 	const n = 10;

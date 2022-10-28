@@ -1,16 +1,7 @@
 # Usage
 
-The code needs a ES2015+ polyfill to work, for example
-[regenerator-runtime/runtime](https://babeljs.io/docs/usage/polyfill).
 ```js
-await import( 'regenerator-runtime/runtime.js' ) ;
+const double = await import('@arithmetic-type/double');
 // or
-import 'regenerator-runtime/runtime.js' ;
-```
-
-Then
-```js
-const number = await import( '@arithmetic-type/double' ) ;
-// or
-import number from '@arithmetic-type/double' ;
+import * as double from '@arithmetic-type/double';
 ```

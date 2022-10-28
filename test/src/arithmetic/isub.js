@@ -1,11 +1,11 @@
 import test from 'ava';
-import * as number from '#module';
+import * as double from '#module';
 
 test('isub', (t) => {
 	const one = function (a, b) {
 		const x = a;
 
-		t.deepEqual(number.isub(x, b), (a -= b));
+		t.deepEqual(double.isub(x, b), (a -= b));
 	};
 
 	const n = 10;
@@ -24,7 +24,7 @@ test('isub', (t) => {
 	one(Number.POSITIVE_INFINITY, Number.NEGATIVE_INFINITY);
 
 	const nan = function (a, b) {
-		t.true(Number.isNaN(number.isub(a, b)));
+		t.true(Number.isNaN(double.isub(a, b)));
 	};
 
 	nan(Number.POSITIVE_INFINITY, Number.POSITIVE_INFINITY);

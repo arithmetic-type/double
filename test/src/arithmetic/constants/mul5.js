@@ -1,9 +1,9 @@
 import test from 'ava';
-import * as number from '#module';
+import * as double from '#module';
 
 test('mul5', (t) => {
 	const one = function (a) {
-		t.deepEqual(number.mul5(a), a * 5, `${n} * 5`);
+		t.deepEqual(double.mul5(a), a * 5, `${n} * 5`);
 	};
 
 	const n = 10;

@@ -1,9 +1,9 @@
 import test from 'ava';
-import * as number from '#module';
+import * as double from '#module';
 
 test('pow2', (t) => {
 	const one = function (a) {
-		t.deepEqual(number.pow2(a), a * a, `${a}^2`);
+		t.deepEqual(double.pow2(a), a * a, `${a}^2`);
 	};
 
 	const n = 10;

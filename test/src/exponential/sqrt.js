@@ -1,9 +1,9 @@
 import test from 'ava';
-import * as number from '#module';
+import * as double from '#module';
 
 test('sqrt', (t) => {
 	const one = function (a) {
-		t.deepEqual(number.sqrt(a), Math.sqrt(a), `sqrt(${a})`);
+		t.deepEqual(double.sqrt(a), Math.sqrt(a), `sqrt(${a})`);
 	};
 
 	const n = 10;
@@ -15,5 +15,5 @@ test('sqrt', (t) => {
 
 	one(Number.POSITIVE_INFINITY);
 	one(0);
-	t.true(Number.isNaN(number.sqrt(Number.NEGATIVE_INFINITY)), 'sqrt(-oo)');
+	t.true(Number.isNaN(double.sqrt(Number.NEGATIVE_INFINITY)), 'sqrt(-oo)');
 });

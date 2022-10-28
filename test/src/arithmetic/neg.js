@@ -1,9 +1,9 @@
 import test from 'ava';
-import * as number from '#module';
+import * as double from '#module';
 
 test('neg', (t) => {
 	const one = function (a) {
-		t.deepEqual(number.neg(a), -a);
+		t.deepEqual(double.neg(a), -a);
 	};
 
 	const n = 10;

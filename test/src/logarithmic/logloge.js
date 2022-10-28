@@ -1,15 +1,15 @@
 import test from 'ava';
-import * as number from '#module';
+import * as double from '#module';
 
 const epsilon = 1e-6;
 
-const compare = number.relapprox(epsilon);
+const compare = double.relapprox(epsilon);
 
 const e = Math.E;
 
 test('logloge', (t) => {
 	const one = function (n, expected) {
-		const computed = number.logloge(n);
+		const computed = double.logloge(n);
 
 		const isok = compare(computed, expected) === 0;
 

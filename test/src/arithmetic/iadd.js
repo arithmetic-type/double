@@ -1,11 +1,11 @@
 import test from 'ava';
-import * as number from '#module';
+import * as double from '#module';
 
 test('iadd', (t) => {
 	const one = function (a, b) {
 		const x = a;
 
-		t.deepEqual(number.iadd(x, b), (a += b));
+		t.deepEqual(double.iadd(x, b), (a += b));
 	};
 
 	const n = 10;
@@ -25,13 +25,13 @@ test('iadd', (t) => {
 
 	t.true(
 		Number.isNaN(
-			number.iadd(Number.NEGATIVE_INFINITY, Number.POSITIVE_INFINITY),
+			double.iadd(Number.NEGATIVE_INFINITY, Number.POSITIVE_INFINITY),
 		),
 		'-Infinity += Infinity',
 	);
 	t.true(
 		Number.isNaN(
-			number.iadd(Number.POSITIVE_INFINITY, Number.NEGATIVE_INFINITY),
+			double.iadd(Number.POSITIVE_INFINITY, Number.NEGATIVE_INFINITY),
 		),
 		'Infinity += -Infinity',
 	);

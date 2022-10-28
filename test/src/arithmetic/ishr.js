@@ -1,5 +1,5 @@
 import test from 'ava';
-import * as number from '#module';
+import * as double from '#module';
 
 test('ishr', (t) => {
 	const n = 10;
@@ -9,6 +9,6 @@ test('ishr', (t) => {
 		const b = Math.floor(Math.random() * 32);
 		const x = a;
 
-		t.deepEqual(number.ishr(x, b), (a >>= b));
+		t.deepEqual(double.ishr(x, b), (a >>= b));
 	}
 });

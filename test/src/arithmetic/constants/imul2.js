@@ -1,11 +1,11 @@
 import test from 'ava';
-import * as number from '#module';
+import * as double from '#module';
 
 test('imul2', (t) => {
 	const one = function (a) {
 		const x = a;
 
-		t.deepEqual(number.imul2(x), (a *= 2));
+		t.deepEqual(double.imul2(x), (a *= 2));
 	};
 
 	const n = 10;

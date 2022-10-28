@@ -1,9 +1,9 @@
 import test from 'ava';
-import * as number from '#module';
+import * as double from '#module';
 
 test('sub', (t) => {
 	const one = function (a, b) {
-		t.deepEqual(number.sub(a, b), a - b);
+		t.deepEqual(double.sub(a, b), a - b);
 	};
 
 	const n = 10;
@@ -23,13 +23,13 @@ test('sub', (t) => {
 
 	t.true(
 		Number.isNaN(
-			number.sub(Number.POSITIVE_INFINITY, Number.POSITIVE_INFINITY),
+			double.sub(Number.POSITIVE_INFINITY, Number.POSITIVE_INFINITY),
 		),
 		'Infinity - Infinity',
 	);
 	t.true(
 		Number.isNaN(
-			number.sub(Number.NEGATIVE_INFINITY, Number.NEGATIVE_INFINITY),
+			double.sub(Number.NEGATIVE_INFINITY, Number.NEGATIVE_INFINITY),
 		),
 		'-Infinity - -Infinity',
 	);

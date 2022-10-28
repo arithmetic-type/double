@@ -1,9 +1,9 @@
 import test from 'ava';
-import * as number from '#module';
+import * as double from '#module';
 
 test('mul', (t) => {
 	const one = function (a, b) {
-		t.deepEqual(number.mul(a, b), a * b);
+		t.deepEqual(double.mul(a, b), a * b);
 	};
 
 	const n = 10;
@@ -20,7 +20,7 @@ test('mul', (t) => {
 	one(Number.POSITIVE_INFINITY, Number.NEGATIVE_INFINITY);
 
 	const nan = function (a, b) {
-		t.true(Number.isNaN(number.mul(a, b)));
+		t.true(Number.isNaN(double.mul(a, b)));
 	};
 
 	nan(Number.POSITIVE_INFINITY, 0);

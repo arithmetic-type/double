@@ -1,13 +1,13 @@
 import test from 'ava';
-import * as number from '#module';
+import * as double from '#module';
 
 const epsilon = 1e-6;
 
-const compare = number.relapprox(epsilon);
+const compare = double.relapprox(epsilon);
 
 test('loglog2', (t) => {
 	const one = function (n, expected) {
-		const computed = number.loglog2(n);
+		const computed = double.loglog2(n);
 
 		const isok = compare(computed, expected) === 0;
 

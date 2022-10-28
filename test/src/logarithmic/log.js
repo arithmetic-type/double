@@ -1,12 +1,12 @@
 import test from 'ava';
-import * as number from '#module';
+import * as double from '#module';
 
 const e = Math.E;
 
 test('log', (t) => {
 	const one = function (a, b) {
 		const expected = Math.log(b) / Math.log(a);
-		t.deepEqual(number.log(a, b), expected);
+		t.deepEqual(double.log(a, b), expected);
 	};
 
 	one(2, 1);

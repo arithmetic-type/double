@@ -1,5 +1,5 @@
 import test from 'ava';
-import * as number from '#module';
+import * as double from '#module';
 
 test('shr', (t) => {
 	const n = 10;
@@ -8,6 +8,6 @@ test('shr', (t) => {
 		const a = Math.floor(Math.random() * 2 ** 32);
 		const b = Math.floor(Math.random() * 32);
 
-		t.deepEqual(number.shr(a, b), a >> b);
+		t.deepEqual(double.shr(a, b), a >> b);
 	}
 });

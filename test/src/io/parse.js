@@ -1,9 +1,9 @@
 import test from 'ava';
-import * as number from '#module';
+import * as double from '#module';
 
 test('parse', (t) => {
 	const one = function (a) {
-		t.deepEqual(number.parse(a.toString()), a);
+		t.deepEqual(double.parse(a.toString()), a);
 	};
 
 	const n = 10;

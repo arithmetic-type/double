@@ -1,9 +1,9 @@
 import test from 'ava';
-import * as number from '#module';
+import * as double from '#module';
 
 test('memory', (t) => {
 	const one = function (a) {
-		const b = number.copy(a);
+		const b = double.copy(a);
 
 		t.true(a === b);
 
