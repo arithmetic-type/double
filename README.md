@@ -23,8 +23,7 @@ mul( 6 , 7 ) ; // 42
 [![License](https://img.shields.io/github/license/arithmetic-type/double.svg)](https://raw.githubusercontent.com/arithmetic-type/double/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@arithmetic-type/double.svg)](https://www.npmjs.org/package/@arithmetic-type/double)
 [![Build](https://img.shields.io/travis/arithmetic-type/double/main.svg)](https://travis-ci.com/arithmetic-type/double/branches)
-[![Dependencies](https://img.shields.io/david/arithmetic-type/double.svg)](https://david-dm.org/arithmetic-type/double)
-[![Dev dependencies](https://img.shields.io/david/dev/arithmetic-type/double.svg)](https://david-dm.org/arithmetic-type/double?type=dev)
+[![Dependencies](https://img.shields.io/librariesio/github/arithmetic-type/double.svg)](https://github.com/arithmetic-type/double/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/arithmetic-type/double.svg)](https://github.com/arithmetic-type/double/issues)
 [![Downloads](https://img.shields.io/npm/dm/@arithmetic-type/double.svg)](https://www.npmjs.org/package/@arithmetic-type/double)
 
