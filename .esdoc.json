@@ -17,7 +17,7 @@
           "autoPrivate": true
         },
         "brand": {
-          "title": "@aureooms/js-number"
+          "title": "@arithmetic-type/double"
         },
         "test": {
           "type": "ava",

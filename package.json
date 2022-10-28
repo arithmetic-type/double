@@ -1,16 +1,16 @@
 {
-  "name": "@aureooms/js-number",
+  "name": "@arithmetic-type/double",
   "description": "Primitive number type arithmetic for JavaScript",
   "version": "4.0.0",
   "license": "AGPL-3.0",
-  "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
-  "homepage": "https://make-github-pseudonymous-again.github.io/js-number",
+  "author": "make-github-pseudonymous-again",
+  "homepage": "https://arithmetic-type.github.io/double",
   "repository": {
-    "url": "https://github.com/make-github-pseudonymous-again/js-number",
+    "url": "https://github.com/arithmetic-type/double",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/make-github-pseudonymous-again/js-number/issues"
+    "url": "https://github.com/arithmetic-type/double/issues"
   },
   "keywords": [
     "arithmetic",

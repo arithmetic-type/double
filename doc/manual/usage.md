@@ -10,7 +10,7 @@ import 'regenerator-runtime/runtime.js' ;
 
 Then
 ```js
-const number = require( '@aureooms/js-number' ) ;
+const number = require( '@arithmetic-type/double' ) ;
 // or
-import number from '@aureooms/js-number' ;
+import number from '@arithmetic-type/double' ;
 ```

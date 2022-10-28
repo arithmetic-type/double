@@ -1,4 +1,4 @@
-:1234: [@aureooms/js-number](https://make-github-pseudonymous-again.github.io/js-number)
+:1234: [@arithmetic-type/double](https://arithmetic-type.github.io/double)
 ==
 
 <p align="center">
@@ -13,24 +13,24 @@ User:Arichnad
 </p>
 
 Primitive number type arithmetic for JavaScript.
-See [docs](https://make-github-pseudonymous-again.github.io/js-number).
-Parent is [aureooms/js-library](https://github.com/make-github-pseudonymous-again/js-library).
+See [docs](https://arithmetic-type.github.io/double).
+Parent is [js-library](https://github.com/make-github-pseudonymous-again/js-library).
 
 ```js
 mul( 6 , 7 ) ; // 42
 ```
 
-[![License](https://img.shields.io/github/license/make-github-pseudonymous-again/js-number.svg)](https://raw.githubusercontent.com/make-github-pseudonymous-again/js-number/main/LICENSE)
-[![Version](https://img.shields.io/npm/v/@aureooms/js-number.svg)](https://www.npmjs.org/package/@aureooms/js-number)
-[![Build](https://img.shields.io/travis/make-github-pseudonymous-again/js-number/main.svg)](https://travis-ci.com/make-github-pseudonymous-again/js-number/branches)
-[![Dependencies](https://img.shields.io/david/make-github-pseudonymous-again/js-number.svg)](https://david-dm.org/make-github-pseudonymous-again/js-number)
-[![Dev dependencies](https://img.shields.io/david/dev/make-github-pseudonymous-again/js-number.svg)](https://david-dm.org/make-github-pseudonymous-again/js-number?type=dev)
-[![GitHub issues](https://img.shields.io/github/issues/make-github-pseudonymous-again/js-number.svg)](https://github.com/make-github-pseudonymous-again/js-number/issues)
-[![Downloads](https://img.shields.io/npm/dm/@aureooms/js-number.svg)](https://www.npmjs.org/package/@aureooms/js-number)
+[![License](https://img.shields.io/github/license/arithmetic-type/double.svg)](https://raw.githubusercontent.com/arithmetic-type/double/main/LICENSE)
+[![Version](https://img.shields.io/npm/v/@arithmetic-type/double.svg)](https://www.npmjs.org/package/@arithmetic-type/double)
+[![Build](https://img.shields.io/travis/arithmetic-type/double/main.svg)](https://travis-ci.com/arithmetic-type/double/branches)
+[![Dependencies](https://img.shields.io/david/arithmetic-type/double.svg)](https://david-dm.org/arithmetic-type/double)
+[![Dev dependencies](https://img.shields.io/david/dev/arithmetic-type/double.svg)](https://david-dm.org/arithmetic-type/double?type=dev)
+[![GitHub issues](https://img.shields.io/github/issues/arithmetic-type/double.svg)](https://github.com/arithmetic-type/double/issues)
+[![Downloads](https://img.shields.io/npm/dm/@arithmetic-type/double.svg)](https://www.npmjs.org/package/@arithmetic-type/double)
 
-[![Code issues](https://img.shields.io/codeclimate/issues/make-github-pseudonymous-again/js-number.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-number/issues)
-[![Code maintainability](https://img.shields.io/codeclimate/maintainability/make-github-pseudonymous-again/js-number.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-number/trends/churn)
-[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/make-github-pseudonymous-again/js-number/main.svg)](https://codecov.io/gh/make-github-pseudonymous-again/js-number)
-[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/make-github-pseudonymous-again/js-number.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-number/trends/technical_debt)
-[![Documentation](https://make-github-pseudonymous-again.github.io/js-number/badge.svg)](https://make-github-pseudonymous-again.github.io/js-number/source.html)
-[![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-number)](https://bundlephobia.com/result?p=@aureooms/js-number)
+[![Code issues](https://img.shields.io/codeclimate/issues/arithmetic-type/double.svg)](https://codeclimate.com/github/arithmetic-type/double/issues)
+[![Code maintainability](https://img.shields.io/codeclimate/maintainability/arithmetic-type/double.svg)](https://codeclimate.com/github/arithmetic-type/double/trends/churn)
+[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/arithmetic-type/double/main.svg)](https://codecov.io/gh/arithmetic-type/double)
+[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/arithmetic-type/double.svg)](https://codeclimate.com/github/arithmetic-type/double/trends/technical_debt)
+[![Documentation](https://arithmetic-type.github.io/double/badge.svg)](https://arithmetic-type.github.io/double/source.html)
+[![Package size](https://img.shields.io/bundlephobia/minzip/@arithmetic-type/double)](https://bundlephobia.com/result?p=@arithmetic-type/double)
