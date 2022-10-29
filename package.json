@@ -1,7 +1,7 @@
 {
   "name": "@arithmetic-type/double",
   "description": "Primitive number type arithmetic for JavaScript",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "license": "AGPL-3.0",
   "author": "make-github-pseudonymous-again",
   "homepage": "https://arithmetic-type.github.io/double",
