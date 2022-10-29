@@ -17,8 +17,11 @@ See [docs](https://arithmetic-type.github.io/double).
 Parent is [js-library](https://github.com/make-github-pseudonymous-again/js-library).
 
 ```js
-import {mul} from '@arithmetic-type/double';
-mul(6, 7); // 42
+import {add, mul, sub, div} from '@arithmetic-type/double';
+add(0.1, 0.2); // 0.30000000000000004
+mul(0.1, 0.2); // 0.020000000000000004
+sub(0.1, 0.2); // -0.1
+div(0.1, 0.2); // 0.5
 ```
 
 [![License](https://img.shields.io/github/license/arithmetic-type/double.svg)](https://raw.githubusercontent.com/arithmetic-type/double/main/LICENSE)
