@@ -1,7 +1,7 @@
 {
-  "coverage": "0%",
-  "expectCount": 69,
-  "actualCount": 0,
+  "coverage": "1.33%",
+  "expectCount": 75,
+  "actualCount": 1,
   "files": {
     "src/arithmetic/add.js": {
       "expectCount": 1,
@@ -213,6 +213,13 @@
         1
       ]
     },
+    "src/compare/absapprox.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
     "src/compare/decreasing.js": {
       "expectCount": 1,
       "actualCount": 0,
@@ -226,6 +233,18 @@
       "undocumentLines": [
         1
       ]
+    },
+    "src/compare/relapprox.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "src/compare/sign.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
     },
     "src/constants/$0.js": {
       "expectCount": 1,
@@ -301,7 +320,7 @@
       "expectCount": 1,
       "actualCount": 0,
       "undocumentLines": [
-        1
+        2
       ]
     },
     "src/io/stringify.js": {
@@ -381,6 +400,13 @@
         1
       ]
     },
+    "src/predicate/constants/ge0.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
     "src/predicate/constants/ge1.js": {
       "expectCount": 1,
       "actualCount": 0,
@@ -402,7 +428,21 @@
         1
       ]
     },
+    "src/predicate/constants/le0.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
     "src/predicate/constants/le1.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "src/predicate/constants/lt0.js": {
       "expectCount": 1,
       "actualCount": 0,
       "undocumentLines": [

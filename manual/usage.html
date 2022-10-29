@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl" href="../">
-  <title data-ice="title">Manual | @aureooms/js-number</title>
+  <title data-ice="title">Manual | @arithmetic-type/double</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
   <script src="script/manual.js"></script>
-<link rel="stylesheet" href="./inject/css/0-style.css"><script src="./inject/script/0-header.js"></script><meta name="description" content="Primitive number type arithmetic for JavaScript"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="@aureooms/js-number"><meta property="twitter:description" content="Primitive number type arithmetic for JavaScript"></head>
+<link rel="stylesheet" href="./inject/css/0-style.css"><script src="./inject/script/0-header.js"></script><meta name="description" content="Primitive number type arithmetic for JavaScript"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="@arithmetic-type/double"><meta property="twitter:description" content="Primitive number type arithmetic for JavaScript"></head>
 <body class="layout-container manual-root" data-ice="rootContainer">
 
 <header>
@@ -24,7 +24,7 @@
   </span>
     <ul class="search-result"></ul>
   </div>
-<a style="position:relative; top:3px;" href="https://github.com/aureooms/js-number"><img width="20px" src="./image/github.png"></a></header>
+<a style="position:relative; top:3px;" href="https://github.com/arithmetic-type/double"><img width="20px" src="./image/github.png"></a></header>
 
 <nav class="navigation" data-ice="nav"><div class="manual-toc-root">
   
@@ -38,8 +38,9 @@
     <ul class="manual-toc">
       
     <li data-ice="manualNav" class="indent-h1" data-link="manual/installation.html"><a href="manual/installation.html" data-ice="link">Installation</a></li>
-<li data-ice="manualNav" class="indent-h3" data-link="manual/installation.html"><a href="manual/installation.html#jspm" data-ice="link">jspm</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/installation.html"><a href="manual/installation.html#yarn" data-ice="link">yarn</a></li>
 <li data-ice="manualNav" class="indent-h3" data-link="manual/installation.html"><a href="manual/installation.html#npm" data-ice="link">npm</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/installation.html"><a href="manual/installation.html#jspm" data-ice="link">jspm</a></li>
 </ul>
   </div>
 <div data-ice="manual">
@@ -57,16 +58,9 @@
 </div>
 </nav>
 
-<div class="content" data-ice="content"><div class="github-markdown" data-ice="content"><h1 id="usage">Usage</h1><p>The code needs a ES2015+ polyfill to work, for example
-<a href="https://babeljs.io/docs/usage/polyfill">regenerator-runtime/runtime</a>.</p>
-<pre><code class="lang-js"><code class="source-code prettyprint">require( &apos;regenerator-runtime/runtime&apos; ) ;
+<div class="content" data-ice="content"><div class="github-markdown" data-ice="content"><h1 id="usage">Usage</h1><pre><code class="lang-js"><code class="source-code prettyprint">const double = await import(&apos;@arithmetic-type/double&apos;);
 // or
-import &apos;regenerator-runtime/runtime.js&apos; ;</code>
-</code></pre>
-<p>Then</p>
-<pre><code class="lang-js"><code class="source-code prettyprint">const number = require( &apos;@aureooms/js-number&apos; ) ;
-// or
-import number from &apos;@aureooms/js-number&apos; ;</code>
+import * as double from &apos;@arithmetic-type/double&apos;;</code>
 </code></pre>
 </div>
 </div>

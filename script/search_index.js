@@ -1,416 +1,452 @@
 window.esdocSearchIndex = [
   [
-    "@aureooms/js-number/src/constants/$0.js~$0",
+    "@arithmetic-type/double/src/constants/$0.js~$0",
     "function/index.html#static-function-$0",
-    "<span>$0</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/constants/$0.js</span>",
+    "<span>$0</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/constants/$0.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/constants/$1.js~$1",
+    "@arithmetic-type/double/src/constants/$1.js~$1",
     "function/index.html#static-function-$1",
-    "<span>$1</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/constants/$1.js</span>",
+    "<span>$1</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/constants/$1.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/constants/$2.js~$2",
+    "@arithmetic-type/double/src/constants/$2.js~$2",
     "function/index.html#static-function-$2",
-    "<span>$2</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/constants/$2.js</span>",
+    "<span>$2</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/constants/$2.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/constants/$5.js~$5",
+    "@arithmetic-type/double/src/constants/$5.js~$5",
     "function/index.html#static-function-$5",
-    "<span>$5</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/constants/$5.js</span>",
+    "<span>$5</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/constants/$5.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/constants/$_1.js~$_1",
+    "@arithmetic-type/double/src/constants/$_1.js~$_1",
     "function/index.html#static-function-$_1",
-    "<span>$_1</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/constants/$_1.js</span>",
+    "<span>$_1</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/constants/$_1.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/trigonometry/pi.js~pi",
+    "@arithmetic-type/double/src/trigonometry/pi.js~pi",
     "variable/index.html#static-variable-PI",
-    "<span>PI</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/trigonometry/PI.js</span>",
+    "<span>PI</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/trigonometry/PI.js</span>",
     "variable"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/constants/add1.js~add1",
+    "@arithmetic-type/double/src/compare/absapprox.js~absapprox",
+    "function/index.html#static-function-absapprox",
+    "<span>absapprox</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/compare/absapprox.js</span>",
+    "function"
+  ],
+  [
+    "@arithmetic-type/double/src/arithmetic/constants/add1.js~add1",
     "function/index.html#static-function-add1",
-    "<span>add1</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/constants/add1.js</span>",
+    "<span>add1</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/constants/add1.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/add.js~add",
+    "@arithmetic-type/double/src/arithmetic/add.js~add",
     "function/index.html#static-function-add",
-    "<span>add</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/add.js</span>",
+    "<span>add</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/add.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/trigonometry/atan2.js~atan2",
+    "@arithmetic-type/double/src/trigonometry/atan2.js~atan2",
     "variable/index.html#static-variable-atan2",
-    "<span>atan2</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/trigonometry/atan2.js</span>",
+    "<span>atan2</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/trigonometry/atan2.js</span>",
     "variable"
   ],
   [
-    "@aureooms/js-number/src/memory/copy.js~copy",
+    "@arithmetic-type/double/src/memory/copy.js~copy",
     "function/index.html#static-function-copy",
-    "<span>copy</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/memory/copy.js</span>",
+    "<span>copy</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/memory/copy.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/trigonometry/cos.js~cos",
+    "@arithmetic-type/double/src/trigonometry/cos.js~cos",
     "variable/index.html#static-variable-cos",
-    "<span>cos</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/trigonometry/cos.js</span>",
+    "<span>cos</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/trigonometry/cos.js</span>",
     "variable"
   ],
   [
-    "@aureooms/js-number/src/compare/decreasing.js~decreasing",
+    "@arithmetic-type/double/src/compare/decreasing.js~decreasing",
     "function/index.html#static-function-decreasing",
-    "<span>decreasing</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/compare/decreasing.js</span>",
+    "<span>decreasing</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/compare/decreasing.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/constants/div2.js~div2",
+    "@arithmetic-type/double/src/arithmetic/constants/div2.js~div2",
     "function/index.html#static-function-div2",
-    "<span>div2</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/constants/div2.js</span>",
+    "<span>div2</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/constants/div2.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/special/div2n.js~div2n",
+    "@arithmetic-type/double/src/arithmetic/special/div2n.js~div2n",
     "function/index.html#static-function-div2n",
-    "<span>div2n</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/special/div2n.js</span>",
+    "<span>div2n</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/special/div2n.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/div.js~div",
+    "@arithmetic-type/double/src/arithmetic/div.js~div",
     "function/index.html#static-function-div",
-    "<span>div</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/div.js</span>",
+    "<span>div</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/div.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/divmod.js~divmod",
+    "@arithmetic-type/double/src/arithmetic/divmod.js~divmod",
     "function/index.html#static-function-divmod",
-    "<span>divmod</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/divmod.js</span>",
+    "<span>divmod</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/divmod.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/predicate/constants/eq0.js~eq0",
+    "@arithmetic-type/double/src/predicate/constants/eq0.js~eq0",
     "function/index.html#static-function-eq0",
-    "<span>eq0</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/constants/eq0.js</span>",
+    "<span>eq0</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/predicate/constants/eq0.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/predicate/constants/eq1.js~eq1",
+    "@arithmetic-type/double/src/predicate/constants/eq1.js~eq1",
     "function/index.html#static-function-eq1",
-    "<span>eq1</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/constants/eq1.js</span>",
+    "<span>eq1</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/predicate/constants/eq1.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/predicate/eq.js~eq",
+    "@arithmetic-type/double/src/predicate/eq.js~eq",
     "function/index.html#static-function-eq",
-    "<span>eq</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/eq.js</span>",
+    "<span>eq</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/predicate/eq.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/predicate/constants/eq_1.js~eq_1",
+    "@arithmetic-type/double/src/predicate/constants/eq_1.js~eq_1",
     "function/index.html#static-function-eq_1",
-    "<span>eq_1</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/constants/eq_1.js</span>",
+    "<span>eq_1</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/predicate/constants/eq_1.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/exponential/exp.js~exp",
+    "@arithmetic-type/double/src/exponential/exp.js~exp",
     "variable/index.html#static-variable-exp",
-    "<span>exp</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/exponential/exp.js</span>",
+    "<span>exp</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/exponential/exp.js</span>",
     "variable"
   ],
   [
-    "@aureooms/js-number/src/predicate/constants/ge1.js~ge1",
+    "@arithmetic-type/double/src/predicate/constants/ge0.js~ge0",
+    "function/index.html#static-function-ge0",
+    "<span>ge0</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/predicate/constants/ge0.js</span>",
+    "function"
+  ],
+  [
+    "@arithmetic-type/double/src/predicate/constants/ge1.js~ge1",
     "function/index.html#static-function-ge1",
-    "<span>ge1</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/constants/ge1.js</span>",
+    "<span>ge1</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/predicate/constants/ge1.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/predicate/ge.js~ge",
+    "@arithmetic-type/double/src/predicate/ge.js~ge",
     "function/index.html#static-function-ge",
-    "<span>ge</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/ge.js</span>",
+    "<span>ge</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/predicate/ge.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/predicate/constants/gt0.js~gt0",
+    "@arithmetic-type/double/src/predicate/constants/gt0.js~gt0",
     "function/index.html#static-function-gt0",
-    "<span>gt0</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/constants/gt0.js</span>",
+    "<span>gt0</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/predicate/constants/gt0.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/predicate/constants/gt1.js~gt1",
+    "@arithmetic-type/double/src/predicate/constants/gt1.js~gt1",
     "function/index.html#static-function-gt1",
-    "<span>gt1</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/constants/gt1.js</span>",
+    "<span>gt1</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/predicate/constants/gt1.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/predicate/gt.js~gt",
+    "@arithmetic-type/double/src/predicate/gt.js~gt",
     "function/index.html#static-function-gt",
-    "<span>gt</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/gt.js</span>",
+    "<span>gt</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/predicate/gt.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/constants/iadd1.js~iadd1",
+    "@arithmetic-type/double/src/arithmetic/constants/iadd1.js~iadd1",
     "function/index.html#static-function-iadd1",
-    "<span>iadd1</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/constants/iadd1.js</span>",
+    "<span>iadd1</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/constants/iadd1.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/iadd.js~iadd",
+    "@arithmetic-type/double/src/arithmetic/iadd.js~iadd",
     "function/index.html#static-function-iadd",
-    "<span>iadd</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/iadd.js</span>",
+    "<span>iadd</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/iadd.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/constants/idiv2.js~idiv2",
+    "@arithmetic-type/double/src/arithmetic/constants/idiv2.js~idiv2",
     "function/index.html#static-function-idiv2",
-    "<span>idiv2</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/constants/idiv2.js</span>",
+    "<span>idiv2</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/constants/idiv2.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/idiv.js~idiv",
+    "@arithmetic-type/double/src/arithmetic/idiv.js~idiv",
     "function/index.html#static-function-idiv",
-    "<span>idiv</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/idiv.js</span>",
+    "<span>idiv</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/idiv.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/idivmod.js~idivmod",
+    "@arithmetic-type/double/src/arithmetic/idivmod.js~idivmod",
     "function/index.html#static-function-idivmod",
-    "<span>idivmod</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/idivmod.js</span>",
+    "<span>idivmod</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/idivmod.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/imod.js~imod",
+    "@arithmetic-type/double/src/arithmetic/imod.js~imod",
     "function/index.html#static-function-imod",
-    "<span>imod</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/imod.js</span>",
+    "<span>imod</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/imod.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/constants/imul2.js~imul2",
+    "@arithmetic-type/double/src/arithmetic/constants/imul2.js~imul2",
     "function/index.html#static-function-imul2",
-    "<span>imul2</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/constants/imul2.js</span>",
+    "<span>imul2</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/constants/imul2.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/constants/imul5.js~imul5",
+    "@arithmetic-type/double/src/arithmetic/constants/imul5.js~imul5",
     "function/index.html#static-function-imul5",
-    "<span>imul5</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/constants/imul5.js</span>",
+    "<span>imul5</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/constants/imul5.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/imul.js~imul",
+    "@arithmetic-type/double/src/arithmetic/imul.js~imul",
     "function/index.html#static-function-imul",
-    "<span>imul</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/imul.js</span>",
+    "<span>imul</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/imul.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/compare/increasing.js~increasing",
+    "@arithmetic-type/double/src/compare/increasing.js~increasing",
     "function/index.html#static-function-increasing",
-    "<span>increasing</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/compare/increasing.js</span>",
+    "<span>increasing</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/compare/increasing.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/exponential/constants/ipow2.js~ipow2",
+    "@arithmetic-type/double/src/exponential/constants/ipow2.js~ipow2",
     "function/index.html#static-function-ipow2",
-    "<span>ipow2</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/exponential/constants/ipow2.js</span>",
+    "<span>ipow2</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/exponential/constants/ipow2.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/ishl.js~ishl",
+    "@arithmetic-type/double/src/arithmetic/ishl.js~ishl",
     "function/index.html#static-function-ishl",
-    "<span>ishl</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/ishl.js</span>",
+    "<span>ishl</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/ishl.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/ishr.js~ishr",
+    "@arithmetic-type/double/src/arithmetic/ishr.js~ishr",
     "function/index.html#static-function-ishr",
-    "<span>ishr</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/ishr.js</span>",
+    "<span>ishr</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/ishr.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/ishu.js~ishu",
+    "@arithmetic-type/double/src/arithmetic/ishu.js~ishu",
     "function/index.html#static-function-ishu",
-    "<span>ishu</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/ishu.js</span>",
+    "<span>ishu</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/ishu.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/constants/isub1.js~isub1",
+    "@arithmetic-type/double/src/arithmetic/constants/isub1.js~isub1",
     "function/index.html#static-function-isub1",
-    "<span>isub1</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/constants/isub1.js</span>",
+    "<span>isub1</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/constants/isub1.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/isub.js~isub",
+    "@arithmetic-type/double/src/arithmetic/isub.js~isub",
     "function/index.html#static-function-isub",
-    "<span>isub</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/isub.js</span>",
+    "<span>isub</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/isub.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/predicate/constants/le1.js~le1",
+    "@arithmetic-type/double/src/predicate/constants/le0.js~le0",
+    "function/index.html#static-function-le0",
+    "<span>le0</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/predicate/constants/le0.js</span>",
+    "function"
+  ],
+  [
+    "@arithmetic-type/double/src/predicate/constants/le1.js~le1",
     "function/index.html#static-function-le1",
-    "<span>le1</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/constants/le1.js</span>",
+    "<span>le1</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/predicate/constants/le1.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/predicate/le.js~le",
+    "@arithmetic-type/double/src/predicate/le.js~le",
     "function/index.html#static-function-le",
-    "<span>le</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/le.js</span>",
+    "<span>le</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/predicate/le.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/logarithmic/log2.js~log2",
+    "@arithmetic-type/double/src/logarithmic/log2.js~log2",
     "function/index.html#static-function-log2",
-    "<span>log2</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/logarithmic/log2.js</span>",
+    "<span>log2</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/logarithmic/log2.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/logarithmic/log.js~log",
+    "@arithmetic-type/double/src/logarithmic/log.js~log",
     "function/index.html#static-function-log",
-    "<span>log</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/logarithmic/log.js</span>",
+    "<span>log</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/logarithmic/log.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/logarithmic/loge.js~loge",
+    "@arithmetic-type/double/src/logarithmic/loge.js~loge",
     "function/index.html#static-function-loge",
-    "<span>loge</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/logarithmic/loge.js</span>",
+    "<span>loge</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/logarithmic/loge.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/logarithmic/loglog2.js~loglog2",
+    "@arithmetic-type/double/src/logarithmic/loglog2.js~loglog2",
     "function/index.html#static-function-loglog2",
-    "<span>loglog2</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/logarithmic/loglog2.js</span>",
+    "<span>loglog2</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/logarithmic/loglog2.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/logarithmic/loglog.js~loglog",
+    "@arithmetic-type/double/src/logarithmic/loglog.js~loglog",
     "function/index.html#static-function-loglog",
-    "<span>loglog</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/logarithmic/loglog.js</span>",
+    "<span>loglog</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/logarithmic/loglog.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/logarithmic/logloge.js~logloge",
+    "@arithmetic-type/double/src/logarithmic/logloge.js~logloge",
     "function/index.html#static-function-logloge",
-    "<span>logloge</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/logarithmic/logloge.js</span>",
+    "<span>logloge</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/logarithmic/logloge.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/predicate/constants/lt1.js~lt1",
+    "@arithmetic-type/double/src/predicate/constants/lt0.js~lt0",
+    "function/index.html#static-function-lt0",
+    "<span>lt0</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/predicate/constants/lt0.js</span>",
+    "function"
+  ],
+  [
+    "@arithmetic-type/double/src/predicate/constants/lt1.js~lt1",
     "function/index.html#static-function-lt1",
-    "<span>lt1</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/constants/lt1.js</span>",
+    "<span>lt1</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/predicate/constants/lt1.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/predicate/lt.js~lt",
+    "@arithmetic-type/double/src/predicate/lt.js~lt",
     "function/index.html#static-function-lt",
-    "<span>lt</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/lt.js</span>",
+    "<span>lt</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/predicate/lt.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/mod.js~mod",
+    "@arithmetic-type/double/src/arithmetic/mod.js~mod",
     "function/index.html#static-function-mod",
-    "<span>mod</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/mod.js</span>",
+    "<span>mod</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/mod.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/constants/mul2.js~mul2",
+    "@arithmetic-type/double/src/arithmetic/constants/mul2.js~mul2",
     "function/index.html#static-function-mul2",
-    "<span>mul2</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/constants/mul2.js</span>",
+    "<span>mul2</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/constants/mul2.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/constants/mul5.js~mul5",
+    "@arithmetic-type/double/src/arithmetic/constants/mul5.js~mul5",
     "function/index.html#static-function-mul5",
-    "<span>mul5</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/constants/mul5.js</span>",
+    "<span>mul5</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/constants/mul5.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/mul.js~mul",
+    "@arithmetic-type/double/src/arithmetic/mul.js~mul",
     "function/index.html#static-function-mul",
-    "<span>mul</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/mul.js</span>",
+    "<span>mul</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/mul.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/predicate/ne.js~ne",
+    "@arithmetic-type/double/src/predicate/ne.js~ne",
     "function/index.html#static-function-ne",
-    "<span>ne</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/predicate/ne.js</span>",
+    "<span>ne</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/predicate/ne.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/neg.js~neg",
+    "@arithmetic-type/double/src/arithmetic/neg.js~neg",
     "function/index.html#static-function-neg",
-    "<span>neg</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/neg.js</span>",
+    "<span>neg</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/neg.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/io/parse.js~parse",
+    "@arithmetic-type/double/src/io/parse.js~parse",
     "function/index.html#static-function-parse",
-    "<span>parse</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/io/parse.js</span>",
+    "<span>parse</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/io/parse.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/exponential/constants/pow2.js~pow2",
+    "@arithmetic-type/double/src/exponential/constants/pow2.js~pow2",
     "function/index.html#static-function-pow2",
-    "<span>pow2</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/exponential/constants/pow2.js</span>",
+    "<span>pow2</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/exponential/constants/pow2.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/exponential/pow.js~pow",
+    "@arithmetic-type/double/src/exponential/pow.js~pow",
     "variable/index.html#static-variable-pow",
-    "<span>pow</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/exponential/pow.js</span>",
+    "<span>pow</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/exponential/pow.js</span>",
     "variable"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/shl.js~shl",
+    "@arithmetic-type/double/src/compare/relapprox.js~relapprox",
+    "function/index.html#static-function-relapprox",
+    "<span>relapprox</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/compare/relapprox.js</span>",
+    "function"
+  ],
+  [
+    "@arithmetic-type/double/src/arithmetic/shl.js~shl",
     "function/index.html#static-function-shl",
-    "<span>shl</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/shl.js</span>",
+    "<span>shl</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/shl.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/shr.js~shr",
+    "@arithmetic-type/double/src/arithmetic/shr.js~shr",
     "function/index.html#static-function-shr",
-    "<span>shr</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/shr.js</span>",
+    "<span>shr</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/shr.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/shu.js~shu",
+    "@arithmetic-type/double/src/arithmetic/shu.js~shu",
     "function/index.html#static-function-shu",
-    "<span>shu</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/shu.js</span>",
+    "<span>shu</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/shu.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/trigonometry/sin.js~sin",
+    "@arithmetic-type/double/src/compare/sign.js~sign",
+    "function/index.html#static-function-sign",
+    "<span>sign</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/compare/sign.js</span>",
+    "function"
+  ],
+  [
+    "@arithmetic-type/double/src/trigonometry/sin.js~sin",
     "variable/index.html#static-variable-sin",
-    "<span>sin</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/trigonometry/sin.js</span>",
+    "<span>sin</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/trigonometry/sin.js</span>",
     "variable"
   ],
   [
-    "@aureooms/js-number/src/exponential/sqrt.js~sqrt",
+    "@arithmetic-type/double/src/exponential/sqrt.js~sqrt",
     "variable/index.html#static-variable-sqrt",
-    "<span>sqrt</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/exponential/sqrt.js</span>",
+    "<span>sqrt</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/exponential/sqrt.js</span>",
     "variable"
   ],
   [
-    "@aureooms/js-number/src/io/stringify.js~stringify",
+    "@arithmetic-type/double/src/io/stringify.js~stringify",
     "function/index.html#static-function-stringify",
-    "<span>stringify</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/io/stringify.js</span>",
+    "<span>stringify</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/io/stringify.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/constants/sub1.js~sub1",
+    "@arithmetic-type/double/src/arithmetic/constants/sub1.js~sub1",
     "function/index.html#static-function-sub1",
-    "<span>sub1</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/constants/sub1.js</span>",
+    "<span>sub1</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/constants/sub1.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-number/src/arithmetic/sub.js~sub",
+    "@arithmetic-type/double/src/arithmetic/sub.js~sub",
     "function/index.html#static-function-sub",
-    "<span>sub</span> <span class=\"search-result-import-path\">@aureooms/js-number/src/arithmetic/sub.js</span>",
+    "<span>sub</span> <span class=\"search-result-import-path\">@arithmetic-type/double/src/arithmetic/sub.js</span>",
     "function"
   ],
   [
@@ -738,6 +774,12 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
+    "src/arithmetic/constants/index.js",
+    "file/src/arithmetic/constants/index.js.html",
+    "src/arithmetic/constants/index.js",
+    "file"
+  ],
+  [
     "src/arithmetic/constants/isub1.js",
     "file/src/arithmetic/constants/isub1.js.html",
     "src/arithmetic/constants/isub1.js",
@@ -801,6 +843,12 @@ window.esdocSearchIndex = [
     "src/arithmetic/imul.js",
     "file/src/arithmetic/imul.js.html",
     "src/arithmetic/imul.js",
+    "file"
+  ],
+  [
+    "src/arithmetic/index.js",
+    "file/src/arithmetic/index.js.html",
+    "src/arithmetic/index.js",
     "file"
   ],
   [
@@ -870,9 +918,21 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
+    "src/arithmetic/special/index.js",
+    "file/src/arithmetic/special/index.js.html",
+    "src/arithmetic/special/index.js",
+    "file"
+  ],
+  [
     "src/arithmetic/sub.js",
     "file/src/arithmetic/sub.js.html",
     "src/arithmetic/sub.js",
+    "file"
+  ],
+  [
+    "src/compare/absapprox.js",
+    "file/src/compare/absapprox.js.html",
+    "src/compare/absapprox.js",
     "file"
   ],
   [
@@ -885,6 +945,24 @@ window.esdocSearchIndex = [
     "src/compare/increasing.js",
     "file/src/compare/increasing.js.html",
     "src/compare/increasing.js",
+    "file"
+  ],
+  [
+    "src/compare/index.js",
+    "file/src/compare/index.js.html",
+    "src/compare/index.js",
+    "file"
+  ],
+  [
+    "src/compare/relapprox.js",
+    "file/src/compare/relapprox.js.html",
+    "src/compare/relapprox.js",
+    "file"
+  ],
+  [
+    "src/compare/sign.js",
+    "file/src/compare/sign.js.html",
+    "src/compare/sign.js",
     "file"
   ],
   [
@@ -918,6 +996,18 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
+    "src/constants/index.js",
+    "file/src/constants/index.js.html",
+    "src/constants/index.js",
+    "file"
+  ],
+  [
+    "src/exponential/constants/index.js",
+    "file/src/exponential/constants/index.js.html",
+    "src/exponential/constants/index.js",
+    "file"
+  ],
+  [
     "src/exponential/constants/ipow2.js",
     "file/src/exponential/constants/ipow2.js.html",
     "src/exponential/constants/ipow2.js",
@@ -933,6 +1023,12 @@ window.esdocSearchIndex = [
     "src/exponential/exp.js",
     "file/src/exponential/exp.js.html",
     "src/exponential/exp.js",
+    "file"
+  ],
+  [
+    "src/exponential/index.js",
+    "file/src/exponential/index.js.html",
+    "src/exponential/index.js",
     "file"
   ],
   [
@@ -954,6 +1050,12 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
+    "src/io/index.js",
+    "file/src/io/index.js.html",
+    "src/io/index.js",
+    "file"
+  ],
+  [
     "src/io/parse.js",
     "file/src/io/parse.js.html",
     "src/io/parse.js",
@@ -963,6 +1065,12 @@ window.esdocSearchIndex = [
     "src/io/stringify.js",
     "file/src/io/stringify.js.html",
     "src/io/stringify.js",
+    "file"
+  ],
+  [
+    "src/logarithmic/index.js",
+    "file/src/logarithmic/index.js.html",
+    "src/logarithmic/index.js",
     "file"
   ],
   [
@@ -1008,6 +1116,12 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
+    "src/memory/index.js",
+    "file/src/memory/index.js.html",
+    "src/memory/index.js",
+    "file"
+  ],
+  [
     "src/predicate/constants/eq0.js",
     "file/src/predicate/constants/eq0.js.html",
     "src/predicate/constants/eq0.js",
@@ -1023,6 +1137,12 @@ window.esdocSearchIndex = [
     "src/predicate/constants/eq_1.js",
     "file/src/predicate/constants/eq_1.js.html",
     "src/predicate/constants/eq_1.js",
+    "file"
+  ],
+  [
+    "src/predicate/constants/ge0.js",
+    "file/src/predicate/constants/ge0.js.html",
+    "src/predicate/constants/ge0.js",
     "file"
   ],
   [
@@ -1044,9 +1164,27 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
+    "src/predicate/constants/index.js",
+    "file/src/predicate/constants/index.js.html",
+    "src/predicate/constants/index.js",
+    "file"
+  ],
+  [
+    "src/predicate/constants/le0.js",
+    "file/src/predicate/constants/le0.js.html",
+    "src/predicate/constants/le0.js",
+    "file"
+  ],
+  [
     "src/predicate/constants/le1.js",
     "file/src/predicate/constants/le1.js.html",
     "src/predicate/constants/le1.js",
+    "file"
+  ],
+  [
+    "src/predicate/constants/lt0.js",
+    "file/src/predicate/constants/lt0.js.html",
+    "src/predicate/constants/lt0.js",
     "file"
   ],
   [
@@ -1071,6 +1209,12 @@ window.esdocSearchIndex = [
     "src/predicate/gt.js",
     "file/src/predicate/gt.js.html",
     "src/predicate/gt.js",
+    "file"
+  ],
+  [
+    "src/predicate/index.js",
+    "file/src/predicate/index.js.html",
+    "src/predicate/index.js",
     "file"
   ],
   [
@@ -1107,6 +1251,12 @@ window.esdocSearchIndex = [
     "src/trigonometry/cos.js",
     "file/src/trigonometry/cos.js.html",
     "src/trigonometry/cos.js",
+    "file"
+  ],
+  [
+    "src/trigonometry/index.js",
+    "file/src/trigonometry/index.js.html",
+    "src/trigonometry/index.js",
     "file"
   ],
   [

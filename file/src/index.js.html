@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl" href="../../">
-  <title data-ice="title">src/index.js | @aureooms/js-number</title>
+  <title data-ice="title">src/index.js | @arithmetic-type/double</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
   <script src="script/manual.js"></script>
-<link rel="stylesheet" href="./inject/css/0-style.css"><script src="./inject/script/0-header.js"></script><meta name="description" content="Primitive number type arithmetic for JavaScript"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="@aureooms/js-number"><meta property="twitter:description" content="Primitive number type arithmetic for JavaScript"></head>
+<link rel="stylesheet" href="./inject/css/0-style.css"><script src="./inject/script/0-header.js"></script><meta name="description" content="Primitive number type arithmetic for JavaScript"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="@arithmetic-type/double"><meta property="twitter:description" content="Primitive number type arithmetic for JavaScript"></head>
 <body class="layout-container" data-ice="rootContainer">
 
 <header>
@@ -24,7 +24,7 @@
   </span>
     <ul class="search-result"></ul>
   </div>
-<a style="position:relative; top:3px;" href="https://github.com/aureooms/js-number"><img width="20px" src="./image/github.png"></a></header>
+<a style="position:relative; top:3px;" href="https://github.com/arithmetic-type/double"><img width="20px" src="./image/github.png"></a></header>
 
 <nav class="navigation" data-ice="nav"><div>
   <ul>
@@ -59,8 +59,11 @@
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-mul5">mul5</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sub1">sub1</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#arithmetic-special">arithmetic/special</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-div2n">div2n</a></span></span></li>
-<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#compare">compare</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-decreasing">decreasing</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#compare">compare</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-absapprox">absapprox</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-decreasing">decreasing</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-increasing">increasing</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-relapprox">relapprox</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sign">sign</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#constants">constants</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-$0">$0</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-$1">$1</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-$2">$2</a></span></span></li>
@@ -89,10 +92,13 @@
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#predicate-constants">predicate/constants</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-eq0">eq0</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-eq1">eq1</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-eq_1">eq_1</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ge0">ge0</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ge1">ge1</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-gt0">gt0</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-gt1">gt1</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-le0">le0</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-le1">le1</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-lt0">lt0</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-lt1">lt1</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#trigonometry">trigonometry</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-PI">PI</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-atan2">atan2</a></span></span></li>
@@ -103,75 +109,15 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/index.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">export {add1} from &apos;./arithmetic/constants/add1.js&apos;;
-export {div2} from &apos;./arithmetic/constants/div2.js&apos;;
-export {iadd1} from &apos;./arithmetic/constants/iadd1.js&apos;;
-export {idiv2} from &apos;./arithmetic/constants/idiv2.js&apos;;
-export {imul2} from &apos;./arithmetic/constants/imul2.js&apos;;
-export {imul5} from &apos;./arithmetic/constants/imul5.js&apos;;
-export {isub1} from &apos;./arithmetic/constants/isub1.js&apos;;
-export {mul2} from &apos;./arithmetic/constants/mul2.js&apos;;
-export {mul5} from &apos;./arithmetic/constants/mul5.js&apos;;
-export {sub1} from &apos;./arithmetic/constants/sub1.js&apos;;
-export {div2n} from &apos;./arithmetic/special/div2n.js&apos;;
-export {add} from &apos;./arithmetic/add.js&apos;;
-export {div} from &apos;./arithmetic/div.js&apos;;
-export {divmod} from &apos;./arithmetic/divmod.js&apos;;
-export {iadd} from &apos;./arithmetic/iadd.js&apos;;
-export {idiv} from &apos;./arithmetic/idiv.js&apos;;
-export {idivmod} from &apos;./arithmetic/idivmod.js&apos;;
-export {imod} from &apos;./arithmetic/imod.js&apos;;
-export {imul} from &apos;./arithmetic/imul.js&apos;;
-export {ishl} from &apos;./arithmetic/ishl.js&apos;;
-export {ishr} from &apos;./arithmetic/ishr.js&apos;;
-export {ishu} from &apos;./arithmetic/ishu.js&apos;;
-export {isub} from &apos;./arithmetic/isub.js&apos;;
-export {mod} from &apos;./arithmetic/mod.js&apos;;
-export {mul} from &apos;./arithmetic/mul.js&apos;;
-export {neg} from &apos;./arithmetic/neg.js&apos;;
-export {shl} from &apos;./arithmetic/shl.js&apos;;
-export {shr} from &apos;./arithmetic/shr.js&apos;;
-export {shu} from &apos;./arithmetic/shu.js&apos;;
-export {sub} from &apos;./arithmetic/sub.js&apos;;
-export {decreasing} from &apos;./compare/decreasing.js&apos;;
-export {increasing} from &apos;./compare/increasing.js&apos;;
-export {$0} from &apos;./constants/$0.js&apos;;
-export {$1} from &apos;./constants/$1.js&apos;;
-export {$2} from &apos;./constants/$2.js&apos;;
-export {$5} from &apos;./constants/$5.js&apos;;
-export {$_1} from &apos;./constants/$_1.js&apos;;
-export {ipow2} from &apos;./exponential/constants/ipow2.js&apos;;
-export {pow2} from &apos;./exponential/constants/pow2.js&apos;;
-export {exp} from &apos;./exponential/exp.js&apos;;
-export {pow} from &apos;./exponential/pow.js&apos;;
-export {sqrt} from &apos;./exponential/sqrt.js&apos;;
-export {parse} from &apos;./io/parse.js&apos;;
-export {stringify} from &apos;./io/stringify.js&apos;;
-export {log} from &apos;./logarithmic/log.js&apos;;
-export {log2} from &apos;./logarithmic/log2.js&apos;;
-export {loge} from &apos;./logarithmic/loge.js&apos;;
-export {loglog} from &apos;./logarithmic/loglog.js&apos;;
-export {loglog2} from &apos;./logarithmic/loglog2.js&apos;;
-export {logloge} from &apos;./logarithmic/logloge.js&apos;;
-export {copy} from &apos;./memory/copy.js&apos;;
-export {eq0} from &apos;./predicate/constants/eq0.js&apos;;
-export {eq1} from &apos;./predicate/constants/eq1.js&apos;;
-export {eq_1} from &apos;./predicate/constants/eq_1.js&apos;;
-export {ge1} from &apos;./predicate/constants/ge1.js&apos;;
-export {gt0} from &apos;./predicate/constants/gt0.js&apos;;
-export {gt1} from &apos;./predicate/constants/gt1.js&apos;;
-export {le1} from &apos;./predicate/constants/le1.js&apos;;
-export {lt1} from &apos;./predicate/constants/lt1.js&apos;;
-export {eq} from &apos;./predicate/eq.js&apos;;
-export {ge} from &apos;./predicate/ge.js&apos;;
-export {gt} from &apos;./predicate/gt.js&apos;;
-export {le} from &apos;./predicate/le.js&apos;;
-export {lt} from &apos;./predicate/lt.js&apos;;
-export {ne} from &apos;./predicate/ne.js&apos;;
-export {PI} from &apos;./trigonometry/PI.js&apos;;
-export {atan2} from &apos;./trigonometry/atan2.js&apos;;
-export {cos} from &apos;./trigonometry/cos.js&apos;;
-export {sin} from &apos;./trigonometry/sin.js&apos;;
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">export * from &apos;./arithmetic/index.js&apos;;
+export * from &apos;./compare/index.js&apos;;
+export * from &apos;./constants/index.js&apos;;
+export * from &apos;./exponential/index.js&apos;;
+export * from &apos;./io/index.js&apos;;
+export * from &apos;./logarithmic/index.js&apos;;
+export * from &apos;./memory/index.js&apos;;
+export * from &apos;./predicate/index.js&apos;;
+export * from &apos;./trigonometry/index.js&apos;;
 </code></pre>
 
 </div>

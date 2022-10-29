@@ -569,7 +569,7 @@
     "name": "src/arithmetic/add.js",
     "content": "export const add = (a, b) => a + b;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/add.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/add.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
@@ -585,7 +585,7 @@
     "longname": "src/arithmetic/add.js~add",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/add.js",
+    "importPath": "@arithmetic-type/double/src/arithmetic/add.js",
     "importStyle": "{add}",
     "description": null,
     "lineNumber": 1,
@@ -612,7 +612,7 @@
     "name": "src/arithmetic/constants/add1.js",
     "content": "export const add1 = (n) => n + 1;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/constants/add1.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/constants/add1.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
@@ -628,7 +628,7 @@
     "longname": "src/arithmetic/constants/add1.js~add1",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/constants/add1.js",
+    "importPath": "@arithmetic-type/double/src/arithmetic/constants/add1.js",
     "importStyle": "{add1}",
     "description": null,
     "lineNumber": 1,
@@ -649,7 +649,7 @@
     "name": "src/arithmetic/constants/div2.js",
     "content": "export const div2 = (n) => n / 2;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/constants/div2.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/constants/div2.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
@@ -665,7 +665,7 @@
     "longname": "src/arithmetic/constants/div2.js~div2",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/constants/div2.js",
+    "importPath": "@arithmetic-type/double/src/arithmetic/constants/div2.js",
     "importStyle": "{div2}",
     "description": null,
     "lineNumber": 1,
@@ -686,7 +686,7 @@
     "name": "src/arithmetic/constants/iadd1.js",
     "content": "export const iadd1 = (n) => (n += 1);\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/constants/iadd1.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/constants/iadd1.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
@@ -702,7 +702,7 @@
     "longname": "src/arithmetic/constants/iadd1.js~iadd1",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/constants/iadd1.js",
+    "importPath": "@arithmetic-type/double/src/arithmetic/constants/iadd1.js",
     "importStyle": "{iadd1}",
     "description": null,
     "lineNumber": 1,
@@ -723,7 +723,7 @@
     "name": "src/arithmetic/constants/idiv2.js",
     "content": "export const idiv2 = (n) => (n /= 2);\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/constants/idiv2.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/constants/idiv2.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
@@ -739,7 +739,7 @@
     "longname": "src/arithmetic/constants/idiv2.js~idiv2",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/constants/idiv2.js",
+    "importPath": "@arithmetic-type/double/src/arithmetic/constants/idiv2.js",
     "importStyle": "{idiv2}",
     "description": null,
     "lineNumber": 1,
@@ -760,7 +760,7 @@
     "name": "src/arithmetic/constants/imul2.js",
     "content": "export const imul2 = (a) => (a *= 2);\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/constants/imul2.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/constants/imul2.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
@@ -776,7 +776,7 @@
     "longname": "src/arithmetic/constants/imul2.js~imul2",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/constants/imul2.js",
+    "importPath": "@arithmetic-type/double/src/arithmetic/constants/imul2.js",
     "importStyle": "{imul2}",
     "description": null,
     "lineNumber": 1,
@@ -797,7 +797,7 @@
     "name": "src/arithmetic/constants/imul5.js",
     "content": "export const imul5 = (a) => (a *= 5);\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/constants/imul5.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/constants/imul5.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
@@ -813,7 +813,7 @@
     "longname": "src/arithmetic/constants/imul5.js~imul5",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/constants/imul5.js",
+    "importPath": "@arithmetic-type/double/src/arithmetic/constants/imul5.js",
     "importStyle": "{imul5}",
     "description": null,
     "lineNumber": 1,
@@ -831,16 +831,27 @@
   {
     "__docId__": 62,
     "kind": "file",
-    "name": "src/arithmetic/constants/isub1.js",
-    "content": "export const isub1 = (n) => (n -= 1);\n",
+    "name": "src/arithmetic/constants/index.js",
+    "content": "export * from './add1.js';\nexport * from './div2.js';\nexport * from './iadd1.js';\nexport * from './idiv2.js';\nexport * from './imul2.js';\nexport * from './imul5.js';\nexport * from './isub1.js';\nexport * from './mul2.js';\nexport * from './mul5.js';\nexport * from './sub1.js';\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/constants/isub1.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/constants/index.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
     "__docId__": 63,
+    "kind": "file",
+    "name": "src/arithmetic/constants/isub1.js",
+    "content": "export const isub1 = (n) => (n -= 1);\n",
+    "static": true,
+    "longname": "/home/runner/work/double/double/src/arithmetic/constants/isub1.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 64,
     "kind": "function",
     "name": "isub1",
     "memberof": "src/arithmetic/constants/isub1.js",
@@ -850,7 +861,7 @@
     "longname": "src/arithmetic/constants/isub1.js~isub1",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/constants/isub1.js",
+    "importPath": "@arithmetic-type/double/src/arithmetic/constants/isub1.js",
     "importStyle": "{isub1}",
     "description": null,
     "lineNumber": 1,
@@ -866,18 +877,18 @@
     "return": null
   },
   {
-    "__docId__": 64,
+    "__docId__": 65,
     "kind": "file",
     "name": "src/arithmetic/constants/mul2.js",
     "content": "export const mul2 = (a) => a * 2;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/constants/mul2.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/constants/mul2.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 65,
+    "__docId__": 66,
     "kind": "function",
     "name": "mul2",
     "memberof": "src/arithmetic/constants/mul2.js",
@@ -887,7 +898,7 @@
     "longname": "src/arithmetic/constants/mul2.js~mul2",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/constants/mul2.js",
+    "importPath": "@arithmetic-type/double/src/arithmetic/constants/mul2.js",
     "importStyle": "{mul2}",
     "description": null,
     "lineNumber": 1,
@@ -903,18 +914,18 @@
     "return": null
   },
   {
-    "__docId__": 66,
+    "__docId__": 67,
     "kind": "file",
     "name": "src/arithmetic/constants/mul5.js",
     "content": "export const mul5 = (a) => a * 5;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/constants/mul5.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/constants/mul5.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 67,
+    "__docId__": 68,
     "kind": "function",
     "name": "mul5",
     "memberof": "src/arithmetic/constants/mul5.js",
@@ -924,7 +935,7 @@
     "longname": "src/arithmetic/constants/mul5.js~mul5",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/constants/mul5.js",
+    "importPath": "@arithmetic-type/double/src/arithmetic/constants/mul5.js",
     "importStyle": "{mul5}",
     "description": null,
     "lineNumber": 1,
@@ -940,18 +951,18 @@
     "return": null
   },
   {
-    "__docId__": 68,
+    "__docId__": 69,
     "kind": "file",
     "name": "src/arithmetic/constants/sub1.js",
     "content": "export const sub1 = (n) => n - 1;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/constants/sub1.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/constants/sub1.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 69,
+    "__docId__": 70,
     "kind": "function",
     "name": "sub1",
     "memberof": "src/arithmetic/constants/sub1.js",
@@ -961,7 +972,7 @@
     "longname": "src/arithmetic/constants/sub1.js~sub1",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/constants/sub1.js",
+    "importPath": "@arithmetic-type/double/src/arithmetic/constants/sub1.js",
     "importStyle": "{sub1}",
     "description": null,
     "lineNumber": 1,
@@ -977,18 +988,18 @@
     "return": null
   },
   {
-    "__docId__": 70,
+    "__docId__": 71,
     "kind": "file",
     "name": "src/arithmetic/div.js",
     "content": "export const div = (a, b) => a / b;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/div.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/div.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 71,
+    "__docId__": 72,
     "kind": "function",
     "name": "div",
     "memberof": "src/arithmetic/div.js",
@@ -998,7 +1009,7 @@
     "longname": "src/arithmetic/div.js~div",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/div.js",
+    "importPath": "@arithmetic-type/double/src/arithmetic/div.js",
     "importStyle": "{div}",
     "description": null,
     "lineNumber": 1,
@@ -1020,18 +1031,18 @@
     "return": null
   },
   {
-    "__docId__": 72,
+    "__docId__": 73,
     "kind": "file",
     "name": "src/arithmetic/divmod.js",
     "content": "export const divmod = (a, b) => [(a / b) | 0, a % b];\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/divmod.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/divmod.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 73,
+    "__docId__": 74,
     "kind": "function",
     "name": "divmod",
     "memberof": "src/arithmetic/divmod.js",
@@ -1041,7 +1052,7 @@
     "longname": "src/arithmetic/divmod.js~divmod",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/divmod.js",
+    "importPath": "@arithmetic-type/double/src/arithmetic/divmod.js",
     "importStyle": "{divmod}",
     "description": null,
     "lineNumber": 1,
@@ -1063,18 +1074,18 @@
     "return": null
   },
   {
-    "__docId__": 74,
+    "__docId__": 75,
     "kind": "file",
     "name": "src/arithmetic/iadd.js",
     "content": "export const iadd = (a, b) => (a += b);\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/iadd.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/iadd.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 75,
+    "__docId__": 76,
     "kind": "function",
     "name": "iadd",
     "memberof": "src/arithmetic/iadd.js",
@@ -1084,7 +1095,7 @@
     "longname": "src/arithmetic/iadd.js~iadd",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/iadd.js",
+    "importPath": "@arithmetic-type/double/src/arithmetic/iadd.js",
     "importStyle": "{iadd}",
     "description": null,
     "lineNumber": 1,
@@ -1106,18 +1117,18 @@
     "return": null
   },
   {
-    "__docId__": 76,
+    "__docId__": 77,
     "kind": "file",
     "name": "src/arithmetic/idiv.js",
     "content": "export const idiv = (a, b) => (a /= b);\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/idiv.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/idiv.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 77,
+    "__docId__": 78,
     "kind": "function",
     "name": "idiv",
     "memberof": "src/arithmetic/idiv.js",
@@ -1127,7 +1138,7 @@
     "longname": "src/arithmetic/idiv.js~idiv",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/idiv.js",
+    "importPath": "@arithmetic-type/double/src/arithmetic/idiv.js",
     "importStyle": "{idiv}",
     "description": null,
     "lineNumber": 1,
@@ -1149,18 +1160,18 @@
     "return": null
   },
   {
-    "__docId__": 78,
+    "__docId__": 79,
     "kind": "file",
     "name": "src/arithmetic/idivmod.js",
     "content": "export function idivmod(a, b) {\n\tconst q = (a / b) | 0;\n\n\treturn [q, (a %= b)];\n}\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/idivmod.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/idivmod.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 79,
+    "__docId__": 80,
     "kind": "function",
     "name": "idivmod",
     "memberof": "src/arithmetic/idivmod.js",
@@ -1170,7 +1181,7 @@
     "longname": "src/arithmetic/idivmod.js~idivmod",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/idivmod.js",
+    "importPath": "@arithmetic-type/double/src/arithmetic/idivmod.js",
     "importStyle": "{idivmod}",
     "description": null,
     "lineNumber": 1,
@@ -1196,18 +1207,18 @@
     }
   },
   {
-    "__docId__": 80,
+    "__docId__": 81,
     "kind": "file",
     "name": "src/arithmetic/imod.js",
     "content": "export const imod = (a, b) => (a %= b);\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/imod.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/imod.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 81,
+    "__docId__": 82,
     "kind": "function",
     "name": "imod",
     "memberof": "src/arithmetic/imod.js",
@@ -1217,7 +1228,7 @@
     "longname": "src/arithmetic/imod.js~imod",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/imod.js",
+    "importPath": "@arithmetic-type/double/src/arithmetic/imod.js",
     "importStyle": "{imod}",
     "description": null,
     "lineNumber": 1,
@@ -1239,18 +1250,18 @@
     "return": null
   },
   {
-    "__docId__": 82,
+    "__docId__": 83,
     "kind": "file",
     "name": "src/arithmetic/imul.js",
     "content": "export const imul = (a, b) => (a *= b);\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/imul.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/imul.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 83,
+    "__docId__": 84,
     "kind": "function",
     "name": "imul",
     "memberof": "src/arithmetic/imul.js",
@@ -1260,7 +1271,7 @@
     "longname": "src/arithmetic/imul.js~imul",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/imul.js",
+    "importPath": "@arithmetic-type/double/src/arithmetic/imul.js",
     "importStyle": "{imul}",
     "description": null,
     "lineNumber": 1,
@@ -1282,18 +1293,29 @@
     "return": null
   },
   {
-    "__docId__": 84,
+    "__docId__": 85,
     "kind": "file",
-    "name": "src/arithmetic/ishl.js",
-    "content": "export const ishl = (a, n) => (a <<= n);\n",
+    "name": "src/arithmetic/index.js",
+    "content": "export * from './constants/index.js';\nexport * from './special/index.js';\nexport * from './add.js';\nexport * from './div.js';\nexport * from './divmod.js';\nexport * from './iadd.js';\nexport * from './idiv.js';\nexport * from './idivmod.js';\nexport * from './imod.js';\nexport * from './imul.js';\nexport * from './ishl.js';\nexport * from './ishr.js';\nexport * from './ishu.js';\nexport * from './isub.js';\nexport * from './mod.js';\nexport * from './mul.js';\nexport * from './neg.js';\nexport * from './shl.js';\nexport * from './shr.js';\nexport * from './shu.js';\nexport * from './sub.js';\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/ishl.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/index.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 85,
+    "__docId__": 86,
+    "kind": "file",
+    "name": "src/arithmetic/ishl.js",
+    "content": "export const ishl = (a, n) => (a <<= n);\n",
+    "static": true,
+    "longname": "/home/runner/work/double/double/src/arithmetic/ishl.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 87,
     "kind": "function",
     "name": "ishl",
     "memberof": "src/arithmetic/ishl.js",
@@ -1303,51 +1325,8 @@
     "longname": "src/arithmetic/ishl.js~ishl",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/ishl.js",
+    "importPath": "@arithmetic-type/double/src/arithmetic/ishl.js",
     "importStyle": "{ishl}",
-    "description": null,
-    "lineNumber": 1,
-    "undocument": true,
-    "params": [
-      {
-        "name": "a",
-        "types": [
-          "*"
-        ]
-      },
-      {
-        "name": "n",
-        "types": [
-          "*"
-        ]
-      }
-    ],
-    "return": null
-  },
-  {
-    "__docId__": 86,
-    "kind": "file",
-    "name": "src/arithmetic/ishr.js",
-    "content": "export const ishr = (a, n) => (a >>= n);\n",
-    "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/ishr.js",
-    "access": "public",
-    "description": null,
-    "lineNumber": 1
-  },
-  {
-    "__docId__": 87,
-    "kind": "function",
-    "name": "ishr",
-    "memberof": "src/arithmetic/ishr.js",
-    "generator": false,
-    "async": false,
-    "static": true,
-    "longname": "src/arithmetic/ishr.js~ishr",
-    "access": "public",
-    "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/ishr.js",
-    "importStyle": "{ishr}",
     "description": null,
     "lineNumber": 1,
     "undocument": true,
@@ -1370,10 +1349,10 @@
   {
     "__docId__": 88,
     "kind": "file",
-    "name": "src/arithmetic/ishu.js",
-    "content": "export const ishu = (a, n) => (a >>>= n);\n",
+    "name": "src/arithmetic/ishr.js",
+    "content": "export const ishr = (a, n) => (a >>= n);\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/ishu.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/ishr.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
@@ -1381,16 +1360,16 @@
   {
     "__docId__": 89,
     "kind": "function",
-    "name": "ishu",
-    "memberof": "src/arithmetic/ishu.js",
+    "name": "ishr",
+    "memberof": "src/arithmetic/ishr.js",
     "generator": false,
     "async": false,
     "static": true,
-    "longname": "src/arithmetic/ishu.js~ishu",
+    "longname": "src/arithmetic/ishr.js~ishr",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/ishu.js",
-    "importStyle": "{ishu}",
+    "importPath": "@arithmetic-type/double/src/arithmetic/ishr.js",
+    "importStyle": "{ishr}",
     "description": null,
     "lineNumber": 1,
     "undocument": true,
@@ -1413,10 +1392,10 @@
   {
     "__docId__": 90,
     "kind": "file",
-    "name": "src/arithmetic/isub.js",
-    "content": "export const isub = (a, b) => (a -= b);\n",
+    "name": "src/arithmetic/ishu.js",
+    "content": "export const ishu = (a, n) => (a >>>= n);\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/isub.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/ishu.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
@@ -1424,16 +1403,16 @@
   {
     "__docId__": 91,
     "kind": "function",
-    "name": "isub",
-    "memberof": "src/arithmetic/isub.js",
+    "name": "ishu",
+    "memberof": "src/arithmetic/ishu.js",
     "generator": false,
     "async": false,
     "static": true,
-    "longname": "src/arithmetic/isub.js~isub",
+    "longname": "src/arithmetic/ishu.js~ishu",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/isub.js",
-    "importStyle": "{isub}",
+    "importPath": "@arithmetic-type/double/src/arithmetic/ishu.js",
+    "importStyle": "{ishu}",
     "description": null,
     "lineNumber": 1,
     "undocument": true,
@@ -1445,7 +1424,7 @@
         ]
       },
       {
-        "name": "b",
+        "name": "n",
         "types": [
           "*"
         ]
@@ -1456,10 +1435,10 @@
   {
     "__docId__": 92,
     "kind": "file",
-    "name": "src/arithmetic/mod.js",
-    "content": "export const mod = (a, b) => a % b;\n",
+    "name": "src/arithmetic/isub.js",
+    "content": "export const isub = (a, b) => (a -= b);\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/mod.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/isub.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
@@ -1467,16 +1446,16 @@
   {
     "__docId__": 93,
     "kind": "function",
-    "name": "mod",
-    "memberof": "src/arithmetic/mod.js",
+    "name": "isub",
+    "memberof": "src/arithmetic/isub.js",
     "generator": false,
     "async": false,
     "static": true,
-    "longname": "src/arithmetic/mod.js~mod",
+    "longname": "src/arithmetic/isub.js~isub",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/mod.js",
-    "importStyle": "{mod}",
+    "importPath": "@arithmetic-type/double/src/arithmetic/isub.js",
+    "importStyle": "{isub}",
     "description": null,
     "lineNumber": 1,
     "undocument": true,
@@ -1499,10 +1478,10 @@
   {
     "__docId__": 94,
     "kind": "file",
-    "name": "src/arithmetic/mul.js",
-    "content": "export const mul = (a, b) => a * b;\n",
+    "name": "src/arithmetic/mod.js",
+    "content": "export const mod = (a, b) => a % b;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/mul.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/mod.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
@@ -1510,16 +1489,16 @@
   {
     "__docId__": 95,
     "kind": "function",
-    "name": "mul",
-    "memberof": "src/arithmetic/mul.js",
+    "name": "mod",
+    "memberof": "src/arithmetic/mod.js",
     "generator": false,
     "async": false,
     "static": true,
-    "longname": "src/arithmetic/mul.js~mul",
+    "longname": "src/arithmetic/mod.js~mod",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/mul.js",
-    "importStyle": "{mul}",
+    "importPath": "@arithmetic-type/double/src/arithmetic/mod.js",
+    "importStyle": "{mod}",
     "description": null,
     "lineNumber": 1,
     "undocument": true,
@@ -1542,16 +1521,59 @@
   {
     "__docId__": 96,
     "kind": "file",
-    "name": "src/arithmetic/neg.js",
-    "content": "export const neg = (n) => -n;\n",
+    "name": "src/arithmetic/mul.js",
+    "content": "export const mul = (a, b) => a * b;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/neg.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/mul.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
     "__docId__": 97,
+    "kind": "function",
+    "name": "mul",
+    "memberof": "src/arithmetic/mul.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/arithmetic/mul.js~mul",
+    "access": "public",
+    "export": true,
+    "importPath": "@arithmetic-type/double/src/arithmetic/mul.js",
+    "importStyle": "{mul}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "a",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "b",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 98,
+    "kind": "file",
+    "name": "src/arithmetic/neg.js",
+    "content": "export const neg = (n) => -n;\n",
+    "static": true,
+    "longname": "/home/runner/work/double/double/src/arithmetic/neg.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 99,
     "kind": "function",
     "name": "neg",
     "memberof": "src/arithmetic/neg.js",
@@ -1561,7 +1583,7 @@
     "longname": "src/arithmetic/neg.js~neg",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/neg.js",
+    "importPath": "@arithmetic-type/double/src/arithmetic/neg.js",
     "importStyle": "{neg}",
     "description": null,
     "lineNumber": 1,
@@ -1577,18 +1599,18 @@
     "return": null
   },
   {
-    "__docId__": 98,
+    "__docId__": 100,
     "kind": "file",
     "name": "src/arithmetic/shl.js",
     "content": "export const shl = (a, n) => a << n;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/shl.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/shl.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 99,
+    "__docId__": 101,
     "kind": "function",
     "name": "shl",
     "memberof": "src/arithmetic/shl.js",
@@ -1598,51 +1620,8 @@
     "longname": "src/arithmetic/shl.js~shl",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/shl.js",
+    "importPath": "@arithmetic-type/double/src/arithmetic/shl.js",
     "importStyle": "{shl}",
-    "description": null,
-    "lineNumber": 1,
-    "undocument": true,
-    "params": [
-      {
-        "name": "a",
-        "types": [
-          "*"
-        ]
-      },
-      {
-        "name": "n",
-        "types": [
-          "*"
-        ]
-      }
-    ],
-    "return": null
-  },
-  {
-    "__docId__": 100,
-    "kind": "file",
-    "name": "src/arithmetic/shr.js",
-    "content": "export const shr = (a, n) => a >> n;\n",
-    "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/shr.js",
-    "access": "public",
-    "description": null,
-    "lineNumber": 1
-  },
-  {
-    "__docId__": 101,
-    "kind": "function",
-    "name": "shr",
-    "memberof": "src/arithmetic/shr.js",
-    "generator": false,
-    "async": false,
-    "static": true,
-    "longname": "src/arithmetic/shr.js~shr",
-    "access": "public",
-    "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/shr.js",
-    "importStyle": "{shr}",
     "description": null,
     "lineNumber": 1,
     "undocument": true,
@@ -1665,10 +1644,10 @@
   {
     "__docId__": 102,
     "kind": "file",
-    "name": "src/arithmetic/shu.js",
-    "content": "export const shu = (a, n) => a >>> n;\n",
+    "name": "src/arithmetic/shr.js",
+    "content": "export const shr = (a, n) => a >> n;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/shu.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/shr.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
@@ -1676,16 +1655,16 @@
   {
     "__docId__": 103,
     "kind": "function",
-    "name": "shu",
-    "memberof": "src/arithmetic/shu.js",
+    "name": "shr",
+    "memberof": "src/arithmetic/shr.js",
     "generator": false,
     "async": false,
     "static": true,
-    "longname": "src/arithmetic/shu.js~shu",
+    "longname": "src/arithmetic/shr.js~shr",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/shu.js",
-    "importStyle": "{shu}",
+    "importPath": "@arithmetic-type/double/src/arithmetic/shr.js",
+    "importStyle": "{shr}",
     "description": null,
     "lineNumber": 1,
     "undocument": true,
@@ -1708,10 +1687,10 @@
   {
     "__docId__": 104,
     "kind": "file",
-    "name": "src/arithmetic/special/div2n.js",
-    "content": "export const div2n = (a, n) => a / 2 ** n;\n",
+    "name": "src/arithmetic/shu.js",
+    "content": "export const shu = (a, n) => a >>> n;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/special/div2n.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/shu.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
@@ -1719,16 +1698,16 @@
   {
     "__docId__": 105,
     "kind": "function",
-    "name": "div2n",
-    "memberof": "src/arithmetic/special/div2n.js",
+    "name": "shu",
+    "memberof": "src/arithmetic/shu.js",
     "generator": false,
     "async": false,
     "static": true,
-    "longname": "src/arithmetic/special/div2n.js~div2n",
+    "longname": "src/arithmetic/shu.js~shu",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/special/div2n.js",
-    "importStyle": "{div2n}",
+    "importPath": "@arithmetic-type/double/src/arithmetic/shu.js",
+    "importStyle": "{shu}",
     "description": null,
     "lineNumber": 1,
     "undocument": true,
@@ -1751,16 +1730,70 @@
   {
     "__docId__": 106,
     "kind": "file",
-    "name": "src/arithmetic/sub.js",
-    "content": "export const sub = (a, b) => a - b;\n",
+    "name": "src/arithmetic/special/div2n.js",
+    "content": "export const div2n = (a, n) => a / 2 ** n;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/arithmetic/sub.js",
+    "longname": "/home/runner/work/double/double/src/arithmetic/special/div2n.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
     "__docId__": 107,
+    "kind": "function",
+    "name": "div2n",
+    "memberof": "src/arithmetic/special/div2n.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/arithmetic/special/div2n.js~div2n",
+    "access": "public",
+    "export": true,
+    "importPath": "@arithmetic-type/double/src/arithmetic/special/div2n.js",
+    "importStyle": "{div2n}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "a",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "n",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 108,
+    "kind": "file",
+    "name": "src/arithmetic/special/index.js",
+    "content": "export * from './div2n.js';\n",
+    "static": true,
+    "longname": "/home/runner/work/double/double/src/arithmetic/special/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 109,
+    "kind": "file",
+    "name": "src/arithmetic/sub.js",
+    "content": "export const sub = (a, b) => a - b;\n",
+    "static": true,
+    "longname": "/home/runner/work/double/double/src/arithmetic/sub.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 110,
     "kind": "function",
     "name": "sub",
     "memberof": "src/arithmetic/sub.js",
@@ -1770,7 +1803,7 @@
     "longname": "src/arithmetic/sub.js~sub",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/arithmetic/sub.js",
+    "importPath": "@arithmetic-type/double/src/arithmetic/sub.js",
     "importStyle": "{sub}",
     "description": null,
     "lineNumber": 1,
@@ -1792,18 +1825,59 @@
     "return": null
   },
   {
-    "__docId__": 108,
+    "__docId__": 111,
     "kind": "file",
-    "name": "src/compare/decreasing.js",
-    "content": "export const decreasing = (a, b) => (a > b ? -1 : a === b ? 0 : 1);\n",
+    "name": "src/compare/absapprox.js",
+    "content": "export const absapprox = (epsilon) => (a, b) => {\n\tconst r = a - b;\n\treturn r < -epsilon ? -1 : r > epsilon ? 1 : 0;\n};\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/compare/decreasing.js",
+    "longname": "/home/runner/work/double/double/src/compare/absapprox.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 109,
+    "__docId__": 112,
+    "kind": "function",
+    "name": "absapprox",
+    "memberof": "src/compare/absapprox.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/compare/absapprox.js~absapprox",
+    "access": "public",
+    "export": true,
+    "importPath": "@arithmetic-type/double/src/compare/absapprox.js",
+    "importStyle": "{absapprox}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "epsilon",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 113,
+    "kind": "file",
+    "name": "src/compare/decreasing.js",
+    "content": "export const decreasing = (a, b) => (a > b ? -1 : a === b ? 0 : 1);\n",
+    "static": true,
+    "longname": "/home/runner/work/double/double/src/compare/decreasing.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 114,
     "kind": "function",
     "name": "decreasing",
     "memberof": "src/compare/decreasing.js",
@@ -1813,7 +1887,7 @@
     "longname": "src/compare/decreasing.js~decreasing",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/compare/decreasing.js",
+    "importPath": "@arithmetic-type/double/src/compare/decreasing.js",
     "importStyle": "{decreasing}",
     "description": null,
     "lineNumber": 1,
@@ -1835,18 +1909,18 @@
     "return": null
   },
   {
-    "__docId__": 110,
+    "__docId__": 115,
     "kind": "file",
     "name": "src/compare/increasing.js",
     "content": "export const increasing = (a, b) => (a < b ? -1 : a === b ? 0 : 1);\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/compare/increasing.js",
+    "longname": "/home/runner/work/double/double/src/compare/increasing.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 111,
+    "__docId__": 116,
     "kind": "function",
     "name": "increasing",
     "memberof": "src/compare/increasing.js",
@@ -1856,7 +1930,7 @@
     "longname": "src/compare/increasing.js~increasing",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/compare/increasing.js",
+    "importPath": "@arithmetic-type/double/src/compare/increasing.js",
     "importStyle": "{increasing}",
     "description": null,
     "lineNumber": 1,
@@ -1878,18 +1952,117 @@
     "return": null
   },
   {
-    "__docId__": 112,
+    "__docId__": 117,
     "kind": "file",
-    "name": "src/constants/$0.js",
-    "content": "export const $0 = () => 0;\n",
+    "name": "src/compare/index.js",
+    "content": "export * from './absapprox.js';\nexport * from './decreasing.js';\nexport * from './increasing.js';\nexport * from './relapprox.js';\nexport * from './sign.js';\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/constants/$0.js",
+    "longname": "/home/runner/work/double/double/src/compare/index.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 113,
+    "__docId__": 118,
+    "kind": "file",
+    "name": "src/compare/relapprox.js",
+    "content": "export const relapprox = (epsilon) => (a, b) => {\n\tif (b === 0) {\n\t\treturn a;\n\t}\n\n\tif (a === 0) {\n\t\treturn -b;\n\t}\n\n\tconst r = a / b - 1;\n\n\treturn r < -epsilon ? -1 : r > epsilon ? 1 : 0;\n};\n",
+    "static": true,
+    "longname": "/home/runner/work/double/double/src/compare/relapprox.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 119,
+    "kind": "function",
+    "name": "relapprox",
+    "memberof": "src/compare/relapprox.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/compare/relapprox.js~relapprox",
+    "access": "public",
+    "export": true,
+    "importPath": "@arithmetic-type/double/src/compare/relapprox.js",
+    "importStyle": "{relapprox}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "epsilon",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 120,
+    "kind": "file",
+    "name": "src/compare/sign.js",
+    "content": "/**\n * Computes the sign of the input number.\n *\n * @param {number} v - The number to compute the sign of.\n * @return {number} -1 if v < 0, 1 if v > 0, 0 otherwise.\n */\nexport const sign = (v) => (v < 0 ? -1 : v > 0 ? 1 : 0);\n",
+    "static": true,
+    "longname": "/home/runner/work/double/double/src/compare/sign.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 121,
+    "kind": "function",
+    "name": "sign",
+    "memberof": "src/compare/sign.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/compare/sign.js~sign",
+    "access": "public",
+    "export": true,
+    "importPath": "@arithmetic-type/double/src/compare/sign.js",
+    "importStyle": "{sign}",
+    "description": "Computes the sign of the input number.",
+    "lineNumber": 7,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "v",
+        "description": "The number to compute the sign of."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "1 if v < 0, 1 if v > 0, 0 otherwise."
+    }
+  },
+  {
+    "__docId__": 122,
+    "kind": "file",
+    "name": "src/constants/$0.js",
+    "content": "export const $0 = () => 0;\n",
+    "static": true,
+    "longname": "/home/runner/work/double/double/src/constants/$0.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 123,
     "kind": "function",
     "name": "$0",
     "memberof": "src/constants/$0.js",
@@ -1899,7 +2072,7 @@
     "longname": "src/constants/$0.js~$0",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/constants/$0.js",
+    "importPath": "@arithmetic-type/double/src/constants/$0.js",
     "importStyle": "{$0}",
     "description": null,
     "lineNumber": 1,
@@ -1908,18 +2081,18 @@
     "return": null
   },
   {
-    "__docId__": 114,
+    "__docId__": 124,
     "kind": "file",
     "name": "src/constants/$1.js",
     "content": "export const $1 = () => 1;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/constants/$1.js",
+    "longname": "/home/runner/work/double/double/src/constants/$1.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 115,
+    "__docId__": 125,
     "kind": "function",
     "name": "$1",
     "memberof": "src/constants/$1.js",
@@ -1929,7 +2102,7 @@
     "longname": "src/constants/$1.js~$1",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/constants/$1.js",
+    "importPath": "@arithmetic-type/double/src/constants/$1.js",
     "importStyle": "{$1}",
     "description": null,
     "lineNumber": 1,
@@ -1938,18 +2111,18 @@
     "return": null
   },
   {
-    "__docId__": 116,
+    "__docId__": 126,
     "kind": "file",
     "name": "src/constants/$2.js",
     "content": "export const $2 = () => 2;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/constants/$2.js",
+    "longname": "/home/runner/work/double/double/src/constants/$2.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 117,
+    "__docId__": 127,
     "kind": "function",
     "name": "$2",
     "memberof": "src/constants/$2.js",
@@ -1959,7 +2132,7 @@
     "longname": "src/constants/$2.js~$2",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/constants/$2.js",
+    "importPath": "@arithmetic-type/double/src/constants/$2.js",
     "importStyle": "{$2}",
     "description": null,
     "lineNumber": 1,
@@ -1968,18 +2141,18 @@
     "return": null
   },
   {
-    "__docId__": 118,
+    "__docId__": 128,
     "kind": "file",
     "name": "src/constants/$5.js",
     "content": "export const $5 = () => 5;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/constants/$5.js",
+    "longname": "/home/runner/work/double/double/src/constants/$5.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 119,
+    "__docId__": 129,
     "kind": "function",
     "name": "$5",
     "memberof": "src/constants/$5.js",
@@ -1989,7 +2162,7 @@
     "longname": "src/constants/$5.js~$5",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/constants/$5.js",
+    "importPath": "@arithmetic-type/double/src/constants/$5.js",
     "importStyle": "{$5}",
     "description": null,
     "lineNumber": 1,
@@ -1998,18 +2171,18 @@
     "return": null
   },
   {
-    "__docId__": 120,
+    "__docId__": 130,
     "kind": "file",
     "name": "src/constants/$_1.js",
     "content": "export const $_1 = () => -1;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/constants/$_1.js",
+    "longname": "/home/runner/work/double/double/src/constants/$_1.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 121,
+    "__docId__": 131,
     "kind": "function",
     "name": "$_1",
     "memberof": "src/constants/$_1.js",
@@ -2019,7 +2192,7 @@
     "longname": "src/constants/$_1.js~$_1",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/constants/$_1.js",
+    "importPath": "@arithmetic-type/double/src/constants/$_1.js",
     "importStyle": "{$_1}",
     "description": null,
     "lineNumber": 1,
@@ -2028,18 +2201,40 @@
     "return": null
   },
   {
-    "__docId__": 122,
+    "__docId__": 132,
     "kind": "file",
-    "name": "src/exponential/constants/ipow2.js",
-    "content": "export const ipow2 = (a) => (a *= a);\n",
+    "name": "src/constants/index.js",
+    "content": "export * from './$0.js';\nexport * from './$1.js';\nexport * from './$2.js';\nexport * from './$5.js';\nexport * from './$_1.js';\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/exponential/constants/ipow2.js",
+    "longname": "/home/runner/work/double/double/src/constants/index.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 123,
+    "__docId__": 133,
+    "kind": "file",
+    "name": "src/exponential/constants/index.js",
+    "content": "export * from './ipow2.js';\nexport * from './pow2.js';\n",
+    "static": true,
+    "longname": "/home/runner/work/double/double/src/exponential/constants/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 134,
+    "kind": "file",
+    "name": "src/exponential/constants/ipow2.js",
+    "content": "export const ipow2 = (a) => (a *= a);\n",
+    "static": true,
+    "longname": "/home/runner/work/double/double/src/exponential/constants/ipow2.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 135,
     "kind": "function",
     "name": "ipow2",
     "memberof": "src/exponential/constants/ipow2.js",
@@ -2049,7 +2244,7 @@
     "longname": "src/exponential/constants/ipow2.js~ipow2",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/exponential/constants/ipow2.js",
+    "importPath": "@arithmetic-type/double/src/exponential/constants/ipow2.js",
     "importStyle": "{ipow2}",
     "description": null,
     "lineNumber": 1,
@@ -2065,18 +2260,18 @@
     "return": null
   },
   {
-    "__docId__": 124,
+    "__docId__": 136,
     "kind": "file",
     "name": "src/exponential/constants/pow2.js",
     "content": "export const pow2 = (a) => a * a;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/exponential/constants/pow2.js",
+    "longname": "/home/runner/work/double/double/src/exponential/constants/pow2.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 125,
+    "__docId__": 137,
     "kind": "function",
     "name": "pow2",
     "memberof": "src/exponential/constants/pow2.js",
@@ -2086,7 +2281,7 @@
     "longname": "src/exponential/constants/pow2.js~pow2",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/exponential/constants/pow2.js",
+    "importPath": "@arithmetic-type/double/src/exponential/constants/pow2.js",
     "importStyle": "{pow2}",
     "description": null,
     "lineNumber": 1,
@@ -2102,18 +2297,18 @@
     "return": null
   },
   {
-    "__docId__": 126,
+    "__docId__": 138,
     "kind": "file",
     "name": "src/exponential/exp.js",
     "content": "export const exp = Math.exp;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/exponential/exp.js",
+    "longname": "/home/runner/work/double/double/src/exponential/exp.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 127,
+    "__docId__": 139,
     "kind": "variable",
     "name": "exp",
     "memberof": "src/exponential/exp.js",
@@ -2121,7 +2316,7 @@
     "longname": "src/exponential/exp.js~exp",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/exponential/exp.js",
+    "importPath": "@arithmetic-type/double/src/exponential/exp.js",
     "importStyle": "{exp}",
     "description": null,
     "lineNumber": 1,
@@ -2133,18 +2328,29 @@
     }
   },
   {
-    "__docId__": 128,
+    "__docId__": 140,
     "kind": "file",
-    "name": "src/exponential/pow.js",
-    "content": "export const pow = Math.pow;\n",
+    "name": "src/exponential/index.js",
+    "content": "export * from './constants/index.js';\nexport * from './exp.js';\nexport * from './pow.js';\nexport * from './sqrt.js';\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/exponential/pow.js",
+    "longname": "/home/runner/work/double/double/src/exponential/index.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 129,
+    "__docId__": 141,
+    "kind": "file",
+    "name": "src/exponential/pow.js",
+    "content": "export const pow = Math.pow;\n",
+    "static": true,
+    "longname": "/home/runner/work/double/double/src/exponential/pow.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 142,
     "kind": "variable",
     "name": "pow",
     "memberof": "src/exponential/pow.js",
@@ -2152,7 +2358,7 @@
     "longname": "src/exponential/pow.js~pow",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/exponential/pow.js",
+    "importPath": "@arithmetic-type/double/src/exponential/pow.js",
     "importStyle": "{pow}",
     "description": null,
     "lineNumber": 1,
@@ -2164,18 +2370,18 @@
     }
   },
   {
-    "__docId__": 130,
+    "__docId__": 143,
     "kind": "file",
     "name": "src/exponential/sqrt.js",
     "content": "export const sqrt = Math.sqrt;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/exponential/sqrt.js",
+    "longname": "/home/runner/work/double/double/src/exponential/sqrt.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 131,
+    "__docId__": 144,
     "kind": "variable",
     "name": "sqrt",
     "memberof": "src/exponential/sqrt.js",
@@ -2183,7 +2389,7 @@
     "longname": "src/exponential/sqrt.js~sqrt",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/exponential/sqrt.js",
+    "importPath": "@arithmetic-type/double/src/exponential/sqrt.js",
     "importStyle": "{sqrt}",
     "description": null,
     "lineNumber": 1,
@@ -2195,29 +2401,40 @@
     }
   },
   {
-    "__docId__": 132,
+    "__docId__": 145,
     "kind": "file",
     "name": "src/index.js",
-    "content": "export {add1} from './arithmetic/constants/add1.js';\nexport {div2} from './arithmetic/constants/div2.js';\nexport {iadd1} from './arithmetic/constants/iadd1.js';\nexport {idiv2} from './arithmetic/constants/idiv2.js';\nexport {imul2} from './arithmetic/constants/imul2.js';\nexport {imul5} from './arithmetic/constants/imul5.js';\nexport {isub1} from './arithmetic/constants/isub1.js';\nexport {mul2} from './arithmetic/constants/mul2.js';\nexport {mul5} from './arithmetic/constants/mul5.js';\nexport {sub1} from './arithmetic/constants/sub1.js';\nexport {div2n} from './arithmetic/special/div2n.js';\nexport {add} from './arithmetic/add.js';\nexport {div} from './arithmetic/div.js';\nexport {divmod} from './arithmetic/divmod.js';\nexport {iadd} from './arithmetic/iadd.js';\nexport {idiv} from './arithmetic/idiv.js';\nexport {idivmod} from './arithmetic/idivmod.js';\nexport {imod} from './arithmetic/imod.js';\nexport {imul} from './arithmetic/imul.js';\nexport {ishl} from './arithmetic/ishl.js';\nexport {ishr} from './arithmetic/ishr.js';\nexport {ishu} from './arithmetic/ishu.js';\nexport {isub} from './arithmetic/isub.js';\nexport {mod} from './arithmetic/mod.js';\nexport {mul} from './arithmetic/mul.js';\nexport {neg} from './arithmetic/neg.js';\nexport {shl} from './arithmetic/shl.js';\nexport {shr} from './arithmetic/shr.js';\nexport {shu} from './arithmetic/shu.js';\nexport {sub} from './arithmetic/sub.js';\nexport {decreasing} from './compare/decreasing.js';\nexport {increasing} from './compare/increasing.js';\nexport {$0} from './constants/$0.js';\nexport {$1} from './constants/$1.js';\nexport {$2} from './constants/$2.js';\nexport {$5} from './constants/$5.js';\nexport {$_1} from './constants/$_1.js';\nexport {ipow2} from './exponential/constants/ipow2.js';\nexport {pow2} from './exponential/constants/pow2.js';\nexport {exp} from './exponential/exp.js';\nexport {pow} from './exponential/pow.js';\nexport {sqrt} from './exponential/sqrt.js';\nexport {parse} from './io/parse.js';\nexport {stringify} from './io/stringify.js';\nexport {log} from './logarithmic/log.js';\nexport {log2} from './logarithmic/log2.js';\nexport {loge} from './logarithmic/loge.js';\nexport {loglog} from './logarithmic/loglog.js';\nexport {loglog2} from './logarithmic/loglog2.js';\nexport {logloge} from './logarithmic/logloge.js';\nexport {copy} from './memory/copy.js';\nexport {eq0} from './predicate/constants/eq0.js';\nexport {eq1} from './predicate/constants/eq1.js';\nexport {eq_1} from './predicate/constants/eq_1.js';\nexport {ge1} from './predicate/constants/ge1.js';\nexport {gt0} from './predicate/constants/gt0.js';\nexport {gt1} from './predicate/constants/gt1.js';\nexport {le1} from './predicate/constants/le1.js';\nexport {lt1} from './predicate/constants/lt1.js';\nexport {eq} from './predicate/eq.js';\nexport {ge} from './predicate/ge.js';\nexport {gt} from './predicate/gt.js';\nexport {le} from './predicate/le.js';\nexport {lt} from './predicate/lt.js';\nexport {ne} from './predicate/ne.js';\nexport {PI} from './trigonometry/PI.js';\nexport {atan2} from './trigonometry/atan2.js';\nexport {cos} from './trigonometry/cos.js';\nexport {sin} from './trigonometry/sin.js';\n",
+    "content": "export * from './arithmetic/index.js';\nexport * from './compare/index.js';\nexport * from './constants/index.js';\nexport * from './exponential/index.js';\nexport * from './io/index.js';\nexport * from './logarithmic/index.js';\nexport * from './memory/index.js';\nexport * from './predicate/index.js';\nexport * from './trigonometry/index.js';\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/index.js",
+    "longname": "/home/runner/work/double/double/src/index.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 133,
+    "__docId__": 146,
+    "kind": "file",
+    "name": "src/io/index.js",
+    "content": "export * from './parse.js';\nexport * from './stringify.js';\n",
+    "static": true,
+    "longname": "/home/runner/work/double/double/src/io/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 147,
     "kind": "file",
     "name": "src/io/parse.js",
-    "content": "export const parse = (n) => Number(n);\n",
+    "content": "// eslint-disable-next-line unicorn/prefer-native-coercion-functions\nexport const parse = (x) => Number(x);\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/io/parse.js",
+    "longname": "/home/runner/work/double/double/src/io/parse.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 134,
+    "__docId__": 148,
     "kind": "function",
     "name": "parse",
     "memberof": "src/io/parse.js",
@@ -2227,14 +2444,14 @@
     "longname": "src/io/parse.js~parse",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/io/parse.js",
+    "importPath": "@arithmetic-type/double/src/io/parse.js",
     "importStyle": "{parse}",
     "description": null,
-    "lineNumber": 1,
+    "lineNumber": 2,
     "undocument": true,
     "params": [
       {
-        "name": "n",
+        "name": "x",
         "types": [
           "*"
         ]
@@ -2243,18 +2460,18 @@
     "return": null
   },
   {
-    "__docId__": 135,
+    "__docId__": 149,
     "kind": "file",
     "name": "src/io/stringify.js",
     "content": "export const stringify = (n) => n.toString();\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/io/stringify.js",
+    "longname": "/home/runner/work/double/double/src/io/stringify.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 136,
+    "__docId__": 150,
     "kind": "function",
     "name": "stringify",
     "memberof": "src/io/stringify.js",
@@ -2264,7 +2481,7 @@
     "longname": "src/io/stringify.js~stringify",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/io/stringify.js",
+    "importPath": "@arithmetic-type/double/src/io/stringify.js",
     "importStyle": "{stringify}",
     "description": null,
     "lineNumber": 1,
@@ -2280,18 +2497,29 @@
     "return": null
   },
   {
-    "__docId__": 137,
+    "__docId__": 151,
     "kind": "file",
-    "name": "src/logarithmic/log.js",
-    "content": "export const log = (a, b) => Math.log(b) / Math.log(a);\n",
+    "name": "src/logarithmic/index.js",
+    "content": "export * from './log.js';\nexport * from './log2.js';\nexport * from './loge.js';\nexport * from './loglog.js';\nexport * from './loglog2.js';\nexport * from './logloge.js';\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/logarithmic/log.js",
+    "longname": "/home/runner/work/double/double/src/logarithmic/index.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 138,
+    "__docId__": 152,
+    "kind": "file",
+    "name": "src/logarithmic/log.js",
+    "content": "export const log = (a, b) => Math.log(b) / Math.log(a);\n",
+    "static": true,
+    "longname": "/home/runner/work/double/double/src/logarithmic/log.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 153,
     "kind": "function",
     "name": "log",
     "memberof": "src/logarithmic/log.js",
@@ -2301,7 +2529,7 @@
     "longname": "src/logarithmic/log.js~log",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/logarithmic/log.js",
+    "importPath": "@arithmetic-type/double/src/logarithmic/log.js",
     "importStyle": "{log}",
     "description": null,
     "lineNumber": 1,
@@ -2323,18 +2551,18 @@
     "return": null
   },
   {
-    "__docId__": 139,
+    "__docId__": 154,
     "kind": "file",
     "name": "src/logarithmic/log2.js",
     "content": "export const log2 = (n) => Math.log2(n);\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/logarithmic/log2.js",
+    "longname": "/home/runner/work/double/double/src/logarithmic/log2.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 140,
+    "__docId__": 155,
     "kind": "function",
     "name": "log2",
     "memberof": "src/logarithmic/log2.js",
@@ -2344,7 +2572,7 @@
     "longname": "src/logarithmic/log2.js~log2",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/logarithmic/log2.js",
+    "importPath": "@arithmetic-type/double/src/logarithmic/log2.js",
     "importStyle": "{log2}",
     "description": null,
     "lineNumber": 1,
@@ -2360,18 +2588,18 @@
     "return": null
   },
   {
-    "__docId__": 141,
+    "__docId__": 156,
     "kind": "file",
     "name": "src/logarithmic/loge.js",
     "content": "export const loge = (n) => Math.log(n);\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/logarithmic/loge.js",
+    "longname": "/home/runner/work/double/double/src/logarithmic/loge.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 142,
+    "__docId__": 157,
     "kind": "function",
     "name": "loge",
     "memberof": "src/logarithmic/loge.js",
@@ -2381,7 +2609,7 @@
     "longname": "src/logarithmic/loge.js~loge",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/logarithmic/loge.js",
+    "importPath": "@arithmetic-type/double/src/logarithmic/loge.js",
     "importStyle": "{loge}",
     "description": null,
     "lineNumber": 1,
@@ -2397,18 +2625,18 @@
     "return": null
   },
   {
-    "__docId__": 143,
+    "__docId__": 158,
     "kind": "file",
     "name": "src/logarithmic/loglog.js",
     "content": "export const loglog = (a, b) =>\n\tMath.log(Math.log(b) / Math.log(a)) / Math.log(a);\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/logarithmic/loglog.js",
+    "longname": "/home/runner/work/double/double/src/logarithmic/loglog.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 144,
+    "__docId__": 159,
     "kind": "function",
     "name": "loglog",
     "memberof": "src/logarithmic/loglog.js",
@@ -2418,7 +2646,7 @@
     "longname": "src/logarithmic/loglog.js~loglog",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/logarithmic/loglog.js",
+    "importPath": "@arithmetic-type/double/src/logarithmic/loglog.js",
     "importStyle": "{loglog}",
     "description": null,
     "lineNumber": 1,
@@ -2440,18 +2668,18 @@
     "return": null
   },
   {
-    "__docId__": 145,
+    "__docId__": 160,
     "kind": "file",
     "name": "src/logarithmic/loglog2.js",
     "content": "export const loglog2 = (n) => Math.log(Math.log(n) / Math.log(2)) / Math.log(2);\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/logarithmic/loglog2.js",
+    "longname": "/home/runner/work/double/double/src/logarithmic/loglog2.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 146,
+    "__docId__": 161,
     "kind": "function",
     "name": "loglog2",
     "memberof": "src/logarithmic/loglog2.js",
@@ -2461,7 +2689,7 @@
     "longname": "src/logarithmic/loglog2.js~loglog2",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/logarithmic/loglog2.js",
+    "importPath": "@arithmetic-type/double/src/logarithmic/loglog2.js",
     "importStyle": "{loglog2}",
     "description": null,
     "lineNumber": 1,
@@ -2477,18 +2705,18 @@
     "return": null
   },
   {
-    "__docId__": 147,
+    "__docId__": 162,
     "kind": "file",
     "name": "src/logarithmic/logloge.js",
     "content": "export const logloge = (n) => Math.log(Math.log(n));\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/logarithmic/logloge.js",
+    "longname": "/home/runner/work/double/double/src/logarithmic/logloge.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 148,
+    "__docId__": 163,
     "kind": "function",
     "name": "logloge",
     "memberof": "src/logarithmic/logloge.js",
@@ -2498,7 +2726,7 @@
     "longname": "src/logarithmic/logloge.js~logloge",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/logarithmic/logloge.js",
+    "importPath": "@arithmetic-type/double/src/logarithmic/logloge.js",
     "importStyle": "{logloge}",
     "description": null,
     "lineNumber": 1,
@@ -2514,18 +2742,18 @@
     "return": null
   },
   {
-    "__docId__": 149,
+    "__docId__": 164,
     "kind": "file",
     "name": "src/memory/copy.js",
     "content": "export const copy = (a) => a;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/memory/copy.js",
+    "longname": "/home/runner/work/double/double/src/memory/copy.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 150,
+    "__docId__": 165,
     "kind": "function",
     "name": "copy",
     "memberof": "src/memory/copy.js",
@@ -2535,7 +2763,7 @@
     "longname": "src/memory/copy.js~copy",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/memory/copy.js",
+    "importPath": "@arithmetic-type/double/src/memory/copy.js",
     "importStyle": "{copy}",
     "description": null,
     "lineNumber": 1,
@@ -2551,18 +2779,29 @@
     "return": null
   },
   {
-    "__docId__": 151,
+    "__docId__": 166,
     "kind": "file",
-    "name": "src/predicate/constants/eq0.js",
-    "content": "export const eq0 = (n) => n === 0;\n",
+    "name": "src/memory/index.js",
+    "content": "export * from './copy.js';\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/predicate/constants/eq0.js",
+    "longname": "/home/runner/work/double/double/src/memory/index.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 152,
+    "__docId__": 167,
+    "kind": "file",
+    "name": "src/predicate/constants/eq0.js",
+    "content": "export const eq0 = (n) => n === 0;\n",
+    "static": true,
+    "longname": "/home/runner/work/double/double/src/predicate/constants/eq0.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 168,
     "kind": "function",
     "name": "eq0",
     "memberof": "src/predicate/constants/eq0.js",
@@ -2572,7 +2811,7 @@
     "longname": "src/predicate/constants/eq0.js~eq0",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/predicate/constants/eq0.js",
+    "importPath": "@arithmetic-type/double/src/predicate/constants/eq0.js",
     "importStyle": "{eq0}",
     "description": null,
     "lineNumber": 1,
@@ -2588,18 +2827,18 @@
     "return": null
   },
   {
-    "__docId__": 153,
+    "__docId__": 169,
     "kind": "file",
     "name": "src/predicate/constants/eq1.js",
     "content": "export const eq1 = (n) => n === 1;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/predicate/constants/eq1.js",
+    "longname": "/home/runner/work/double/double/src/predicate/constants/eq1.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 154,
+    "__docId__": 170,
     "kind": "function",
     "name": "eq1",
     "memberof": "src/predicate/constants/eq1.js",
@@ -2609,7 +2848,7 @@
     "longname": "src/predicate/constants/eq1.js~eq1",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/predicate/constants/eq1.js",
+    "importPath": "@arithmetic-type/double/src/predicate/constants/eq1.js",
     "importStyle": "{eq1}",
     "description": null,
     "lineNumber": 1,
@@ -2625,18 +2864,18 @@
     "return": null
   },
   {
-    "__docId__": 155,
+    "__docId__": 171,
     "kind": "file",
     "name": "src/predicate/constants/eq_1.js",
     "content": "export const eq_1 = (n) => n === -1;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/predicate/constants/eq_1.js",
+    "longname": "/home/runner/work/double/double/src/predicate/constants/eq_1.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 156,
+    "__docId__": 172,
     "kind": "function",
     "name": "eq_1",
     "memberof": "src/predicate/constants/eq_1.js",
@@ -2646,7 +2885,7 @@
     "longname": "src/predicate/constants/eq_1.js~eq_1",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/predicate/constants/eq_1.js",
+    "importPath": "@arithmetic-type/double/src/predicate/constants/eq_1.js",
     "importStyle": "{eq_1}",
     "description": null,
     "lineNumber": 1,
@@ -2662,18 +2901,55 @@
     "return": null
   },
   {
-    "__docId__": 157,
+    "__docId__": 173,
     "kind": "file",
-    "name": "src/predicate/constants/ge1.js",
-    "content": "export const ge1 = (n) => n >= 1;\n",
+    "name": "src/predicate/constants/ge0.js",
+    "content": "export const ge0 = (n) => n >= 0;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/predicate/constants/ge1.js",
+    "longname": "/home/runner/work/double/double/src/predicate/constants/ge0.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 158,
+    "__docId__": 174,
+    "kind": "function",
+    "name": "ge0",
+    "memberof": "src/predicate/constants/ge0.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/predicate/constants/ge0.js~ge0",
+    "access": "public",
+    "export": true,
+    "importPath": "@arithmetic-type/double/src/predicate/constants/ge0.js",
+    "importStyle": "{ge0}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "n",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 175,
+    "kind": "file",
+    "name": "src/predicate/constants/ge1.js",
+    "content": "export const ge1 = (n) => n >= 1;\n",
+    "static": true,
+    "longname": "/home/runner/work/double/double/src/predicate/constants/ge1.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 176,
     "kind": "function",
     "name": "ge1",
     "memberof": "src/predicate/constants/ge1.js",
@@ -2683,7 +2959,7 @@
     "longname": "src/predicate/constants/ge1.js~ge1",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/predicate/constants/ge1.js",
+    "importPath": "@arithmetic-type/double/src/predicate/constants/ge1.js",
     "importStyle": "{ge1}",
     "description": null,
     "lineNumber": 1,
@@ -2699,18 +2975,18 @@
     "return": null
   },
   {
-    "__docId__": 159,
+    "__docId__": 177,
     "kind": "file",
     "name": "src/predicate/constants/gt0.js",
     "content": "export const gt0 = (n) => n > 0;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/predicate/constants/gt0.js",
+    "longname": "/home/runner/work/double/double/src/predicate/constants/gt0.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 160,
+    "__docId__": 178,
     "kind": "function",
     "name": "gt0",
     "memberof": "src/predicate/constants/gt0.js",
@@ -2720,7 +2996,7 @@
     "longname": "src/predicate/constants/gt0.js~gt0",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/predicate/constants/gt0.js",
+    "importPath": "@arithmetic-type/double/src/predicate/constants/gt0.js",
     "importStyle": "{gt0}",
     "description": null,
     "lineNumber": 1,
@@ -2736,18 +3012,18 @@
     "return": null
   },
   {
-    "__docId__": 161,
+    "__docId__": 179,
     "kind": "file",
     "name": "src/predicate/constants/gt1.js",
     "content": "export const gt1 = (n) => n > 1;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/predicate/constants/gt1.js",
+    "longname": "/home/runner/work/double/double/src/predicate/constants/gt1.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 162,
+    "__docId__": 180,
     "kind": "function",
     "name": "gt1",
     "memberof": "src/predicate/constants/gt1.js",
@@ -2757,7 +3033,7 @@
     "longname": "src/predicate/constants/gt1.js~gt1",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/predicate/constants/gt1.js",
+    "importPath": "@arithmetic-type/double/src/predicate/constants/gt1.js",
     "importStyle": "{gt1}",
     "description": null,
     "lineNumber": 1,
@@ -2773,18 +3049,66 @@
     "return": null
   },
   {
-    "__docId__": 163,
+    "__docId__": 181,
     "kind": "file",
-    "name": "src/predicate/constants/le1.js",
-    "content": "export const le1 = (n) => n <= 1;\n",
+    "name": "src/predicate/constants/index.js",
+    "content": "export * from './eq0.js';\nexport * from './eq1.js';\nexport * from './eq_1.js';\nexport * from './ge0.js';\nexport * from './ge1.js';\nexport * from './gt0.js';\nexport * from './gt1.js';\nexport * from './le0.js';\nexport * from './le1.js';\nexport * from './lt0.js';\nexport * from './lt1.js';\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/predicate/constants/le1.js",
+    "longname": "/home/runner/work/double/double/src/predicate/constants/index.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 164,
+    "__docId__": 182,
+    "kind": "file",
+    "name": "src/predicate/constants/le0.js",
+    "content": "export const le0 = (n) => n <= 0;\n",
+    "static": true,
+    "longname": "/home/runner/work/double/double/src/predicate/constants/le0.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 183,
+    "kind": "function",
+    "name": "le0",
+    "memberof": "src/predicate/constants/le0.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/predicate/constants/le0.js~le0",
+    "access": "public",
+    "export": true,
+    "importPath": "@arithmetic-type/double/src/predicate/constants/le0.js",
+    "importStyle": "{le0}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "n",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 184,
+    "kind": "file",
+    "name": "src/predicate/constants/le1.js",
+    "content": "export const le1 = (n) => n <= 1;\n",
+    "static": true,
+    "longname": "/home/runner/work/double/double/src/predicate/constants/le1.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 185,
     "kind": "function",
     "name": "le1",
     "memberof": "src/predicate/constants/le1.js",
@@ -2794,7 +3118,7 @@
     "longname": "src/predicate/constants/le1.js~le1",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/predicate/constants/le1.js",
+    "importPath": "@arithmetic-type/double/src/predicate/constants/le1.js",
     "importStyle": "{le1}",
     "description": null,
     "lineNumber": 1,
@@ -2810,18 +3134,55 @@
     "return": null
   },
   {
-    "__docId__": 165,
+    "__docId__": 186,
     "kind": "file",
-    "name": "src/predicate/constants/lt1.js",
-    "content": "export const lt1 = (n) => n < 1;\n",
+    "name": "src/predicate/constants/lt0.js",
+    "content": "export const lt0 = (n) => n < 0;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/predicate/constants/lt1.js",
+    "longname": "/home/runner/work/double/double/src/predicate/constants/lt0.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 166,
+    "__docId__": 187,
+    "kind": "function",
+    "name": "lt0",
+    "memberof": "src/predicate/constants/lt0.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/predicate/constants/lt0.js~lt0",
+    "access": "public",
+    "export": true,
+    "importPath": "@arithmetic-type/double/src/predicate/constants/lt0.js",
+    "importStyle": "{lt0}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "n",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 188,
+    "kind": "file",
+    "name": "src/predicate/constants/lt1.js",
+    "content": "export const lt1 = (n) => n < 1;\n",
+    "static": true,
+    "longname": "/home/runner/work/double/double/src/predicate/constants/lt1.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 189,
     "kind": "function",
     "name": "lt1",
     "memberof": "src/predicate/constants/lt1.js",
@@ -2831,7 +3192,7 @@
     "longname": "src/predicate/constants/lt1.js~lt1",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/predicate/constants/lt1.js",
+    "importPath": "@arithmetic-type/double/src/predicate/constants/lt1.js",
     "importStyle": "{lt1}",
     "description": null,
     "lineNumber": 1,
@@ -2847,18 +3208,18 @@
     "return": null
   },
   {
-    "__docId__": 167,
+    "__docId__": 190,
     "kind": "file",
     "name": "src/predicate/eq.js",
     "content": "export const eq = (a, b) => a === b;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/predicate/eq.js",
+    "longname": "/home/runner/work/double/double/src/predicate/eq.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 168,
+    "__docId__": 191,
     "kind": "function",
     "name": "eq",
     "memberof": "src/predicate/eq.js",
@@ -2868,7 +3229,7 @@
     "longname": "src/predicate/eq.js~eq",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/predicate/eq.js",
+    "importPath": "@arithmetic-type/double/src/predicate/eq.js",
     "importStyle": "{eq}",
     "description": null,
     "lineNumber": 1,
@@ -2890,18 +3251,18 @@
     "return": null
   },
   {
-    "__docId__": 169,
+    "__docId__": 192,
     "kind": "file",
     "name": "src/predicate/ge.js",
     "content": "export const ge = (a, b) => a >= b;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/predicate/ge.js",
+    "longname": "/home/runner/work/double/double/src/predicate/ge.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 170,
+    "__docId__": 193,
     "kind": "function",
     "name": "ge",
     "memberof": "src/predicate/ge.js",
@@ -2911,7 +3272,7 @@
     "longname": "src/predicate/ge.js~ge",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/predicate/ge.js",
+    "importPath": "@arithmetic-type/double/src/predicate/ge.js",
     "importStyle": "{ge}",
     "description": null,
     "lineNumber": 1,
@@ -2933,18 +3294,18 @@
     "return": null
   },
   {
-    "__docId__": 171,
+    "__docId__": 194,
     "kind": "file",
     "name": "src/predicate/gt.js",
     "content": "export const gt = (a, b) => a > b;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/predicate/gt.js",
+    "longname": "/home/runner/work/double/double/src/predicate/gt.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 172,
+    "__docId__": 195,
     "kind": "function",
     "name": "gt",
     "memberof": "src/predicate/gt.js",
@@ -2954,7 +3315,7 @@
     "longname": "src/predicate/gt.js~gt",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/predicate/gt.js",
+    "importPath": "@arithmetic-type/double/src/predicate/gt.js",
     "importStyle": "{gt}",
     "description": null,
     "lineNumber": 1,
@@ -2976,18 +3337,29 @@
     "return": null
   },
   {
-    "__docId__": 173,
+    "__docId__": 196,
     "kind": "file",
-    "name": "src/predicate/le.js",
-    "content": "export const le = (a, b) => a <= b;\n",
+    "name": "src/predicate/index.js",
+    "content": "export * from './constants/index.js';\nexport * from './eq.js';\nexport * from './ge.js';\nexport * from './gt.js';\nexport * from './le.js';\nexport * from './lt.js';\nexport * from './ne.js';\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/predicate/le.js",
+    "longname": "/home/runner/work/double/double/src/predicate/index.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 174,
+    "__docId__": 197,
+    "kind": "file",
+    "name": "src/predicate/le.js",
+    "content": "export const le = (a, b) => a <= b;\n",
+    "static": true,
+    "longname": "/home/runner/work/double/double/src/predicate/le.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 198,
     "kind": "function",
     "name": "le",
     "memberof": "src/predicate/le.js",
@@ -2997,7 +3369,7 @@
     "longname": "src/predicate/le.js~le",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/predicate/le.js",
+    "importPath": "@arithmetic-type/double/src/predicate/le.js",
     "importStyle": "{le}",
     "description": null,
     "lineNumber": 1,
@@ -3019,18 +3391,18 @@
     "return": null
   },
   {
-    "__docId__": 175,
+    "__docId__": 199,
     "kind": "file",
     "name": "src/predicate/lt.js",
     "content": "export const lt = (a, b) => a < b;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/predicate/lt.js",
+    "longname": "/home/runner/work/double/double/src/predicate/lt.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 176,
+    "__docId__": 200,
     "kind": "function",
     "name": "lt",
     "memberof": "src/predicate/lt.js",
@@ -3040,7 +3412,7 @@
     "longname": "src/predicate/lt.js~lt",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/predicate/lt.js",
+    "importPath": "@arithmetic-type/double/src/predicate/lt.js",
     "importStyle": "{lt}",
     "description": null,
     "lineNumber": 1,
@@ -3062,18 +3434,18 @@
     "return": null
   },
   {
-    "__docId__": 177,
+    "__docId__": 201,
     "kind": "file",
     "name": "src/predicate/ne.js",
     "content": "export const ne = (a, b) => a !== b;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/predicate/ne.js",
+    "longname": "/home/runner/work/double/double/src/predicate/ne.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 178,
+    "__docId__": 202,
     "kind": "function",
     "name": "ne",
     "memberof": "src/predicate/ne.js",
@@ -3083,7 +3455,7 @@
     "longname": "src/predicate/ne.js~ne",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/predicate/ne.js",
+    "importPath": "@arithmetic-type/double/src/predicate/ne.js",
     "importStyle": "{ne}",
     "description": null,
     "lineNumber": 1,
@@ -3105,18 +3477,18 @@
     "return": null
   },
   {
-    "__docId__": 179,
+    "__docId__": 203,
     "kind": "file",
     "name": "src/trigonometry/PI.js",
     "content": "export const PI = Math.PI;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/trigonometry/PI.js",
+    "longname": "/home/runner/work/double/double/src/trigonometry/PI.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 180,
+    "__docId__": 204,
     "kind": "variable",
     "name": "PI",
     "memberof": "src/trigonometry/PI.js",
@@ -3124,7 +3496,7 @@
     "longname": "src/trigonometry/PI.js~PI",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/trigonometry/PI.js",
+    "importPath": "@arithmetic-type/double/src/trigonometry/PI.js",
     "importStyle": "{PI}",
     "description": null,
     "lineNumber": 1,
@@ -3136,18 +3508,18 @@
     }
   },
   {
-    "__docId__": 181,
+    "__docId__": 205,
     "kind": "file",
     "name": "src/trigonometry/atan2.js",
     "content": "export const atan2 = Math.atan2;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/trigonometry/atan2.js",
+    "longname": "/home/runner/work/double/double/src/trigonometry/atan2.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 182,
+    "__docId__": 206,
     "kind": "variable",
     "name": "atan2",
     "memberof": "src/trigonometry/atan2.js",
@@ -3155,7 +3527,7 @@
     "longname": "src/trigonometry/atan2.js~atan2",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/trigonometry/atan2.js",
+    "importPath": "@arithmetic-type/double/src/trigonometry/atan2.js",
     "importStyle": "{atan2}",
     "description": null,
     "lineNumber": 1,
@@ -3167,18 +3539,18 @@
     }
   },
   {
-    "__docId__": 183,
+    "__docId__": 207,
     "kind": "file",
     "name": "src/trigonometry/cos.js",
     "content": "export const cos = Math.cos;\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/trigonometry/cos.js",
+    "longname": "/home/runner/work/double/double/src/trigonometry/cos.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 184,
+    "__docId__": 208,
     "kind": "variable",
     "name": "cos",
     "memberof": "src/trigonometry/cos.js",
@@ -3186,7 +3558,7 @@
     "longname": "src/trigonometry/cos.js~cos",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/trigonometry/cos.js",
+    "importPath": "@arithmetic-type/double/src/trigonometry/cos.js",
     "importStyle": "{cos}",
     "description": null,
     "lineNumber": 1,
@@ -3198,18 +3570,29 @@
     }
   },
   {
-    "__docId__": 185,
+    "__docId__": 209,
     "kind": "file",
-    "name": "src/trigonometry/sin.js",
-    "content": "export const sin = Math.sin;\n",
+    "name": "src/trigonometry/index.js",
+    "content": "export * from './PI.js';\nexport * from './atan2.js';\nexport * from './cos.js';\nexport * from './sin.js';\n",
     "static": true,
-    "longname": "/home/runner/work/js-number/js-number/src/trigonometry/sin.js",
+    "longname": "/home/runner/work/double/double/src/trigonometry/index.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
   },
   {
-    "__docId__": 186,
+    "__docId__": 210,
+    "kind": "file",
+    "name": "src/trigonometry/sin.js",
+    "content": "export const sin = Math.sin;\n",
+    "static": true,
+    "longname": "/home/runner/work/double/double/src/trigonometry/sin.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 211,
     "kind": "variable",
     "name": "sin",
     "memberof": "src/trigonometry/sin.js",
@@ -3217,7 +3600,7 @@
     "longname": "src/trigonometry/sin.js~sin",
     "access": "public",
     "export": true,
-    "importPath": "@aureooms/js-number/src/trigonometry/sin.js",
+    "importPath": "@arithmetic-type/double/src/trigonometry/sin.js",
     "importStyle": "{sin}",
     "description": null,
     "lineNumber": 1,
@@ -3230,16 +3613,16 @@
   },
   {
     "kind": "index",
-    "content": ":1234: [@aureooms/js-number](https://aureooms.github.io/js-number)\n==\n\n<p align=\"center\">\n<a href=\"https://commons.wikimedia.org/wiki/File:Latex_real_numbers.svg\">\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/3/39/Latex_real_numbers.svg\" width=\"300\">\n</a><br/>\n<a href=\"https://en.wikipedia.org/wiki/User:Arichnad\">\nUser:Arichnad\n</a>\n/\n<a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>\n</p>\n\nPrimitive number type arithmetic for JavaScript.\nSee [docs](https://aureooms.github.io/js-number).\nParent is [aureooms/js-library](https://github.com/aureooms/js-library).\n\n```js\nmul( 6 , 7 ) ; // 42\n```\n\n[![License](https://img.shields.io/github/license/aureooms/js-number.svg)](https://raw.githubusercontent.com/aureooms/js-number/main/LICENSE)\n[![Version](https://img.shields.io/npm/v/@aureooms/js-number.svg)](https://www.npmjs.org/package/@aureooms/js-number)\n[![Build](https://img.shields.io/travis/aureooms/js-number/main.svg)](https://travis-ci.com/aureooms/js-number/branches)\n[![Dependencies](https://img.shields.io/david/aureooms/js-number.svg)](https://david-dm.org/aureooms/js-number)\n[![Dev dependencies](https://img.shields.io/david/dev/aureooms/js-number.svg)](https://david-dm.org/aureooms/js-number?type=dev)\n[![GitHub issues](https://img.shields.io/github/issues/aureooms/js-number.svg)](https://github.com/aureooms/js-number/issues)\n[![Downloads](https://img.shields.io/npm/dm/@aureooms/js-number.svg)](https://www.npmjs.org/package/@aureooms/js-number)\n\n[![Code issues](https://img.shields.io/codeclimate/issues/aureooms/js-number.svg)](https://codeclimate.com/github/aureooms/js-number/issues)\n[![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-number.svg)](https://codeclimate.com/github/aureooms/js-number/trends/churn)\n[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-number/main.svg)](https://codecov.io/gh/aureooms/js-number)\n[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-number.svg)](https://codeclimate.com/github/aureooms/js-number/trends/technical_debt)\n[![Documentation](https://aureooms.github.io/js-number/badge.svg)](https://aureooms.github.io/js-number/source.html)\n[![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-number)](https://bundlephobia.com/result?p=@aureooms/js-number)\n",
-    "longname": "/home/runner/work/js-number/js-number/README.md",
+    "content": ":1234: [@arithmetic-type/double](https://arithmetic-type.github.io/double)\n==\n\n<p align=\"center\">\n<a href=\"https://commons.wikimedia.org/wiki/File:Z3_Deutsches_Museum.JPG\">\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Z3_Deutsches_Museum.JPG/640px-Z3_Deutsches_Museum.JPG\" width=\"300\">\n</a><br/>\n<a href=\"https://en.wikipedia.org/wiki/de:User:Venusianer\">\nde:User:Venusianer\n</a>\n/\n<a href=\"https://www.gnu.org/licenses/fdl-1.3.html\">GNU FDL</a>\n</p>\n\n64-bit float arithmetic for JavaScript.\nSee [docs](https://arithmetic-type.github.io/double).\nParent is [js-library](https://github.com/make-github-pseudonymous-again/js-library).\n\n```js\nimport {add, mul, sub, div} from '@arithmetic-type/double';\nadd(0.1, 0.2); // 0.30000000000000004\nmul(0.1, 0.2); // 0.020000000000000004\nsub(0.1, 0.2); // -0.1\ndiv(0.1, 0.2); // 0.5\n```\n\n[![License](https://img.shields.io/github/license/arithmetic-type/double.svg)](https://raw.githubusercontent.com/arithmetic-type/double/main/LICENSE)\n[![Version](https://img.shields.io/npm/v/@arithmetic-type/double.svg)](https://www.npmjs.org/package/@arithmetic-type/double)\n[![Tests](https://img.shields.io/github/workflow/status/arithmetic-type/double/ci?event=push&label=tests)](https://github.com/arithmetic-type/double/actions/workflows/ci.yml?query=branch:main)\n[![Dependencies](https://img.shields.io/librariesio/github/arithmetic-type/double.svg)](https://github.com/arithmetic-type/double/network/dependencies)\n[![GitHub issues](https://img.shields.io/github/issues/arithmetic-type/double.svg)](https://github.com/arithmetic-type/double/issues)\n[![Downloads](https://img.shields.io/npm/dm/@arithmetic-type/double.svg)](https://www.npmjs.org/package/@arithmetic-type/double)\n\n[![Code issues](https://img.shields.io/codeclimate/issues/arithmetic-type/double.svg)](https://codeclimate.com/github/arithmetic-type/double/issues)\n[![Code maintainability](https://img.shields.io/codeclimate/maintainability/arithmetic-type/double.svg)](https://codeclimate.com/github/arithmetic-type/double/trends/churn)\n[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/arithmetic-type/double/main.svg)](https://codecov.io/gh/arithmetic-type/double)\n[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/arithmetic-type/double.svg)](https://codeclimate.com/github/arithmetic-type/double/trends/technical_debt)\n[![Documentation](https://arithmetic-type.github.io/double/badge.svg)](https://arithmetic-type.github.io/double/source.html)\n[![Package size](https://img.shields.io/bundlephobia/minzip/@arithmetic-type/double)](https://bundlephobia.com/result?p=@arithmetic-type/double)\n",
+    "longname": "/home/runner/work/double/double/README.md",
     "name": "./README.md",
     "static": true,
     "access": "public"
   },
   {
     "kind": "packageJSON",
-    "content": "{\n  \"name\": \"@aureooms/js-number\",\n  \"description\": \"Primitive number type arithmetic for JavaScript\",\n  \"version\": \"4.0.0\",\n  \"license\": \"AGPL-3.0\",\n  \"author\": \"Aurélien Ooms <aurelien.ooms@gmail.com>\",\n  \"homepage\": \"https://aureooms.github.io/js-number\",\n  \"repository\": {\n    \"url\": \"https://github.com/aureooms/js-number\",\n    \"type\": \"git\"\n  },\n  \"bugs\": {\n    \"url\": \"https://github.com/aureooms/js-number/issues\"\n  },\n  \"keywords\": [\n    \"arithmetic\",\n    \"javascript\",\n    \"js\",\n    \"number\",\n    \"primitive\"\n  ],\n  \"sideEffects\": false,\n  \"source\": \"src/index.js\",\n  \"main\": \"dist/index.js\",\n  \"module\": \"dist/index.module.js\",\n  \"umd:main\": \"dist/index.umd.js\",\n  \"unpkg\": \"dist/index.umd.js\",\n  \"exports\": {\n    \".\": {\n      \"browser\": \"./dist/index.module.js\",\n      \"umd\": \"./dist/index.umd.js\",\n      \"require\": \"./dist/index.js\",\n      \"default\": \"./dist/index.modern.js\"\n    }\n  },\n  \"files\": [\n    \"dist\"\n  ],\n  \"scripts\": {\n    \"build\": \"NODE_ENV=production microbundle\",\n    \"build-docs\": \"esdoc\",\n    \"build-gh-pages\": \"npm run build-docs\",\n    \"commit-msg\": \"commitlint --edit\",\n    \"cover\": \"c8 --all --src src --reporter=lcov npm test\",\n    \"debug\": \"NODE_ENV=debug npm run test -- -st --fail-fast\",\n    \"dev\": \"npm run lint-config-and-fix && npm run lint-and-fix && npm run cover -- -- -st --fail-fast\",\n    \"install-hooks\": \"husky install\",\n    \"lint\": \"xo\",\n    \"lint-and-fix\": \"npm run lint -- --fix\",\n    \"lint-config\": \"fixpack --dryRun\",\n    \"lint-config-and-fix\": \"fixpack || fixpack\",\n    \"postinstall\": \"npm run install-hooks\",\n    \"postpublish\": \"pinst --enable\",\n    \"precommit\": \"lint-staged\",\n    \"prepare\": \"npm run build\",\n    \"prepublishOnly\": \"pinst --disable\",\n    \"release\": \"np --message ':hatching_chick: release: Bumping to v%s.'\",\n    \"test\": \"ava\",\n    \"travis\": \"npm run lint-config && npm run lint && npm run cover\"\n  },\n  \"dependencies\": {},\n  \"devDependencies\": {\n    \"@aureooms/js-algorithms\": \"^3.0.7\",\n    \"@aureooms/js-int32\": \"^3.0.0\",\n    \"@aureooms/js-random\": \"^2.0.0\",\n    \"@babel/core\": \"7.13.10\",\n    \"@babel/preset-env\": \"7.13.12\",\n    \"@babel/register\": \"7.13.8\",\n    \"@commitlint/cli\": \"12.0.1\",\n    \"@js-library/commitlint-config\": \"0.0.4\",\n    \"ava\": \"^3.15.0\",\n    \"babel-plugin-transform-remove-console\": \"6.9.4\",\n    \"babel-plugin-unassert\": \"3.0.1\",\n    \"babel-preset-power-assert\": \"3.0.0\",\n    \"c8\": \"7.6.0\",\n    \"coveralls\": \"^3.1.0\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-inject-script-plugin\": \"1.0.0\",\n    \"esdoc-inject-style-plugin\": \"1.0.0\",\n    \"esdoc-standard-plugin\": \"1.0.0\",\n    \"fixpack\": \"4.0.0\",\n    \"husky\": \"5.2.0\",\n    \"lint-staged\": \"10.5.4\",\n    \"microbundle\": \"0.13.0\",\n    \"np\": \"7.4.0\",\n    \"pinst\": \"2.1.6\",\n    \"power-assert\": \"1.6.1\",\n    \"regenerator-runtime\": \"0.13.7\",\n    \"xo\": \"0.38.2\"\n  },\n  \"ava\": {\n    \"files\": [\n      \"test/src/**/*\"\n    ],\n    \"require\": [\n      \"regenerator-runtime/runtime\",\n      \"@babel/register\"\n    ],\n    \"timeout\": \"1m\",\n    \"concurrency\": 8\n  },\n  \"babel\": {\n    \"sourceMaps\": true,\n    \"presets\": [\n      [\n        \"@babel/preset-env\",\n        {\n          \"targets\": [\n            \"defaults\",\n            \"maintained node versions\"\n          ]\n        }\n      ]\n    ],\n    \"env\": {\n      \"debug\": {\n        \"presets\": [\n          [\n            \"@babel/preset-env\",\n            {\n              \"targets\": \"current node\"\n            }\n          ],\n          \"babel-preset-power-assert\"\n        ]\n      },\n      \"test\": {\n        \"presets\": [\n          [\n            \"@babel/preset-env\",\n            {\n              \"targets\": \"current node\"\n            }\n          ],\n          \"babel-preset-power-assert\"\n        ],\n        \"plugins\": [\n          [\n            \"transform-remove-console\",\n            {\n              \"exclude\": [\n                \"log\",\n                \"error\",\n                \"warn\"\n              ]\n            }\n          ]\n        ]\n      },\n      \"development\": {\n        \"presets\": [\n          \"babel-preset-power-assert\"\n        ],\n        \"plugins\": [\n          [\n            \"transform-remove-console\",\n            {\n              \"exclude\": [\n                \"log\",\n                \"error\",\n                \"warn\"\n              ]\n            }\n          ]\n        ]\n      },\n      \"production\": {\n        \"plugins\": [\n          \"babel-plugin-unassert\",\n          [\n            \"transform-remove-console\",\n            {\n              \"exclude\": [\n                \"log\",\n                \"error\",\n                \"warn\"\n              ]\n            }\n          ]\n        ]\n      }\n    }\n  },\n  \"lint-staged\": {\n    \"*.js\": [\n      \"npm run lint-and-fix\"\n    ],\n    \"package.json\": [\n      \"npm run lint-config-and-fix\"\n    ]\n  },\n  \"prettier\": {\n    \"trailingComma\": \"all\"\n  },\n  \"xo\": {\n    \"prettier\": true,\n    \"plugins\": [\n      \"unicorn\"\n    ],\n    \"rules\": {\n      \"unicorn/filename-case\": \"off\",\n      \"camelcase\": \"off\",\n      \"unicorn/prevent-abbreviations\": \"off\",\n      \"no-constant-condition\": \"off\",\n      \"unicorn/prefer-math-trunc\": \"off\",\n      \"unicorn/no-new-array\": \"off\",\n      \"prefer-exponentiation-operator\": \"off\",\n      \"no-return-assign\": \"off\",\n      \"no-negated-condition\": \"off\"\n    },\n    \"overrides\": [\n      {\n        \"files\": [\n          \"doc/**\"\n        ],\n        \"env\": \"browser\"\n      }\n    ]\n  }\n}\n",
-    "longname": "/home/runner/work/js-number/js-number/package.json",
+    "content": "{\n  \"name\": \"@arithmetic-type/double\",\n  \"description\": \"Primitive number type arithmetic for JavaScript\",\n  \"version\": \"5.0.0\",\n  \"license\": \"AGPL-3.0\",\n  \"author\": \"make-github-pseudonymous-again\",\n  \"homepage\": \"https://arithmetic-type.github.io/double\",\n  \"repository\": {\n    \"url\": \"https://github.com/arithmetic-type/double\",\n    \"type\": \"git\"\n  },\n  \"bugs\": {\n    \"url\": \"https://github.com/arithmetic-type/double/issues\"\n  },\n  \"keywords\": [\n    \"arithmetic\",\n    \"javascript\",\n    \"js\",\n    \"number\",\n    \"primitive\"\n  ],\n  \"sideEffects\": false,\n  \"type\": \"module\",\n  \"source\": \"src/index.js\",\n  \"main\": \"dist/index.cjs\",\n  \"module\": \"dist/index.module.js\",\n  \"esmodule\": \"dist/index.modern.js\",\n  \"umd:main\": \"dist/index.umd.js\",\n  \"unpkg\": \"dist/index.umd.js\",\n  \"exports\": {\n    \".\": {\n      \"browser\": \"./dist/index.module.js\",\n      \"umd\": \"./dist/index.umd.js\",\n      \"require\": \"./dist/index.cjs\",\n      \"default\": \"./dist/index.modern.js\"\n    }\n  },\n  \"files\": [\n    \"dist\"\n  ],\n  \"publishConfig\": {\n    \"access\": \"public\"\n  },\n  \"scripts\": {\n    \"build\": \"NODE_ENV=production microbundle\",\n    \"build-docs\": \"esdoc\",\n    \"build-gh-pages\": \"npm run build-docs\",\n    \"commit-msg\": \"commitlint --edit\",\n    \"cover\": \"NODE_ENV=cover c8 --all --src src --reporter lcov --reporter text-summary --reporter text npm test\",\n    \"debug\": \"NODE_ENV=debug npm run test -- -st --fail-fast\",\n    \"dev\": \"npm run lint-config-and-fix && npm run lint-and-fix && npm run cover -- -- -st --fail-fast\",\n    \"install-hooks\": \"husky install\",\n    \"lint\": \"xo\",\n    \"lint-and-fix\": \"npm run lint -- --fix\",\n    \"lint-config\": \"fixpack --dryRun\",\n    \"lint-config-and-fix\": \"fixpack || fixpack\",\n    \"postinstall\": \"npm run install-hooks\",\n    \"postpublish\": \"pinst --enable\",\n    \"precommit\": \"lint-staged\",\n    \"prepare\": \"npm run build\",\n    \"prepublishOnly\": \"pinst --disable\",\n    \"release\": \"np --message ':hatching_chick: release: Bumping to v%s.'\",\n    \"test\": \"npm run test:src\",\n    \"test-cmd\": \"NODE_LOADER_CONFIG=test/loader/config.js ava\",\n    \"test:cjs\": \"IMPORT_MAP_PATH=test/import-maps/dist/index.json npm run test-cmd\",\n    \"test:dist\": \"npm run test:modern && npm run test:module && npm run test:cjs\",\n    \"test:modern\": \"IMPORT_MAP_PATH=test/import-maps/dist/index.modern.json npm run test-cmd\",\n    \"test:module\": \"IMPORT_MAP_PATH=test/import-maps/dist/index.module.json npm run test-cmd\",\n    \"test:src\": \"IMPORT_MAP_PATH=test/import-maps/src/index.json npm run test-cmd\"\n  },\n  \"dependencies\": {},\n  \"devDependencies\": {\n    \"@arithmetic-type/int32\": \"0.0.1\",\n    \"@babel/core\": \"7.19.6\",\n    \"@babel/preset-env\": \"7.19.4\",\n    \"@commitlint/cli\": \"17.1.2\",\n    \"@js-library/commitlint-config\": \"0.0.4\",\n    \"@node-loader/babel\": \"2.0.1\",\n    \"@node-loader/core\": \"2.0.0\",\n    \"@node-loader/import-maps\": \"1.1.0\",\n    \"@randomized/random\": \"4.1.0\",\n    \"ava\": \"^5.0.1\",\n    \"babel-plugin-transform-remove-console\": \"6.9.4\",\n    \"babel-plugin-unassert\": \"3.2.0\",\n    \"babel-preset-power-assert\": \"3.0.0\",\n    \"c8\": \"7.12.0\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-inject-script-plugin\": \"1.0.0\",\n    \"esdoc-inject-style-plugin\": \"1.0.0\",\n    \"esdoc-standard-plugin\": \"1.0.0\",\n    \"fixpack\": \"4.0.0\",\n    \"husky\": \"8.0.1\",\n    \"lint-staged\": \"13.0.3\",\n    \"microbundle\": \"0.15.1\",\n    \"np\": \"7.6.2\",\n    \"pinst\": \"3.0.0\",\n    \"power-assert\": \"1.6.1\",\n    \"regenerator-runtime\": \"0.13.10\",\n    \"xo\": \"0.52.4\"\n  },\n  \"ava\": {\n    \"files\": [\n      \"test/src/**/*\"\n    ],\n    \"nodeArguments\": [\n      \"--experimental-loader=@node-loader/core\"\n    ],\n    \"require\": [\n      \"regenerator-runtime/runtime\"\n    ],\n    \"timeout\": \"1m\",\n    \"concurrency\": 8\n  },\n  \"babel\": {\n    \"sourceMaps\": true,\n    \"plugins\": [\n      [\n        \"transform-remove-console\",\n        {\n          \"exclude\": [\n            \"log\",\n            \"error\",\n            \"warn\"\n          ]\n        }\n      ]\n    ],\n    \"env\": {\n      \"debug\": {\n        \"sourceMaps\": \"both\",\n        \"presets\": [\n          \"babel-preset-power-assert\"\n        ],\n        \"plugins\": [\n          [\n            \"transform-remove-console\",\n            {\n              \"exclude\": [\n                \"debug\",\n                \"log\",\n                \"error\",\n                \"warn\"\n              ]\n            }\n          ]\n        ]\n      },\n      \"test\": {\n        \"sourceMaps\": \"both\",\n        \"presets\": [\n          \"babel-preset-power-assert\"\n        ]\n      },\n      \"cover\": {\n        \"sourceMaps\": \"both\",\n        \"presets\": [\n          \"babel-preset-power-assert\"\n        ]\n      },\n      \"development\": {\n        \"presets\": [\n          [\n            \"@babel/preset-env\",\n            {\n              \"targets\": [\n                \"defaults\",\n                \"maintained node versions\"\n              ]\n            }\n          ],\n          \"babel-preset-power-assert\"\n        ]\n      },\n      \"production\": {\n        \"presets\": [\n          [\n            \"@babel/preset-env\",\n            {\n              \"targets\": [\n                \"defaults\",\n                \"maintained node versions\"\n              ]\n            }\n          ]\n        ],\n        \"plugins\": [\n          \"babel-plugin-unassert\"\n        ]\n      }\n    }\n  },\n  \"lint-staged\": {\n    \"*.js\": [\n      \"npm run lint-and-fix\"\n    ],\n    \"package.json\": [\n      \"npm run lint-config-and-fix\"\n    ]\n  },\n  \"prettier\": {\n    \"trailingComma\": \"all\"\n  },\n  \"xo\": {\n    \"prettier\": true,\n    \"plugins\": [\n      \"unicorn\"\n    ],\n    \"rules\": {\n      \"unicorn/filename-case\": \"off\",\n      \"camelcase\": \"off\",\n      \"unicorn/prevent-abbreviations\": \"off\",\n      \"no-constant-condition\": \"off\",\n      \"unicorn/prefer-math-trunc\": \"off\",\n      \"unicorn/no-new-array\": \"off\",\n      \"prefer-exponentiation-operator\": \"off\",\n      \"no-return-assign\": \"off\",\n      \"no-negated-condition\": \"off\",\n      \"no-bitwise\": \"off\",\n      \"unicorn/prefer-node-protocol\": \"off\"\n    },\n    \"overrides\": [\n      {\n        \"files\": [\n          \"doc/**\"\n        ],\n        \"env\": \"browser\"\n      }\n    ]\n  }\n}\n",
+    "longname": "/home/runner/work/double/double/package.json",
     "name": "package.json",
     "static": true,
     "access": "public"
@@ -3254,7 +3637,7 @@
   },
   {
     "kind": "manual",
-    "longname": "/home/runner/work/js-number/js-number/doc/manual/overview.md",
+    "longname": "/home/runner/work/double/double/doc/manual/overview.md",
     "name": "./doc/manual/overview.md",
     "content": "# Overview\n",
     "static": true,
@@ -3262,25 +3645,25 @@
   },
   {
     "kind": "manual",
-    "longname": "/home/runner/work/js-number/js-number/doc/manual/installation.md",
+    "longname": "/home/runner/work/double/double/doc/manual/installation.md",
     "name": "./doc/manual/installation.md",
-    "content": "# Installation\n\nCan be managed using\n[jspm](http://jspm.io)\nor [npm](https://github.com/npm/npm).\n\n### jspm\n```terminal\njspm install npm:@aureooms/js-number\n```\n\n### npm\n```terminal\nnpm install @aureooms/js-number --save\n```\n",
+    "content": "# Installation\n\nCan be managed using\n[yarn](https://yarnpkg.com/en/docs),\n[npm](https://docs.npmjs.com),\nor [jspm](https://jspm.org/docs).\n\n\n### yarn\n```terminal\nyarn add @arithmetic-type/double\n```\n\n### npm\n```terminal\nnpm install @arithmetic-type/double --save\n```\n\n### jspm\n```terminal\njspm install npm:@arithmetic-type/double\n```\n",
     "static": true,
     "access": "public"
   },
   {
     "kind": "manual",
-    "longname": "/home/runner/work/js-number/js-number/doc/manual/usage.md",
+    "longname": "/home/runner/work/double/double/doc/manual/usage.md",
     "name": "./doc/manual/usage.md",
-    "content": "# Usage\n\nThe code needs a ES2015+ polyfill to work, for example\n[regenerator-runtime/runtime](https://babeljs.io/docs/usage/polyfill).\n```js\nrequire( 'regenerator-runtime/runtime' ) ;\n// or\nimport 'regenerator-runtime/runtime.js' ;\n```\n\nThen\n```js\nconst number = require( '@aureooms/js-number' ) ;\n// or\nimport number from '@aureooms/js-number' ;\n```\n",
+    "content": "# Usage\n\n```js\nconst double = await import('@arithmetic-type/double');\n// or\nimport * as double from '@arithmetic-type/double';\n```\n",
     "static": true,
     "access": "public"
   },
   {
     "kind": "manual",
-    "longname": "/home/runner/work/js-number/js-number/doc/manual/example.md",
+    "longname": "/home/runner/work/double/double/doc/manual/example.md",
     "name": "./doc/manual/example.md",
-    "content": "# Examples\n",
+    "content": "# Examples\n\n> More examples in [the test files](https://github.com/arithmetic-type/double/tree/main/test/src).\n",
     "static": true,
     "access": "public"
   }
