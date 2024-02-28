@@ -1,4 +1,5 @@
 import test from 'ava';
+
 import * as double from '#module';
 
 test('neg', (t) => {

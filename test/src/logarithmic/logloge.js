@@ -1,4 +1,5 @@
 import test from 'ava';
+
 import * as double from '#module';
 
 const epsilon = 1e-6;

@@ -1,6 +1,7 @@
 import test from 'ava';
 
 import {macro} from './_fixtures.js';
+
 import {
 	eq0,
 	eq1,
